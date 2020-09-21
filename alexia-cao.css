@@ -1,0 +1,26 @@
+.alexia-cao td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alexia-cao .icon-left {
+    padding-left: 0;
+    padding-right: 15px;
+    text-align: right;
+  }
+
+.alexia-cao .icon-right {
+    padding-right: 0;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+.alexia-cao .small-caps span {
+    font-variant: small-caps;
+}
+
+.alexia-cao .fixed p td{
+    max-width: 250px;
+}
+  
