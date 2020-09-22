@@ -2,7 +2,7 @@
   font-family: 'alexiacao';
   src: url('../font/alexiacao.eot?51342105');
   src: url('../font/alexiacao.eot?51342105#iefix') format('embedded-opentype'),
-       url('../font/alexiacao.svg?51342105#kindergarden') format('svg');
+       url('../font/alexiacao.svg?51342105#alexiacao') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -23,7 +23,7 @@
 */
  
  [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "kindergarden";
+  font-family: "alexiacao";
   font-style: normal;
   font-weight: normal;
   speak: none;

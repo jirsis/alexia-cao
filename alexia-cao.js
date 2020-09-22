@@ -41,6 +41,7 @@ Module.register('alexia-cao', {
     },
 
     processAlexiaCAOAgendaInformation: function(agendaData){
+        console.log(agendaData);
         this.agendaInfo = agendaData;
         this.show(this.config.animationSpeed, {lockString:this.identifier});
         this.loaded=true;
@@ -68,11 +69,13 @@ Module.register('alexia-cao', {
     
         this.fillLogoRow(table, this.agendaInfo);
         this.fillTodayQuote(table, this.agendaInfo);
-        this.fillCourse(table, this.agendaInfo, 'brunch','icon-milk-box');
-        this.fillLunchRow(table, this.agendaInfo);
+        this.fillCourse(table, this.agendaInfo, 'lunch','icon-second-course');
+        this.fillCourse(table, this.agendaInfo, 'nap','icon-zzz');
+        this.fillCourse(table, this.agendaInfo, 'snack','icon-apple');
+        /*this.fillLunchRow(table, this.agendaInfo);
         this.fillCourse(table, this.agendaInfo, 'snack', 'icon-sandwich');
         this.fillNaps(table, this.agendaInfo.entry.naps);
-        this.fillWC(table, this.agendaInfo);
+        this.fillWC(table, this.agendaInfo);*/
         this.fillTeacherNote(table, this.agendaInfo);
 
         return table;
@@ -98,7 +101,8 @@ Module.register('alexia-cao', {
         td.align = 'center';
 
         var date = document.createElement('span');
-        date.innerHTML = moment(agendaInfo.date).format('DD MMM YYYY');
+        console.log(agendaInfo.date);
+        date.innerHTML = agendaInfo.course + " - " +moment(agendaInfo.date).format('DD MMM YYYY');
         td.appendChild(date);
 
         row.appendChild(td);
@@ -115,8 +119,8 @@ Module.register('alexia-cao', {
         var courseRow = document.createElement("tr");
         courseRow.className = 'bright ';
         this.fillFoodIcon(courseRow, icon, 1, 'left');
-        this.fillFoodCell(courseRow, agenda['menu'][course], 3, 'right');
-        this.fillFoodQuality(courseRow, agenda['entry'][course]);  
+        this.fillFoodCell(courseRow, agenda[course]['entry'], 3, 'right');
+        this.fillFoodQuality(courseRow, agenda[course]['status']);  
         table.appendChild(courseRow);
     },
 
@@ -241,7 +245,7 @@ Module.register('alexia-cao', {
         note.colSpan=5;
         note.align = 'center';
 
-        if ( agenda.agenda.today ){
+        /*if ( agenda.agenda.today ){
             var title = document.createElement('span');
             title.className = 'small-caps';
             title.style = 'font-variant:small-caps';
@@ -253,11 +257,11 @@ Module.register('alexia-cao', {
             var dash = document.createElement('span');
             dash.innerHTML = '&emsp;&mdash;&emsp;';
             p.appendChild(dash);
-        }
+        }*/
 
-        if ( agenda.entry.note ){
+        if ( agenda.teacherComments ){
             var teacherNote = document.createElement('span');
-            teacherNote.innerHTML = agenda.entry.note;
+            teacherNote.innerHTML = agenda.teacherComments;
             p.appendChild(teacherNote);
         }
 
@@ -305,7 +309,7 @@ Module.register('alexia-cao', {
         if (notification === 'ALEXIA-CAO_STARTED'){
             this.sendSocketNotification(notification, payload);
         } else if(notification === 'ALEXIA-CAO_WAKE_UP'){
-            this.processKmgAgendaInformation(payload);
+            this.processAlexiaCAOAgendaInformation(payload);
         }
     },
 });

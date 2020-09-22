@@ -1,6 +1,6 @@
 var NodeHelper = require('node_helper');
 var request = require('request-promise');
-//require('request-debug')(request);
+require('request-debug')(request);
 
 var alexia = {
     baseUrl: 'https://kindermygarden.schooltivity.com', 
@@ -16,12 +16,12 @@ var alexia = {
         }
     },
     
-    chain: function(token, alexia_helper){
+    chain: function(username, password, schoolCode, alexia_helper){
         this.helper = alexia_helper;
-        this.log('chain started '+token);
+        this.log('chain started '+username+"/"+schoolCode);
         this.cookies = [];
         this.alexiaResponse = {};
-        return this.login(username, password, schoolCode)
+        /*return this.login(username, password, schoolCode)
             .then(alexia.home)
             .then(alexia.incidencias)
             .then(alexia.process)
@@ -29,6 +29,25 @@ var alexia = {
             .then(function(){
                 return this.alexiaResponse;
             });
+            */
+           return {
+               'date': '2020-09-22',
+               'course': 'Infantil 3B',
+               'lunch': {
+                   'entry': 'Comida',
+                   'status': 2,
+               },
+               'nap': {
+                   'entry': 'Siesta',
+                   'status': -1
+               },
+               'snack':{
+                   'entry': 'Merienda',
+                    'status': 2
+               },
+               'teacherComments': 'Hoy ha empezado a tener clase con teacher Sara y con Samila. Se lo ha pasado muy bien'
+               
+            };
     },
     
     login: function(username, password, schoolCode){
@@ -53,7 +72,7 @@ var alexia = {
     
 
     students: function(loginResponse){
-        kmg.log('students');    
+        alexia.log('students');    
         const cookiesToSet = loginResponse.headers['set-cookie'];
         
         this.cookies = cookiesToSet
@@ -115,30 +134,31 @@ module.exports = NodeHelper.create({
         console.log(this.name + ' node_helper is started!');
     },
 
-    updateKindergardenData: function(kmg_config, node_helper){
-        kmg.config = kmg_config;
-        kmg.log('kmg updated: '+new Date());
-        kmg.chain(kmg_config.guest_token, node_helper)
-            .then(function(response){
-                node_helper.sendSocketNotification('KMG_WAKE_UP', response);
+    updateAlexiaData: function(alexia_config, node_helper){
+        alexia.config = alexia_config;
+        alexia.log('alexia updated: '+new Date());
+        hello = alexia.chain(alexia_config.username, alexia_config.password, alexia_config.schoolCode, node_helper);
+        node_helper.sendSocketNotification('ALEXIA-CAO_WAKE_UP', hello);
+            /*.then(function(response){
+                node_helper.sendSocketNotification('ALEXIA-CAO_WAKE_UP', response);
                 setInterval(function update(){  
-                    kmg.log('kmg updated: '+new Date());
-                    kmg.chain(kmg_config.guest_token, node_helper)
-                    .then(function(response){
-                        node_helper.sendSocketNotification('KMG_WAKE_UP', response);  
-                    });
-                }, kmg_config.updateInterval);
-            });
+                    alexia.log('alexia updated: '+new Date());
+                    alexia.chain(alexia_config.username, alexia_config.password, alexia_config.schoolCode, node_helper)
+                        .then(function(response){
+                            node_helper.sendSocketNotification('ALEXIA-CAO_WAKE_UP', response);  
+                        });
+                }, alexia_config.updateInterval);
+            });*/            
     },
 
     socketNotificationReceived: function(notification, payload) {
-        const kmg_nodehelper = this;        
-        if ( notification === 'KMG_STARTED' ){
+        const alexia_nodehelper = this;        
+        if ( notification === 'ALEXIA-CAO_STARTED' ){
 
-            setTimeout(this.updateKindergardenData, 
+            setTimeout(this.updateAlexiaData, 
                 payload.initialLoadDelay, 
                 payload,
-                kmg_nodehelper);     
+                alexia_nodehelper);     
         }
     }
 });
