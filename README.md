@@ -5,11 +5,7 @@ Show Colegio Alameda de Osuna information in MagicMirror2
 
 *http://www.colegio-alameda.com/comedor/ -> Ver menú*
 
-```
-https://www.npmjs.com/package/pdfreader
-https://www.npmjs.com/package/pdf2json
-```
-
+http://www.colegio-alameda.com/comedor/ -> a.qbutton:nth-child(1).href
 
 ## Información diaria
 
@@ -28,11 +24,11 @@ https://www.npmjs.com/package/pdf2json
 
 1. arranca el módulo y configura eventos
 1. arranca la ejecución
-1. comprueba que existe ```/tmp/menu-YYYY.MM.json```
+1. comprueba que existe ```/tmp/menu-MM.json```
    * NO: 
       1. descargar el pdf del menu 
       1. convertirlo a json
-      1. guardar el json en ```/tmp/menu-YYYY.MM.json```
+      1. guardar el json en ```/tmp/menu-MM.json```
 1. existe el menu
 1. recupera el menu del día actual
 1. login en alexia

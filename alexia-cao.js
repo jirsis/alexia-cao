@@ -67,15 +67,14 @@ Module.register('alexia-cao', {
         var table = document.createElement('table');
         table.className = 'small';
     
+        console.log(this.agendaInfo);
+
         this.fillLogoRow(table, this.agendaInfo);
         this.fillTodayQuote(table, this.agendaInfo);
-        this.fillCourse(table, this.agendaInfo, 'lunch','icon-second-course');
-        this.fillCourse(table, this.agendaInfo, 'nap','icon-zzz');
-        this.fillCourse(table, this.agendaInfo, 'snack','icon-apple');
-        /*this.fillLunchRow(table, this.agendaInfo);
-        this.fillCourse(table, this.agendaInfo, 'snack', 'icon-sandwich');
-        this.fillNaps(table, this.agendaInfo.entry.naps);
-        this.fillWC(table, this.agendaInfo);*/
+        this.fillLunchRow(table, this.agendaInfo);
+        //this.fillCourse(table, this.agendaInfo, 'nap','icon-zzz');
+        //this.fillCourse(table, this.agendaInfo, 'snack','icon-sandwich');
+        
         this.fillTeacherNote(table, this.agendaInfo);
 
         return table;
@@ -110,17 +109,17 @@ Module.register('alexia-cao', {
     },
 
     fillLunchRow: function(table, agenda){
-        this.fillCourse(table, agenda, 'first_course', 'icon-main-course');
-        this.fillCourse(table, agenda, 'second_course', 'icon-second-course');
-        this.fillCourse(table, agenda, 'dessert', 'icon-apple');
+        this.fillCourse(table, agenda, 'firstDish', 'icon-main-course');
+        this.fillCourse(table, agenda, 'secondDish', 'icon-second-course');
+        this.fillCourse(table, agenda, 'dessertDish', 'icon-apple');
     },
 
-    fillCourse: function(table, agenda, course, icon){
+    fillCourse: function(table, agenda, dish, icon){
         var courseRow = document.createElement("tr");
         courseRow.className = 'bright ';
         this.fillFoodIcon(courseRow, icon, 1, 'left');
-        this.fillFoodCell(courseRow, agenda[course]['entry'], 3, 'right');
-        this.fillFoodQuality(courseRow, agenda[course]['status']);  
+        this.fillFoodCell(courseRow, agenda[dish], 3, 'right');
+        this.fillFoodQuality(courseRow, agenda[dish]);  
         table.appendChild(courseRow);
     },
 
@@ -148,7 +147,7 @@ Module.register('alexia-cao', {
         cell.className = ' icon-left';
 
         var span = document.createElement('span');
-        span.className = this.mapQuality(foodData);
+        span.className = this.mapQuality(2);
 
         cell.appendChild(span);
         cell.appendChild(span);
