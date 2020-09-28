@@ -1,0 +1,31 @@
+{
+  "name": "alexia-cao",
+  "version": "0.1.0",
+  "description": "MagicMirror module that show alexiaedu.com/ Colegio Alameda de Osuna information",
+  "main": "alexia-cao.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jirsis/alexia-cao.git"
+  },
+  "keywords": [
+    "MagicMirror2",
+    "module",
+    "alexia cao",
+    "Colegio Alameda de Osuna",
+    "Alameda de Osuna"
+  ],
+  "author": "J. Ignacio Reta Sabarrós",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jirsis/alexia-cao/issues"
+  },
+  "homepage": "https://github.com/jirsis/alexia-cao#readme",
+  "dependencies": {
+    "pdf-parse": "^1.1.1",
+    "request-debug": "^0.2.0",
+    "request-promise": "^4.2.2"
+  }
+}
