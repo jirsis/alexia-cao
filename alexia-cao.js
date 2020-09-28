@@ -41,7 +41,6 @@ Module.register('alexia-cao', {
     },
 
     processAlexiaCAOAgendaInformation: function(agendaData){
-        console.log(agendaData);
         this.agendaInfo = agendaData;
         this.show(this.config.animationSpeed, {lockString:this.identifier});
         this.loaded=true;
@@ -50,7 +49,6 @@ Module.register('alexia-cao', {
 
     getDom: function() {
         var wrapper = document.createElement('div');
-		console.log("TODO: change credentials validations");
         if (this.config.guest_token === '') {
 			return this.alexiaCAONotConfigurated(wrapper);
 		}
@@ -100,7 +98,6 @@ Module.register('alexia-cao', {
         td.align = 'center';
 
         var date = document.createElement('span');
-        console.log(agendaInfo.date);
         date.innerHTML = agendaInfo.course + " - " +moment(agendaInfo.date).format('DD MMM YYYY');
         td.appendChild(date);
 
