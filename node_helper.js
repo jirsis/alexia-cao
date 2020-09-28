@@ -5,6 +5,7 @@ const pdfParser = require('pdf-parse');
 const { Readable } = require('stream');
 const fs = require('fs');
 const os = require('os');
+const moment = require('moment');
 //require('request-debug')(request);
 
 var alexia = {
@@ -86,12 +87,11 @@ var alexia = {
 
     isMonth: function(lines, id){
         let equals =false;
-		let monthNumber = lines[id];
-		let monthName = lines[id+1];
-		let localDate = new Date('2011-'+monthNumber+'-01');
-        let formattedMonth = localDate.toLocaleString("default", { month: "long" });
-        equals = monthName.toLowerCase() === formattedMonth.toLowerCase(); 
-		return equals;
+        let monthNumber = lines[id];
+        let monthName = lines[id+1];
+        let formattedMonth = moment().month(monthNumber-1).format("MMMM");
+        equals = monthName.toLowerCase() === formattedMonth.toLowerCase();
+        return equals;
     },
 
     isAlergics: function(line){
