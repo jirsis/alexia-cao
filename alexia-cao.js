@@ -123,7 +123,7 @@ Module.register('alexia-cao', {
     fillFoodCell: function(row, foodData, span, align){
         var cell = document.createElement('td');
         cell.colSpan = span;
-        cell.className = ' align-'+align+' ';
+        cell.className = ' align-'+align+' cell-hyphens';
         cell.innerHTML = foodData;
         row.appendChild(cell);
     },
@@ -131,7 +131,7 @@ Module.register('alexia-cao', {
     fillFoodIcon: function(row, icon, span, align){
         var cell = document.createElement('td');
         cell.colSpan = span;
-        cell.className = ['icon-'+align].join(' ');
+        cell.className = ['icon-'+align].join(' ')+' icon-up';
         var iconCell = document.createElement('span');
         iconCell.className = icon;
         cell.appendChild(iconCell);
@@ -141,7 +141,7 @@ Module.register('alexia-cao', {
     fillFoodQuality: function(row, foodData){
         var cell = document.createElement('td');
         cell.colSpan = 1;
-        cell.className = ' icon-left';
+        cell.className = ' icon-left icon-up';
 
         var span = document.createElement('span');
         span.className = this.mapQuality(2);
