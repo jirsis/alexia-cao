@@ -1,6 +1,6 @@
 {
   "name": "alexia-cao",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "MagicMirror module that show alexiaedu.com/ Colegio Alameda de Osuna information",
   "main": "alexia-cao.js",
   "scripts": {
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/jirsis/alexia-cao#readme",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
     "pdf-parse": "^1.1.1",
     "request-debug": "^0.2.0",
     "request-promise": "^4.2.2"

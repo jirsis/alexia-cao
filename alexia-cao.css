@@ -6,13 +6,11 @@
 
 .alexia-cao .icon-left {
     padding-left: 0;
-    padding-right: 15px;
     text-align: right;
   }
 
 .alexia-cao .icon-right {
     padding-right: 0;
-    padding-left: 15px;
     text-align: left;
   }
 
@@ -22,5 +20,19 @@
 
 .alexia-cao .fixed p td{
     max-width: 250px;
+}
+
+.alexia-cao .cell-hyphens {
+  word-wrap: break-word;
+  max-width: 300px;
+  -webkit-hyphens: auto; /* iOS 4.2+ */
+  -moz-hyphens: auto; /* Firefox 5+ */
+  -ms-hyphens: auto; /* IE 10+ */
+  hyphens: auto;
+  padding-right: 20px;
+}
+
+.alexia-cao .icon-up {
+  vertical-align: top;
 }
   
