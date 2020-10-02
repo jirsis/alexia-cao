@@ -22,18 +22,35 @@ var alexia = {
         }
     },
 
+    loadMenuFile: function(menuFileJson){
+        let json = fs.readFileSync(menuFileJson);
+        let menu = JSON.parse(json);
+        return new Promise((resolve, reject) => {
+            resolve(menu);
+        });
+    },
+
     getTodayMenu: function(){
         alexia.log("get today menu;");
-        return this.menuHtmlPage()
-            .then(alexia.extractMenuUrl)
-            .then(alexia.downloadPdf)
-            .then(alexia.extractPdfInfo)
-            .then(alexia.buildMonthMenu)
-            .then(alexia.saveJsonMonthMenu)
-            .then(alexia.filterToday)
-            .then(function(menu){
-                return menu;
-            });
+        let jsonFile = os.tmpdir()+'/menu-'+(new Date().getMonth()+1)+'json';
+        if (fs.existsSync(jsonFile)) {
+            return this.loadMenuFile(jsonFile)
+                .then(alexia.filterToday)
+                .then(function(menu){
+                    return menu;
+                });
+        }else{
+            return this.menuHtmlPage()
+                .then(alexia.extractMenuUrl)
+                .then(alexia.downloadPdf)
+                .then(alexia.extractPdfInfo)
+                .then(alexia.buildMonthMenu)
+                .then(alexia.saveJsonMonthMenu)
+                .then(alexia.filterToday)
+                .then(function(menu){
+                    return menu;
+                });
+        }
     },
     
     menuHtmlPage: function(){
