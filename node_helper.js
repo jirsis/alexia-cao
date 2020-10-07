@@ -5,7 +5,10 @@ const pdfParser = require('pdf-parse');
 const { Readable } = require('stream');
 const fs = require('fs');
 const os = require('os');
-const moment = require('moment');
+const dayjs = require('dayjs');
+require('dayjs/locale/es');
+const customParseFormat = require('dayjs/plugin/customParseFormat')
+const puppeteer = require('puppeteer');
 //require('request-debug')(request);
 
 var alexia = {
@@ -33,6 +36,7 @@ var alexia = {
     getTodayMenu: function(){
         alexia.log("get today menu;");
         let jsonFile = os.tmpdir()+'/menu-'+(new Date().getMonth()+1)+'json';
+        console.log(jsonFile+' exists?');
         if (fs.existsSync(jsonFile)) {
             return this.loadMenuFile(jsonFile)
                 .then(alexia.filterToday)
@@ -106,7 +110,7 @@ var alexia = {
         let equals =false;
         let monthNumber = lines[id];
         let monthName = lines[id+1];
-        let formattedMonth = moment().month(monthNumber-1).format("MMMM");
+        let formattedMonth = dayjs().month(monthNumber-1).format("MMMM");
         equals = monthName.toLowerCase() === formattedMonth.toLowerCase();
         return equals;
     },
@@ -175,9 +179,27 @@ var alexia = {
 				menu.push({
                     'day': day,
                     'month': undefined,
-                    'firstDish': firstDish,
-                    'secondDish': secondDish,
-                    'dessertDish': dessertDish,
+                    'firstDish': {
+                        'label': firstDish,
+                        'quality': -2
+                    },
+                    'secondDish': {
+                        'label': secondDish,
+                        'quality': -2
+                    },
+                    'dessertDish': {
+                        'label': dessertDish,
+                        'quality': -2
+                    },
+                    'nap': {
+                        'label': '',
+                        'quality': -2,
+                    },
+                    'snack':{
+                        'label': '',
+                        'quality': -2
+                    },
+                    'teacherComments': 'Hoy todavía no han comentado nada',
                 });
 			}
         }
@@ -211,12 +233,104 @@ var alexia = {
         return myMenu;
     },
 
+    scrapSchoolSite: async function(url){
+        const browser = await puppeteer.launch();
+        const page = await browser.newPage(); 
+        page.setViewport({width: 1366, height: 768});
+        await page.goto(url);
+        await page.click('#txtUsuario');
+        await page.keyboard.type('j.reta');
+        await page.click('#txtPassword');
+        await page.keyboard.type('Chiapas01.');
+        await page.click('#btnAceptar');
+        await page.waitForNavigation();
+        await page.waitForSelector('#ctl00_tituloIncidencias', {visible: true});
+        await page.click('#ctl00_tituloIncidencias');
+        let entradasTotales;
+        try{
+            await page.waitForSelector('#ctl00_listadoIncidencias > li');
+            entradasTotales = await page.$$('#ctl00_listadoIncidencias > li');
+        }catch(error){
+            console.log('timeout error, empty entradasTotales');
+            entradasTotales = [];
+        }
+        return entradasTotales;
+
+    },
+
+    dailyActivity: async function(entradasTotales){
+        let resumen = [];
+        for (let entrada in entradasTotales){
+            let date = await entradasTotales[entrada].$eval('.fecha_comentario > span', n => n.innerText);
+            let tipo = await entradasTotales[entrada].$eval('h5', n => n.innerText);
+            
+            let today = resumen[date]===undefined?{}:resumen[date];
+            today['date'] = date;
+            if(tipo === 'Observaciones'){
+                let observaciones = await (await (await entradasTotales[entrada].$('.observaciones_notificaciones')).getProperty('title')).jsonValue();
+                today['observaciones']=observaciones.replace(/\n/g, ' ');
+            }else if(tipo === 'Siesta'){
+                let siesta = await (await (await entradasTotales[entrada].$('li')).getProperty('title')).jsonValue();
+                today.siesta = siesta.replace(/\n/g, ' ');
+            }else if(tipo === 'Comida'){
+                let comida = await (await (await entradasTotales[entrada].$('li')).getProperty('title')).jsonValue();
+                today.comida = comida.replace(/\n/g, ' ');
+            }else if(tipo === 'Merienda'){
+                let merienda = await (await (await entradasTotales[entrada].$('p')).getProperty('title')).jsonValue();
+                today.merienda = merienda.replace(/\n/g, ' ');
+            }else{
+                console.log("+"+date + " -> "+tipo);     
+            }
+            resumen[date]=today;
+        }
+        return resumen;
+    },
+
+    mixMenuWithActivity: function(menu, dailyActivitiesResume){
+        let foundTodayActivity = false;
+        const formatDate = 'MMMM/D';
+        dayjs.extend(customParseFormat);
+        dayjs.locale('es');
+        let menuDate = dayjs(dayjs().year()+'-'+menu.day+'-'+menu.month, 'YYYY-D-MM').format(formatDate).toLowerCase();
+        //menuDate='octubre/6';
+        for (let idActivity in dailyActivitiesResume){
+            let activity = dailyActivitiesResume[idActivity];
+            let activityDate = activity.date.toLowerCase();
+            
+            if(activityDate === menuDate){
+                menu.teacherComments = activity.observaciones;
+                
+                menu.firstDish.quality = activity.comida==='Normal'?2:'undefined';
+                menu.secondDish.quality = menu.firstDish.quality;
+                menu.dessertDish.quality = menu.firstDish.quality;
+                menu.nap.quality = activity.siesta==='No'?-1:2;
+                menu.nap.label = activity.siesta;
+                menu.snack.label = activity.merienda;
+                menu.snack.quality = menu.firstDish.quality;
+            }
+        }
+        
+        
+
+        return menu;
+    },
+
+    getTodayClass: async function(menu){
+        alexia.log('TODO: getTodayClass');
+        
+        let allIncidents = await alexia.scrapSchoolSite("http://web2.alexiaedu.com/ACWeb/LogOn.aspx?key=iJngi7tF4QU%253d");
+        let dailyActivitiesResume = await alexia.dailyActivity(allIncidents);
+        menu = alexia.mixMenuWithActivity(menu, dailyActivitiesResume);
+
+        return menu;
+    },
+
     chain: function(username, password, schoolCode, alexia_helper){
         this.helper = alexia_helper;
         this.log('chain started '+username+"/"+schoolCode);
-        this.cookies = [];
         
         return alexia.getTodayMenu()
+            .then(alexia.getTodayClass)
             .then(function(menu){
                 alexia.log("menu: "+ JSON.stringify(menu));
                 return menu;
