@@ -25,7 +25,9 @@
   "homepage": "https://github.com/jirsis/alexia-cao#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
+    "dayjs": "^1.9.1",
     "pdf-parse": "^1.1.1",
+    "puppeteer": "^5.3.1",
     "request-debug": "^0.2.0",
     "request-promise": "^4.2.2"
   }

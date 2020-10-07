@@ -70,8 +70,8 @@ Module.register('alexia-cao', {
         this.fillLogoRow(table, this.agendaInfo);
         this.fillTodayQuote(table, this.agendaInfo);
         this.fillLunchRow(table, this.agendaInfo);
-        //this.fillCourse(table, this.agendaInfo, 'nap','icon-zzz');
-        //this.fillCourse(table, this.agendaInfo, 'snack','icon-sandwich');
+        this.fillCourse(table, this.agendaInfo, 'nap','icon-zzz');
+        this.fillCourse(table, this.agendaInfo, 'snack','icon-sandwich');
         
         this.fillTeacherNote(table, this.agendaInfo);
 
@@ -115,8 +115,8 @@ Module.register('alexia-cao', {
         var courseRow = document.createElement("tr");
         courseRow.className = 'bright ';
         this.fillFoodIcon(courseRow, icon, 1, 'left');
-        this.fillFoodCell(courseRow, agenda[dish], 3, 'right');
-        this.fillFoodQuality(courseRow, agenda[dish]);  
+        this.fillFoodCell(courseRow, agenda[dish].label, 3, 'right');
+        this.fillFoodQuality(courseRow, agenda[dish].quality);  
         table.appendChild(courseRow);
     },
 
@@ -144,93 +144,13 @@ Module.register('alexia-cao', {
         cell.className = ' icon-left icon-up';
 
         var span = document.createElement('span');
-        span.className = this.mapQuality(2);
+        span.className = this.mapQuality(foodData);
 
         cell.appendChild(span);
         cell.appendChild(span);
         row.appendChild(cell);
     },
 
-    fillNaps: function(table, nap){
-        if(nap.length > 0 ){
-            var row = document.createElement('tr');
-
-            var icon = document.createElement('td');
-            icon.className = ' align-left icon-left';
-            
-            var iconCell = document.createElement('span');
-            iconCell.className = 'icon-zzz';
-            icon.appendChild(iconCell);
-            row.appendChild(icon);
-
-            var napCell = document.createElement('td');
-            napCell.className = 'align-right ';
-            napCell.colSpan = 3;
-            const startMinutes = nap[0].start_minutes<10? '0'+nap[0].start_minutes:nap[0].start_minutes;
-            const endMinutes =  nap[0].finish_minutes<10? '0'+nap[0].finish_minutes:nap[0].finish_minutes;
-            napCell.innerHTML = nap[0].start_hours + ':' + startMinutes +' - '+
-                nap[0].finish_hours+':'+ endMinutes;
-            row.appendChild(napCell);
-
-            var napStatus = document.createElement('td');
-            napStatus.className = 'icon-left';
-            napStatus.colSpan = 1;
-            var span = document.createElement('span');
-            span.className = this.mapQuality(nap.quality);
-            napStatus.appendChild(span);
-            row.appendChild(napStatus);
-            table.appendChild(row);
-        }
-        
-    },
-
-    fillWC: function(table, agenda){
-        var row = document.createElement('tr');
-        var td = document.createElement('td');
-        td.colSpan = 5;
-        td.align = 'center';
-
-        this.fillPee(td, agenda);
-        var extraSpace = document.createElement('span');
-        extraSpace.innerHTML = '&emsp;&bull;&emsp;'
-        td.appendChild(extraSpace);
-        this.fillPoo(td, agenda);
-        
-        row.appendChild(td);
-        table.appendChild(row);
-    },
-
-    fillPee: function(cell, agenda){
-        var pee = document.createElement('span');
-        pee.className = 'icon-pee';
-        cell.appendChild(pee);
-
-        var peeDiaper = document.createElement('span');
-        peeDiaper.className = 'icon-diaper';
-        peeDiaper.innerHTML = agenda.entry['diaper_urination'];
-        cell.appendChild(peeDiaper);
-
-        var peeWC = document.createElement('span');
-        peeWC.className = 'icon-wc';
-        peeWC.innerHTML = agenda.entry['wc_urination'];
-        cell.appendChild(peeWC);
-    },
-
-    fillPoo: function(cell, agenda){
-        var poo = document.createElement('span');
-        poo.className = 'icon-poo';
-        cell.appendChild(poo);
-
-        var pooDiaper = document.createElement('span');
-        pooDiaper.className = 'icon-diaper';
-        pooDiaper.innerHTML = agenda.entry['diaper_depositions'];
-        cell.appendChild(pooDiaper);
-
-        var pooWC = document.createElement('span');
-        pooWC.className = 'icon-wc';
-        pooWC.innerHTML = agenda.entry['wc_depositions'];
-        cell.appendChild(pooWC);
-    },
 
     fillTeacherNote: function(table, agenda){
         var row = document.createElement('tr');
@@ -240,20 +160,6 @@ Module.register('alexia-cao', {
 
         note.colSpan=5;
         note.align = 'center';
-
-        /*if ( agenda.agenda.today ){
-            var title = document.createElement('span');
-            title.className = 'small-caps';
-            title.style = 'font-variant:small-caps';
-            title.innerHTML = agenda.agenda.today;
-            p.appendChild(title);
-        }
-
-        if( agenda.agenda.today && agenda.entry.note ){
-            var dash = document.createElement('span');
-            dash.innerHTML = '&emsp;&mdash;&emsp;';
-            p.appendChild(dash);
-        }*/
 
         if ( agenda.teacherComments ){
             var teacherNote = document.createElement('span');
@@ -268,6 +174,7 @@ Module.register('alexia-cao', {
 
     mapQuality: function(data){
         const mapper = {
+            '-2': 'far fa-clock', //todavia no se sabe
             '-1': 'far fa-times-circle', // no
             0: 'far fa-frown-open', // poco
             1: 'far fa-meh', // regular
@@ -278,7 +185,7 @@ Module.register('alexia-cao', {
         }
         var quality = mapper[data];
         if (quality === undefined ){
-            Logger.log('entry value -> ' + data);
+            console.log('entry value -> ' + data);
             quality = mapper['undefined'];
         }
         return quality;
