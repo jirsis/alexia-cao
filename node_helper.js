@@ -38,12 +38,14 @@ var alexia = {
         let jsonFile = os.tmpdir()+'/menu-'+(new Date().getMonth()+1)+'json';
         console.log(jsonFile+' exists?');
         if (fs.existsSync(jsonFile)) {
+            console.log("yes");
             return this.loadMenuFile(jsonFile)
                 .then(alexia.filterToday)
                 .then(function(menu){
                     return menu;
                 });
         }else{
+            console.log("no");
             return this.menuHtmlPage()
                 .then(alexia.extractMenuUrl)
                 .then(alexia.downloadPdf)
@@ -235,6 +237,7 @@ var alexia = {
 
     scrapSchoolSite: async function(url){
         const browser = await puppeteer.launch({executablePath: '/usr/bin/chromium-browser'});
+        //const browser = await puppeteer.launch();
         const page = await browser.newPage(); 
         page.setViewport({width: 1366, height: 768});
         await page.goto(url);
@@ -254,13 +257,13 @@ var alexia = {
             console.log('timeout error, empty entradasTotales');
             entradasTotales = [];
         }
-        await browser.close();
-        return entradasTotales;
+        return {entradasTotales: entradasTotales, browser: browser};
 
     },
 
-    dailyActivity: async function(entradasTotales){
+    dailyActivity: async function(activity){
         let resumen = [];
+        let entradasTotales = activity.entradasTotales;
         for (let entrada in entradasTotales){
             let date = await entradasTotales[entrada].$eval('.fecha_comentario > span', n => n.innerText);
             let tipo = await entradasTotales[entrada].$eval('h5', n => n.innerText);
@@ -284,6 +287,7 @@ var alexia = {
             }
             resumen[date]=today;
         }
+        await activity.browser.close();
         return resumen;
     },
 
@@ -317,8 +321,6 @@ var alexia = {
     },
 
     getTodayClass: async function(menu){
-        alexia.log('TODO: getTodayClass');
-        
         let allIncidents = await alexia.scrapSchoolSite("http://web2.alexiaedu.com/ACWeb/LogOn.aspx?key=iJngi7tF4QU%253d");
         let dailyActivitiesResume = await alexia.dailyActivity(allIncidents);
         menu = alexia.mixMenuWithActivity(menu, dailyActivitiesResume);
