@@ -1,6 +1,6 @@
 {
   "name": "alexia-cao",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "MagicMirror module that show alexiaedu.com/ Colegio Alameda de Osuna information",
   "main": "alexia-cao.js",
   "scripts": {
