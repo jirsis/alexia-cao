@@ -234,7 +234,7 @@ var alexia = {
     },
 
     scrapSchoolSite: async function(url){
-        const browser = await puppeteer.launch();
+        const browser = await puppeteer.launch({executablePath: '/usr/bin/chromium-browser'});
         const page = await browser.newPage(); 
         page.setViewport({width: 1366, height: 768});
         await page.goto(url);
@@ -254,6 +254,7 @@ var alexia = {
             console.log('timeout error, empty entradasTotales');
             entradasTotales = [];
         }
+        await browser.close();
         return entradasTotales;
 
     },
