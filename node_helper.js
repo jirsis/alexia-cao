@@ -297,7 +297,7 @@ var alexia = {
         dayjs.extend(customParseFormat);
         dayjs.locale('es');
         let menuDate = dayjs(dayjs().year()+'-'+menu.day+'-'+menu.month, 'YYYY-D-MM').format(formatDate).toLowerCase();
-        //menuDate='octubre/6';
+        //menuDate='octubre/6' ;
         for (let idActivity in dailyActivitiesResume){
             let activity = dailyActivitiesResume[idActivity];
             let activityDate = activity.date.toLowerCase();
