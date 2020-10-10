@@ -236,8 +236,8 @@ var alexia = {
     },
 
     scrapSchoolSite: async function(url){
-        const browser = await puppeteer.launch({executablePath: '/usr/bin/chromium-browser'});
-        //const browser = await puppeteer.launch();
+        //const browser = await puppeteer.launch({executablePath: '/usr/bin/chromium-browser'});
+        const browser = await puppeteer.launch();
         const page = await browser.newPage(); 
         page.setViewport({width: 1366, height: 768});
         await page.goto(url);
@@ -303,15 +303,15 @@ var alexia = {
             let activityDate = activity.date.toLowerCase();
             
             if(activityDate === menuDate){
-                menu.teacherComments = activity.observaciones;
+                menu.teacherComments = activity.observaciones?activity.observaciones:'';
                 
                 menu.firstDish.quality = activity.comida==='Normal'?2:'undefined';
                 menu.secondDish.quality = menu.firstDish.quality;
                 menu.dessertDish.quality = menu.firstDish.quality;
-                menu.nap.quality = activity.siesta==='No'?-1:2;
-                menu.nap.label = activity.siesta;
-                menu.snack.label = activity.merienda;
-                menu.snack.quality = menu.firstDish.quality;
+                menu.nap.label = activity.siesta?activity.siesta:'';
+                menu.nap.quality = activity.siesta? (activity.siesta === 'No'?-1:-2):-1;
+                menu.snack.label = activity.merienda?activity.merienda:'';
+                menu.snack.quality = activity.merienda?menu.firstDish.quality:-1;
             }
         }
         
