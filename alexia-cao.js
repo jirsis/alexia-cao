@@ -16,6 +16,7 @@ Module.register('alexia-cao', {
         initialLoadDelay: 1000,
         updateInterval: 60*60*1000, //1 check by hour, by default
         debug: true,
+        headerSize: 36,
 
     },
 
