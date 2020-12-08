@@ -9,6 +9,7 @@ const dayjs = require('dayjs');
 require('dayjs/locale/es');
 const customParseFormat = require('dayjs/plugin/customParseFormat')
 const puppeteer = require('puppeteer');
+const path = require("path");
 //require('request-debug')(request);
 
 var alexia = {
@@ -26,6 +27,7 @@ var alexia = {
     },
 
     loadMenuFile: function(menuFileJson){
+       // menuFileJson = "/Users/jirsis/Documents/MagicMirror/modules/alexia-cao/file.json";
         let json = fs.readFileSync(menuFileJson);
         let menu = JSON.parse(json);
         return new Promise((resolve, reject) => {
@@ -35,7 +37,10 @@ var alexia = {
 
     getTodayMenu: function(){
         alexia.log("get today menu;");
-        let jsonFile = os.tmpdir()+'/menu-'+(new Date().getMonth()+1)+'json';
+        let basePath = os.tmpdir();
+        basePath = path.resolve("./modules/alexia-cao/");
+
+        let jsonFile = basePath+'/menu-'+(new Date().getMonth()+1)+'.json';
         console.log(jsonFile+' exists?');
         if (fs.existsSync(jsonFile)) {
             console.log("yes");
@@ -146,11 +151,13 @@ var alexia = {
         alexia.log("build month menu");
         alexia.log(text);
 
+        const skipedLines = alexia.config.headerSize;
         let menu = [];
         var lines = text.split('\n');
         let month = '';
         
-        for (var id = 3; id < lines.length; id++) {
+        for (var id = skipedLines; id < lines.length; id++) {
+            let line = lines[id];
 			if (alexia.isNumeric(lines[id])) {
 				if(alexia.isMonth(lines, id)) {
                     month = lines[id];
@@ -161,22 +168,27 @@ var alexia = {
 				var firstDishResult =  alexia.dish(lines, id);
                 id = firstDishResult.next;
                 var firstDish = firstDishResult.name;
-				
-				var secondDishResult =  alexia.dish(lines, id+1);
-                id = secondDishResult.next;
-                var secondDish = secondDishResult.name;
-				
-                var dessertDish = '';
                 
-				if(alexia.isNumeric(lines[id])){
-					dessertDish = secondDish;
-					secondDish = '';
-					id --;
-				}else {
-                    var dessertDishResult = alexia.dish(lines, id+1);
-                    dessertDish = dessertDishResult.name;
-                    id = dessertDishResult.next-1;
-				}
+                var dessertDish = '';
+                var secondDish = '';
+
+                if (firstDish === 'FIESTA') {
+                    id--;
+                } else {
+                    var secondDishResult =  alexia.dish(lines, id+1);
+                    id = secondDishResult.next;
+                    secondDish = secondDishResult.name;
+                    
+                    if(alexia.isNumeric(lines[id])){
+                        dessertDish = secondDish;
+                        secondDish = '';
+                        id --;
+                    }else {
+                        var dessertDishResult = alexia.dish(lines, id+1);
+                        dessertDish = dessertDishResult.name;
+                        id = dessertDishResult.next-1;
+                    }
+                }
 				
 				menu.push({
                     'day': day,
@@ -342,7 +354,6 @@ var alexia = {
 }
 
 module.exports = NodeHelper.create({
-
     start: function() {
         console.log(this.name + ' node_helper is started!');
     },
