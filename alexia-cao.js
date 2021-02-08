@@ -99,7 +99,9 @@ Module.register('alexia-cao', {
         td.align = 'center';
 
         var date = document.createElement('span');
-        date.innerHTML = agendaInfo.course + " - " +moment(agendaInfo.date).format('DD MMM YYYY');
+        const now = new Date(2020, agendaInfo.month-1, 1);
+        const month = now.toLocaleString('default', { month: 'short' });
+        date.innerHTML = agendaInfo.course + " - " +agendaInfo.day+ " "+month;
         td.appendChild(date);
 
         row.appendChild(td);

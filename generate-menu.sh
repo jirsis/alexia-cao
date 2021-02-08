@@ -9,7 +9,7 @@ month=$1
 
 nextDay=true
 
-menuFile="menu--$month.json"
+menuFile="menu-$month.json"
 echo "[" > $menuFile
 
 while $nextDay ; do
