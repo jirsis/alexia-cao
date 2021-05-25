@@ -27,7 +27,6 @@ var alexia = {
     },
 
     loadMenuFile: function(menuFileJson){
-       // menuFileJson = "/Users/jirsis/Documents/MagicMirror/modules/alexia-cao/file.json";
         let json = fs.readFileSync(menuFileJson);
         let menu = JSON.parse(json);
         return new Promise((resolve, reject) => {
@@ -248,8 +247,7 @@ var alexia = {
     },
 
     scrapSchoolSite: async function(url){
-        //const browser = await puppeteer.launch({executablePath: '/usr/bin/chromium-browser'});
-        const browser = await puppeteer.launch();
+        const browser = await puppeteer.launch(this.config.browser);
         const page = await browser.newPage(); 
         page.setViewport({width: 1366, height: 768});
         await page.goto(url);

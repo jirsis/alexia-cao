@@ -18,6 +18,8 @@ Module.register('alexia-cao', {
         debug: true,
         headerSize: 36,
 
+        browser: {},
+
     },
 
     requiresVersion: '2.1.0',
