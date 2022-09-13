@@ -73,8 +73,10 @@ Module.register('alexia-cao', {
         this.fillLogoRow(table, this.agendaInfo);
         this.fillTodayQuote(table, this.agendaInfo);
         this.fillLunchRow(table, this.agendaInfo);
-        this.fillCourse(table, this.agendaInfo, 'nap','icon-zzz');
         this.fillCourse(table, this.agendaInfo, 'snack','icon-sandwich');
+        this.fillCourse(table, this.agendaInfo, 'nap','icon-zzz');
+        this.fillCourse(table, this.agendaInfo, 'deposiciones','icon-poo');
+        
         
         this.fillTeacherNote(table, this.agendaInfo);
 

@@ -50,6 +50,10 @@ while $nextDay ; do
          "label": "",  
          "quality": -2  
        },  
+       "deposiciones": {  
+         "label": "",  
+         "quality": -2  
+       },  
        "teacherComments": "Hoy todavía no han comentado nada"  
     },
 EOF
