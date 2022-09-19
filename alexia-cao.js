@@ -181,7 +181,7 @@ Module.register('alexia-cao', {
 
     mapQuality: function(data){
         const mapper = {
-            '-2': 'far fa-clock', //todavia no se sabe
+            '-2': 'fas fa-genderless', //todavia no se sabe -> vacio
             '-1': 'far fa-times-circle', // no
             0: 'far fa-frown-open', // poco
             1: 'far fa-meh', // regular
