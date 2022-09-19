@@ -118,11 +118,14 @@ var alexia = {
     dailyActivity: async function(activity){
         let resumen = [];
         let entradasTotales = activity.entradasTotales;
+        let observacionesComida = '';
+        
         for (let entrada in entradasTotales){
             let date = await entradasTotales[entrada].$eval('.fecha_comentario > span', n => n.innerText);
             let tipo = await entradasTotales[entrada].$eval('h5', n => n.innerText);
             
             let today = resumen[date]===undefined?{}:resumen[date];
+            
             today['date'] = date;
             if(tipo === 'Observaciones'){
                 let observaciones = await (await (await entradasTotales[entrada].$('.observaciones_notificaciones')).getProperty('title')).jsonValue();
@@ -133,9 +136,9 @@ var alexia = {
             }else if(tipo === 'Comida'){
                 let comida = await (await (await entradasTotales[entrada].$('li')).getProperty('title')).jsonValue();
                 today.comida = comida.replace(/\n/g, ' ');
+                observacionesComida = await entradasTotales[entrada].$eval('.observaciones_notificaciones', n => n.innerText);
             }else if(tipo === 'Merienda'){
-                let merienda = await (await (await entradasTotales[entrada].$('li')).getProperty('title')).jsonValue();
-                console.log(merienda);
+                let merienda = await (await (await entradasTotales[entrada].$('p')).getProperty('title')).jsonValue();
                 today.merienda = merienda.replace(/\n/g, ' ');
             }else if(tipo === 'Deposiciones'){
                 let deposiciones = await (await (await entradasTotales[entrada].$('li')).getProperty('title')).jsonValue();
@@ -144,6 +147,10 @@ var alexia = {
                 console.log("+"+date + " -> "+tipo);     
             }   
     
+            if(observacionesComida !== ''){
+                today['observaciones'] = today['observaciones'] + '<br> comida: '+observacionesComida;   
+                observacionesComida = '';
+            }
             resumen[date]=today;
         }
         await activity.browser.close();
@@ -155,6 +162,7 @@ var alexia = {
         dayjs.extend(customParseFormat);
         dayjs.locale('es');
         let menuDate = dayjs(dayjs().year()+'-'+menu.day+'-'+menu.month, 'YYYY-D-M').format(formatDate).toLowerCase();
+        
         for (let idActivity in dailyActivitiesResume){
             let activity = dailyActivitiesResume[idActivity];
             let activityDate = activity.date.toLowerCase();
@@ -173,8 +181,6 @@ var alexia = {
                 menu.deposiciones.quality = 2;
             }
         }
-        
-        
 
         return menu;
     },
