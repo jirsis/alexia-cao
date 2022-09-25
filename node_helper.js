@@ -119,11 +119,20 @@ var alexia = {
         let resumen = [];
         let entradasTotales = activity.entradasTotales;
         let observacionesComida = '';
+        let dateLimit = undefined;
         
         for (let entrada in entradasTotales){
             let date = await entradasTotales[entrada].$eval('.fecha_comentario > span', n => n.innerText);
             let tipo = await entradasTotales[entrada].$eval('h5', n => n.innerText);
             
+            if (dateLimit === undefined){
+                dateLimit = date;
+            }
+
+            if (dateLimit !== date){
+                break;
+            }
+
             let today = resumen[date]===undefined?{}:resumen[date];
             
             today['date'] = date;
@@ -177,8 +186,8 @@ var alexia = {
                 menu.nap.quality = activity.siesta === 'Sí'?2:-1;
                 menu.snack.label = activity.merienda?activity.merienda:'';
                 menu.snack.quality = activity.merienda?menu.firstDish.quality:-1;
-                menu.deposiciones.label = activity.deposiciones;
-                menu.deposiciones.quality = 2;
+                menu.deposiciones.label = activity.deposiciones===undefined?'No':activity.deposiciones;
+                menu.deposiciones.quality = menu.deposiciones.label==='No'?-1:2;
             }
         }
 
