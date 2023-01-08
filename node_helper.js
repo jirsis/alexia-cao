@@ -84,6 +84,11 @@ var alexia = {
                 todayMenu--;
             }
         }
+
+        if(todayMenu<0){
+            myMenu = menu[0];
+        }
+
         myMenu['course'] = alexia.config.course;
         return myMenu;
     },
@@ -196,8 +201,9 @@ var alexia = {
 
     getTodayClass: async function(menu){
         alexia.log("get today class")
-        let allIncidents = await alexia.scrapSchoolSite("http://web2.alexiaedu.com/ACWeb/LogOn.aspx?key=iJngi7tF4QU%253d");
-        let dailyActivitiesResume = await alexia.dailyActivity(allIncidents);
+        //let allIncidents = await alexia.scrapSchoolSite("http://web2.alexiaedu.com/ACWeb/LogOn.aspx?key=iJngi7tF4QU%253d");
+        //let dailyActivitiesResume = await alexia.dailyActivity(allIncidents);
+        let dailyActivitiesResume = {};
         menu = alexia.mixMenuWithActivity(menu, dailyActivitiesResume);
 
         return menu;
