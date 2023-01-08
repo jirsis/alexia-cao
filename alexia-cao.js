@@ -73,12 +73,12 @@ Module.register('alexia-cao', {
         this.fillLogoRow(table, this.agendaInfo);
         this.fillTodayQuote(table, this.agendaInfo);
         this.fillLunchRow(table, this.agendaInfo);
-        this.fillCourse(table, this.agendaInfo, 'snack','icon-sandwich');
-        this.fillCourse(table, this.agendaInfo, 'nap','icon-zzz');
-        this.fillCourse(table, this.agendaInfo, 'deposiciones','icon-poo');
+        //this.fillCourse(table, this.agendaInfo, 'snack','icon-sandwich');
+        //this.fillCourse(table, this.agendaInfo, 'nap','icon-zzz');
+        //this.fillCourse(table, this.agendaInfo, 'deposiciones','icon-poo');
         
         
-        this.fillTeacherNote(table, this.agendaInfo);
+        //this.fillTeacherNote(table, this.agendaInfo);
 
         return table;
     },
@@ -123,7 +123,7 @@ Module.register('alexia-cao', {
         courseRow.className = 'bright ';
         this.fillFoodIcon(courseRow, icon, 1, 'left');
         this.fillFoodCell(courseRow, agenda[dish].label, 3, 'right');
-        this.fillFoodQuality(courseRow, agenda[dish].quality);  
+        //this.fillFoodQuality(courseRow, agenda[dish].quality);  
         table.appendChild(courseRow);
     },
 
