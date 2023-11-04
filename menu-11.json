@@ -1,0 +1,437 @@
+[
+	{
+       "day": 6,  
+       "month": 11,  
+       "firstDish": {  
+         "label": "Crema de verduras",  
+         "quality": -2  
+       },  
+       "secondDish": {  
+         "label": "Chuleta de pavo a la plancha con patatas asadas",  
+         "quality": -2  
+       },  
+       "dessertDish": {  
+         "label": "Fruta, leche y pan",  
+         "quality": -2  
+       },  
+       "nap": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "snack": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "deposiciones": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "teacherComments": "Hoy todavía no han comentado nada"  
+    },
+	{
+       "day": 7,  
+       "month": 11,  
+       "firstDish": {  
+         "label": "Paella de verduras / Ensalada de arroz",  
+         "quality": -2  
+       },  
+       "secondDish": {  
+         "label": "Bacalao al horno con guarnición de lombarda rehogada con manzana",  
+         "quality": -2  
+       },  
+       "dessertDish": {  
+         "label": "Fruta, leche y pan",  
+         "quality": -2  
+       },  
+       "nap": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "snack": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "deposiciones": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "teacherComments": "Hoy todavía no han comentado nada"  
+    },
+	{
+       "day": 8,  
+       "month": 11,  
+       "firstDish": {  
+         "label": "Cocido",  
+         "quality": -2  
+       },  
+       "secondDish": {  
+         "label": "completo",  
+         "quality": -2  
+       },  
+       "dessertDish": {  
+         "label": "Fruta, leche y pan",  
+         "quality": -2  
+       },  
+       "nap": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "snack": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "deposiciones": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "teacherComments": "Hoy todavía no han comentado nada"  
+    },
+	{
+       "day": 9,  
+       "month": 11,  
+       "firstDish": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "secondDish": {  
+         "label": "FESTIVO",  
+         "quality": -2  
+       },  
+       "dessertDish": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "nap": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "snack": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "deposiciones": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "teacherComments": "Hoy todavía no han comentado nada"  
+    },
+	{
+       "day": 10,  
+       "month": 11,  
+       "firstDish": {  
+         "label": "Guisantes rehogados con jamón",  
+         "quality": -2  
+       },  
+       "secondDish": {  
+         "label": "Albóndigas de ternera en salsa de verduras con arroz / Filete de ternera a la plancha",  
+         "quality": -2  
+       },  
+       "dessertDish": {  
+         "label": "Fruta, leche y pan",  
+         "quality": -2  
+       },  
+       "nap": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "snack": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "deposiciones": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "teacherComments": "Hoy todavía no han comentado nada"  
+    },
+	{
+       "day": 13,  
+       "month": 11,  
+       "firstDish": {  
+         "label": "Macarrones con atún y tomate / Pasta de verduras con ajo y aceite",  
+         "quality": -2  
+       },  
+       "secondDish": {  
+         "label": "Solomillo de cerdo con salsa de setas y verduras",  
+         "quality": -2  
+       },  
+       "dessertDish": {  
+         "label": "Fruta, leche y pan",  
+         "quality": -2  
+       },  
+       "nap": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "snack": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "deposiciones": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "teacherComments": "Hoy todavía no han comentado nada"  
+    },
+	{
+       "day": 14,  
+       "month": 11,  
+       "firstDish": {  
+         "label": "Patatas guisadas con carne",  
+         "quality": -2  
+       },  
+       "secondDish": {  
+         "label": "Merluza al horno con ajo, perejil y limon con ensalada",  
+         "quality": -2  
+       },  
+       "dessertDish": {  
+         "label": "Fruta, leche y pan",  
+         "quality": -2  
+       },  
+       "nap": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "snack": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "deposiciones": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "teacherComments": "Hoy todavía no han comentado nada"  
+    },
+	{
+       "day": 15,  
+       "month": 11,  
+       "firstDish": {  
+         "label": "Menestra de verduras / Alcachofas con jamón",  
+         "quality": -2  
+       },  
+       "secondDish": {  
+         "label": "Filete de pollo a la plancha con patatas fritas",  
+         "quality": -2  
+       },  
+       "dessertDish": {  
+         "label": "Fruta, leche y pan",  
+         "quality": -2  
+       },  
+       "nap": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "snack": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "deposiciones": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "teacherComments": "Hoy todavía no han comentado nada"  
+    },
+	{
+       "day": 16,  
+       "month": 11,  
+       "firstDish": {  
+         "label": "Judías blancas guisadas con verduras",  
+         "quality": -2  
+       },  
+       "secondDish": {  
+         "label": "Tortilla con pimientos verdes fritos",  
+         "quality": -2  
+       },  
+       "dessertDish": {  
+         "label": "Fruta, leche y pan",  
+         "quality": -2  
+       },  
+       "nap": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "snack": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "deposiciones": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "teacherComments": "Hoy todavía no han comentado nada"  
+    },
+	{
+       "day": 17,  
+       "month": 11,  
+       "firstDish": {  
+         "label": "Crema de acelgas y zanahorias con picatostes / Acelgas rehogadas",  
+         "quality": -2  
+       },  
+       "secondDish": {  
+         "label": "Salmón a la naranja con champiñones",  
+         "quality": -2  
+       },  
+       "dessertDish": {  
+         "label": "Fruta, leche y pan",  
+         "quality": -2  
+       },  
+       "nap": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "snack": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "deposiciones": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "teacherComments": "Hoy todavía no han comentado nada"  
+    },
+	{
+       "day": 20,  
+       "month": 11,  
+       "firstDish": {  
+         "label": "Arroz con salsa de tomate",  
+         "quality": -2  
+       },  
+       "secondDish": {  
+         "label": "Contramuslos de pollo al horno con verduras",  
+         "quality": -2  
+       },  
+       "dessertDish": {  
+         "label": "Fruta, leche y pan",  
+         "quality": -2  
+       },  
+       "nap": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "snack": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "deposiciones": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "teacherComments": "Hoy todavía no han comentado nada"  
+    },
+	{
+       "day": 21,  
+       "month": 11,  
+       "firstDish": {  
+         "label": "Judías pintas guisadas",  
+         "quality": -2  
+       },  
+       "secondDish": {  
+         "label": "Dorada a la plancha con ensalda de tomate",  
+         "quality": -2  
+       },  
+       "dessertDish": {  
+         "label": "Fruta, leche y pan",  
+         "quality": -2  
+       },  
+       "nap": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "snack": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "deposiciones": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "teacherComments": "Hoy todavía no han comentado nada"  
+    },
+	{
+       "day": 22,  
+       "month": 11,  
+       "firstDish": {  
+         "label": "Crema de espinacas / Espinacas rehogadas",  
+         "quality": -2  
+       },  
+       "secondDish": {  
+         "label": "Filete de ternera en salsa de verduras / Filete de ternera a la plancha",  
+         "quality": -2  
+       },  
+       "dessertDish": {  
+         "label": "Fruta, leche y pan",  
+         "quality": -2  
+       },  
+       "nap": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "snack": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "deposiciones": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "teacherComments": "Hoy todavía no han comentado nada"  
+    },
+	{
+       "day": 23,  
+       "month": 11,  
+       "firstDish": {  
+         "label": "Sopa de cocido",  
+         "quality": -2  
+       },  
+       "secondDish": {  
+         "label": "Filete de pavo con puré de patata",  
+         "quality": -2  
+       },  
+       "dessertDish": {  
+         "label": "Fruta, leche y pan",  
+         "quality": -2  
+       },  
+       "nap": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "snack": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "deposiciones": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "teacherComments": "Hoy todavía no han comentado nada"  
+    },
+	{
+       "day": 24,  
+       "month": 11,  
+       "firstDish": {  
+         "label": "Lentejas guisadas con verduras y patata cocida",  
+         "quality": -2  
+       },  
+       "secondDish": {  
+         "label": "Croquetas caseras con pisto",  
+         "quality": -2  
+       },  
+       "dessertDish": {  
+         "label": "Fruta, leche y pan",  
+         "quality": -2  
+       },  
+       "nap": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "snack": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "deposiciones": {  
+         "label": "",  
+         "quality": -2  
+       },  
+       "teacherComments": "Hoy todavía no han comentado nada"  
+    }
+]
