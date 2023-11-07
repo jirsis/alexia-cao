@@ -8,7 +8,6 @@ const os = require('os');
 const dayjs = require('dayjs');
 require('dayjs/locale/es');
 const customParseFormat = require('dayjs/plugin/customParseFormat')
-const puppeteer = require('puppeteer');
 const path = require("path");
 //require('request-debug')(request);
 
@@ -93,33 +92,6 @@ var alexia = {
         return myMenu;
     },
 
-    scrapSchoolSite: async function(url){
-        alexia.log("scrap school site");
-        const browser = await puppeteer.launch(this.config.browser);
-        const page = await browser.newPage(); 
-        alexia.log("screapper loaded");
-        page.setViewport({width: 1366, height: 768});
-        await page.goto(url);
-        await page.click('#txtUsuario');
-        await page.keyboard.type(alexia.config.username);
-        await page.click('#txtPassword');
-        await page.keyboard.type(alexia.config.password);
-        await page.click('#btnAceptar');
-        await page.waitForNavigation();
-        await page.waitForSelector('#ctl00_tituloIncidencias', {visible: true});
-        await page.click('#ctl00_tituloIncidencias');
-        let entradasTotales;
-        try{
-            await page.waitForSelector('#ctl00_listadoIncidencias > li');
-            entradasTotales = await page.$$('#ctl00_listadoIncidencias > li');
-        }catch(error){
-            console.log('timeout error, empty entradasTotales');
-            entradasTotales = [];
-        }
-        return {entradasTotales: entradasTotales, browser: browser};
-
-    },
-
     dailyActivity: async function(activity){
         let resumen = [];
         let entradasTotales = activity.entradasTotales;
@@ -201,7 +173,6 @@ var alexia = {
 
     getTodayClass: async function(menu){
         alexia.log("get today class")
-        //let allIncidents = await alexia.scrapSchoolSite("http://web2.alexiaedu.com/ACWeb/LogOn.aspx?key=iJngi7tF4QU%253d");
         //let dailyActivitiesResume = await alexia.dailyActivity(allIncidents);
         let dailyActivitiesResume = {};
         menu = alexia.mixMenuWithActivity(menu, dailyActivitiesResume);
