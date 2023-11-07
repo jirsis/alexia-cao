@@ -1,7 +1,6 @@
 const NodeHelper = require('node_helper');
 const request = require('request-promise');
 const cheerio = require('cheerio');
-const pdfParser = require('pdf-parse');
 const { Readable } = require('stream');
 const fs = require('fs');
 const os = require('os');
@@ -34,21 +33,34 @@ var alexia = {
 
     getTodayMenu: function(){
         alexia.log("get today menu;");
-        let basePath = os.tmpdir();
-        basePath = path.resolve("./modules/alexia-cao/");
+        let thisMonth=(new Date().getMonth()+1);
+        let jsonUrl = 'https://raw.githubusercontent.com/jirsis/alexia-cao/master/menu-'+thisMonth+'.json';
+        return request(jsonUrl)
+        .then(function(menuString){
+            let jsonMenu = JSON.parse(menuString);
+            return jsonMenu;
+        })
+        .then(alexia.filterToday)
+        .then(function(menu){
+            return menu;
+        })
+        .catch(function(err){
+            return {
+                "course": alexia.config.course,
+                "day": new Date().getDate(),  
+                "month": thisMonth,  
+                "firstDish": {  
+                  "label": "no encontré"
+                },  
+                "secondDish": {  
+                  "label": "el menú"
+                },  
+                "dessertDish": {  
+                  "label": "de hoy"
+                }
+            }
 
-        let jsonFile = basePath+'/menu-'+(new Date().getMonth()+1)+'.json';
-        console.log(jsonFile+' exists?');
-        if (fs.existsSync(jsonFile)) {
-            console.log("yes");
-            return this.loadMenuFile(jsonFile)
-                .then(alexia.filterToday)
-                .then(function(menu){
-                    return menu;
-                });
-        }else{
-            console.log("don't find the menu-**.json in the directory");
-        }
+        });
     },
     
     isNumeric: function(line){
@@ -215,7 +227,7 @@ module.exports = NodeHelper.create({
                             node_helper.sendSocketNotification('ALEXIA-CAO_WAKE_UP', response);  
                         });
                 }, alexia_config.updateInterval);
-            });          
+            });
     },
 
     socketNotificationReceived: function(notification, payload) {
