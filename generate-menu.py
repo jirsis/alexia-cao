@@ -60,6 +60,7 @@ def writeMenuFile(json_filename, menu):
     print(f'fichero creado [{json_filename}]')
 
 def load_menu(menu_filename):
+    print(f'-> {menu_filename}')
     with open(menu_filename) as json_file:
         data = json.load(json_file)
     json_file.close()
@@ -90,10 +91,16 @@ def web2module(menu_web):
         ))
     return menu
 
+def num_to_month(num_month):
+    months = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre']
+    print(months)
+    return months[int(num_month)-1]
+
 if __name__ == '__main__':
     month = input(f'introduce el mes para el menú: ')
     menu_json = f'menu-{month}.json'
     print(f'menu: {menu_json}')
-    menu_web = load_menu('ausolan/marzo2024/marzo2024.json')
+    month_name = num_to_month(month)
+    menu_web = load_menu(f'ausolan/{month_name}2024/{month_name}2024.json')
     menu_module = web2module(menu_web)
     writeMenuFile(menu_json, menu_module)
