@@ -5,6 +5,8 @@ import json
 def fill_menu_day(day, first_dish, main_dish, dessert = 'Fruta, leche y pan'):
     if main_dish == 'Vacaciones' or main_dish == 'No lectivo':
         dessert = ''
+    
+    print(f'[{day}] - {first_dish} / {main_dish} -> {dessert}')
 
     return {
         "day": day,  
@@ -91,6 +93,7 @@ def web2module(menu_web):
 if __name__ == '__main__':
     month = input(f'introduce el mes para el menú: ')
     menu_json = f'menu-{month}.json'
-    menu_web = load_menu('ausolan/febrero2024/febrero2024.json')
+    print(f'menu: {menu_json}')
+    menu_web = load_menu('ausolan/marzo2024/marzo2024.json')
     menu_module = web2module(menu_web)
     writeMenuFile(menu_json, menu_module)
