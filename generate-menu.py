@@ -93,7 +93,6 @@ def web2module(menu_web):
 
 def num_to_month(num_month):
     months = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre']
-    print(months)
     return months[int(num_month)-1]
 
 if __name__ == '__main__':
