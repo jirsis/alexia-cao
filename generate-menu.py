@@ -69,10 +69,16 @@ def load_menu(menu_filename):
 def segundoPlato(segundo):
     plato = segundo[0]['nombrePlato']
     guarnicion = ''
-    if len(segundo) > 1:
-        guarnicion = f"+ {segundo[1]['nombrePlato']}"
+    for guarniciones in segundo[1:]:
+        guarnicion += f"+ {guarniciones['nombrePlato']} "
     comida = f'{plato} {guarnicion}'
     return comida
+
+def primerPlato(primero):
+    primeros=[]
+    for plato in primero:
+        primeros.append(plato['nombrePlato'].capitalize())
+    return " | ".join(primeros)
 
 def postre(pan, postre):
     return f'{pan}, {postre}'
@@ -85,10 +91,11 @@ def web2module(menu_web):
     for day in menu_web['listadoPlatos']:
         menu.append(fill_menu_day(
             day=fecha(day['fecha']), 
-            first_dish=day['primerosPlatos'][0]['nombrePlato'].capitalize(), 
+            first_dish=primerPlato(day['primerosPlatos']), 
             main_dish=segundoPlato(day['segundosPlatos']).capitalize(),
             dessert=postre(day['pan']['nombrePlato'], day['postres'][0]['nombrePlato']).capitalize()
         ))
+        primerPlato(day['primerosPlatos'])
     return menu
 
 def num_to_month(num_month):

@@ -2,7 +2,7 @@
 #9337
 
 
-echo -n "Dime el mesAño: " 
+echo -n "Dime el mesAño (diciembre2024): " 
 read HOME_DIR
 
 mkdir $HOME_DIR
@@ -10,6 +10,7 @@ mkdir $HOME_DIR
 echo "Turno: Menú Doble"
 open https://menuak.ausolan.com/
 
+echo "pega el código de centro en el campo y pulsta entrar"
 echo "9337" | pbcopy
 echo -n "Copia el menú mensual de la opción Basal y pulsa 'intro' "
 read 
