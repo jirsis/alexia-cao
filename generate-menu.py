@@ -107,6 +107,6 @@ if __name__ == '__main__':
     menu_json = f'menu-{month}.json'
     print(f'menu: {menu_json}')
     month_name = num_to_month(month)
-    menu_web = load_menu(f'ausolan/{month_name}2024/{month_name}2024.json')
+    menu_web = load_menu(f'ausolan/{month_name}2025/{month_name}2025.json')
     menu_module = web2module(menu_web)
     writeMenuFile(menu_json, menu_module)
