@@ -1,17 +1,46 @@
 [
   {
-    "day": 3,
+    "day": 2,
     "month": "6",
     "firstDish": {
-      "label": "Arroz milanesa",
+      "label": "Pure de calabac\u00edn y pera | Alcachofas rehogadas",
       "quality": -2
     },
     "secondDish": {
-      "label": "Tortilla francesa + zanahoria baby",
+      "label": "Cinta de lomo a la plancha + patatas al horno + ensalada de lechuga y ma\u00edz ",
       "quality": -2
     },
     "dessertDish": {
       "label": "Pan, fruta",
+      "quality": -2
+    },
+    "nap": {
+      "label": "",
+      "quality": -2
+    },
+    "snack": {
+      "label": "",
+      "quality": -2
+    },
+    "deposiciones": {
+      "label": "",
+      "quality": -2
+    },
+    "teacherComments": "Hoy todav\u00eda no han comentado nada"
+  },
+  {
+    "day": 3,
+    "month": "6",
+    "firstDish": {
+      "label": "Lentejas con calabaza | Ensalada de lentejas con viangreta de mostaza",
+      "quality": -2
+    },
+    "secondDish": {
+      "label": "Merluza en salsa de piquilllos + ensalada verde ",
+      "quality": -2
+    },
+    "dessertDish": {
+      "label": "Pan, yogur",
       "quality": -2
     },
     "nap": {
@@ -32,15 +61,15 @@
     "day": 4,
     "month": "6",
     "firstDish": {
-      "label": "Pure de calabacin",
+      "label": "Ensalada de pasta | Pasta  al ajillo",
       "quality": -2
     },
     "secondDish": {
-      "label": "Albondigas de merluza y poton en salsa de verduras + cous cous",
+      "label": "Pollo a la toscana + zanahoria baby + ensalada con aceitunas ",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan, yogur",
+      "label": "Pan integral, fruta",
       "quality": -2
     },
     "nap": {
@@ -61,15 +90,15 @@
     "day": 5,
     "month": "6",
     "firstDish": {
-      "label": "Lentejas estofadas",
+      "label": "Guisantes encebollados | Pur\u00e9 de guisantes",
       "quality": -2
     },
     "secondDish": {
-      "label": "Chuleta de cerdo al ajillo + patatas panadera",
+      "label": "Salm\u00f3n a la naranja + ensalada del tiempo ",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan integral, fruta",
+      "label": "Pan, yogur",
       "quality": -2
     },
     "nap": {
@@ -90,15 +119,15 @@
     "day": 6,
     "month": "6",
     "firstDish": {
-      "label": "Macarrones al pomodoro",
+      "label": "Ensaladilla rusa | Gazpacho",
       "quality": -2
     },
     "secondDish": {
-      "label": "Salmon a la naranja + ensalada de colores",
+      "label": "Revuelto de champi\u00f1\u00f3n con taquitos de jam\u00f3n + ensalada de tomate ",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan, yogur",
+      "label": "Pan, fruta",
       "quality": -2
     },
     "nap": {
@@ -116,18 +145,18 @@
     "teacherComments": "Hoy todav\u00eda no han comentado nada"
   },
   {
-    "day": 7,
+    "day": 9,
     "month": "6",
     "firstDish": {
-      "label": "Garbanzos guisados",
+      "label": "Jud\u00edas verdes con tomate | Pur\u00e9 de jud\u00edas verdes",
       "quality": -2
     },
     "secondDish": {
-      "label": "Pollo en salsa de verduras + ensalada del tiempo",
+      "label": "Escalopines en salsa chimichurri + pur\u00e9 de patata + ensalada con remolacha ",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan integral, fruta",
+      "label": "Pan, fruta",
       "quality": -2
     },
     "nap": {
@@ -148,15 +177,15 @@
     "day": 10,
     "month": "6",
     "firstDish": {
-      "label": "Guisantes salteados con jamon",
+      "label": "Garbanzos estofados | Garbanzos en vinagreta",
       "quality": -2
     },
     "secondDish": {
-      "label": "Alb\u00f3ndigas  a la jardinera + cous cous",
+      "label": "Tortilla espa\u00f1ola + tomate ali\u00f1ado ",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan, fruta",
+      "label": "Pan, vasito de helado",
       "quality": -2
     },
     "nap": {
@@ -177,15 +206,15 @@
     "day": 11,
     "month": "6",
     "firstDish": {
-      "label": "Arroz con tomate",
+      "label": "Brocoli rehogado | Salmorejo",
       "quality": -2
     },
     "secondDish": {
-      "label": "Merluza al horno + ensalada de colores",
+      "label": "Lasa\u00f1a de at\u00fan + ensalada de colores ",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan, yogur",
+      "label": "Pan integral, fruta",
       "quality": -2
     },
     "nap": {
@@ -206,15 +235,15 @@
     "day": 12,
     "month": "6",
     "firstDish": {
-      "label": "Ensaladilla rusa",
+      "label": "Alubias blancas con verdura | Ensalada de alubias",
       "quality": -2
     },
     "secondDish": {
-      "label": "Pollo al limon + pimientos rojos asados",
+      "label": "Ragout de pavo + cous cous salteado + lechuga y zanahoria ",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan integral, fruta",
+      "label": "Pan, yogur",
       "quality": -2
     },
     "nap": {
@@ -235,15 +264,15 @@
     "day": 13,
     "month": "6",
     "firstDish": {
-      "label": " crema de verduras (calabacin, patata y zanahoria)",
+      "label": "Arroz tres delicias | Arroz blanco salteado",
       "quality": -2
     },
     "secondDish": {
-      "label": "Lubina a la plancha + patatas con hierbas provenzales",
+      "label": "Lubina al horno + ensalada del tiempo ",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan, yogur",
+      "label": "Pan, fruta",
       "quality": -2
     },
     "nap": {
@@ -261,18 +290,18 @@
     "teacherComments": "Hoy todav\u00eda no han comentado nada"
   },
   {
-    "day": 14,
+    "day": 16,
     "month": "6",
     "firstDish": {
-      "label": "Judias verdes al ajoarriero",
+      "label": "Patatas revolconas | Ensalada campera",
       "quality": -2
     },
     "secondDish": {
-      "label": "Tortilla de patata y cebolla + ensalada del tiempo",
+      "label": "Tortilla de queso + ensalada verde ",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan integral, fruta",
+      "label": "Pan, fruta",
       "quality": -2
     },
     "nap": {
@@ -293,40 +322,11 @@
     "day": 17,
     "month": "6",
     "firstDish": {
-      "label": "Ensalada de pasta",
+      "label": "Alubias  pintas estofadas | Crema de alubias",
       "quality": -2
     },
     "secondDish": {
-      "label": "Cinta de lomo a la plancha + calabacin asado",
-      "quality": -2
-    },
-    "dessertDish": {
-      "label": "Pan, fruta",
-      "quality": -2
-    },
-    "nap": {
-      "label": "",
-      "quality": -2
-    },
-    "snack": {
-      "label": "",
-      "quality": -2
-    },
-    "deposiciones": {
-      "label": "",
-      "quality": -2
-    },
-    "teacherComments": "Hoy todav\u00eda no han comentado nada"
-  },
-  {
-    "day": 18,
-    "month": "6",
-    "firstDish": {
-      "label": "Lentejas con chorizo",
-      "quality": -2
-    },
-    "secondDish": {
-      "label": "Huevos cocidos con pisto + ensalada del tiempo",
+      "label": "Bacalao con tomate + pimientos rojos asados + ensalada con aceitunas ",
       "quality": -2
     },
     "dessertDish": {
@@ -348,14 +348,14 @@
     "teacherComments": "Hoy todav\u00eda no han comentado nada"
   },
   {
-    "day": 19,
+    "day": 18,
     "month": "6",
     "firstDish": {
-      "label": "Ensalada de arroz",
+      "label": "Crema de calabaza | Coliflor con patata",
       "quality": -2
     },
     "secondDish": {
-      "label": "Bacalao con tomate + pimientos rojos asados",
+      "label": "Pollo asado a las finas hierbas + stick de boniato + lechuga y ma\u00edz ",
       "quality": -2
     },
     "dessertDish": {
@@ -377,14 +377,14 @@
     "teacherComments": "Hoy todav\u00eda no han comentado nada"
   },
   {
-    "day": 20,
+    "day": 19,
     "month": "6",
     "firstDish": {
-      "label": "Pure de calabaza",
+      "label": "Arroz con tomate | Arroz blanco salteado",
       "quality": -2
     },
     "secondDish": {
-      "label": "Chuleta de pavo al ajillo + patatas panadera",
+      "label": "Dorada al ajillo + ensalada de colores ",
       "quality": -2
     },
     "dessertDish": {
@@ -406,18 +406,18 @@
     "teacherComments": "Hoy todav\u00eda no han comentado nada"
   },
   {
-    "day": 21,
+    "day": 20,
     "month": "6",
     "firstDish": {
-      "label": "Sopa de ave con fideos",
+      "label": "Sopa de ave con pasta",
       "quality": -2
     },
     "secondDish": {
-      "label": "Escalope de pollo casero + patatas chips",
+      "label": "Pizza ",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan integral, actimel",
+      "label": "Pan, polo de fresa",
       "quality": -2
     },
     "nap": {
