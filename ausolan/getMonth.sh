@@ -1,6 +1,8 @@
 #!/bin/bash
 #9337
-
+#curl 'https://menuak.ausolan.com/menu/menuMes/cargarPlatos?idMenu=31082980&idServicioTurno=11083510&calcularSiguiente=&fecha=Mon+Oct+01+2025+00%3A00%3A00+GMT%2B0200+(hora+de+verano+de+Europa+central)' \
+#  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:143.0) Gecko/20100101 Firefox/143.0' \
+#  -H 'Cookie: JSESSIONID=R41y49N-w7TwSMZ5DlkRvJqo.undefined;'
 
 echo -n "Dime el mesAño (diciembre2024): " 
 read HOME_DIR
