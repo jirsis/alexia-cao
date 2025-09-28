@@ -1,1 +1,26 @@
-{"nombrePlato":null,"ingredientesPlato":["PAVO TROCEADO","ACEITE DE OLIVA","PIMIENTO VERDE ","ZANAHORIA ","PIMIENTO ROJO ","CEBOLLA ","AJO","SAL YODADA"],"ingredientesGuarnicion":[],"mostrarValoresNutricionales":true,"mostrarDetallePlato":true,"mostrarIngredientes":true,"mostrarAlergenos":true,"proteinas":21,"lipidos":9,"hidratos":9,"kcal":198,"grasaSatu":2,"azucares":3,"sal":0,"listaAlergeno":[]}
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "PAVO TROCEADO",
+        "ACEITE DE OLIVA",
+        "PIMIENTO VERDE ",
+        "ZANAHORIA ",
+        "PIMIENTO ROJO ",
+        "CEBOLLA ",
+        "AJO",
+        "SAL YODADA"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 21,
+    "lipidos": 9,
+    "hidratos": 9,
+    "kcal": 198,
+    "grasaSatu": 2,
+    "azucares": 3,
+    "sal": 0,
+    "listaAlergeno": []
+}

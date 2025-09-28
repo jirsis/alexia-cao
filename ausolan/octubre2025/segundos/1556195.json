@@ -1,1 +1,29 @@
-{"nombrePlato":null,"ingredientesPlato":["HUEVO COCIDO","LECHE SEMIDESNATADA","TOMATE FRITO","QUESO RALLADO GRATINAR ","HARINA MAIZ ","ACEITE OLIVA","SAL YODADA","PIMIENTA BLANCA"],"ingredientesGuarnicion":[],"mostrarValoresNutricionales":true,"mostrarDetallePlato":true,"mostrarIngredientes":true,"mostrarAlergenos":true,"proteinas":11,"lipidos":21,"hidratos":15,"kcal":283,"grasaSatu":5,"azucares":4,"sal":2,"listaAlergeno":["HUEVOS","LECHE"]}
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "HUEVO COCIDO",
+        "LECHE SEMIDESNATADA",
+        "TOMATE FRITO",
+        "QUESO RALLADO GRATINAR ",
+        "HARINA MAIZ ",
+        "ACEITE OLIVA",
+        "SAL YODADA",
+        "PIMIENTA BLANCA"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 11,
+    "lipidos": 21,
+    "hidratos": 15,
+    "kcal": 283,
+    "grasaSatu": 5,
+    "azucares": 4,
+    "sal": 2,
+    "listaAlergeno": [
+        "HUEVOS",
+        "LECHE"
+    ]
+}

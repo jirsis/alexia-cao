@@ -1,1 +1,27 @@
-{"nombrePlato":null,"ingredientesPlato":["POLLO CONTRAMUSLO","TOMATE FRITO ","CEBOLLA ","JAMON CURADO PICADO","PIMIENTO VERDE ","PIMIENTO ROJO ","ACEITE OLIVA","SAL YODADA","LAUREL"],"ingredientesGuarnicion":[],"mostrarValoresNutricionales":true,"mostrarDetallePlato":true,"mostrarIngredientes":true,"mostrarAlergenos":true,"proteinas":10,"lipidos":7,"hidratos":2,"kcal":113,"grasaSatu":1,"azucares":2,"sal":1,"listaAlergeno":[]}
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "POLLO CONTRAMUSLO",
+        "TOMATE FRITO ",
+        "CEBOLLA ",
+        "JAMON CURADO PICADO",
+        "PIMIENTO VERDE ",
+        "PIMIENTO ROJO ",
+        "ACEITE OLIVA",
+        "SAL YODADA",
+        "LAUREL"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 10,
+    "lipidos": 7,
+    "hidratos": 2,
+    "kcal": 113,
+    "grasaSatu": 1,
+    "azucares": 2,
+    "sal": 1,
+    "listaAlergeno": []
+}

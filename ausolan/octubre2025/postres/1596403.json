@@ -1,1 +1,28 @@
-{"nombrePlato":null,"ingredientesPlato":["HARINA ARROZ","AZUCAR","CALABAZA ","ACEITE GIRASOL","HUEVO PASTEURIZADO","NARANJA","LEVADURA","SAL YODADA"],"ingredientesGuarnicion":[],"mostrarValoresNutricionales":true,"mostrarDetallePlato":true,"mostrarIngredientes":true,"mostrarAlergenos":true,"proteinas":4,"lipidos":20,"hidratos":38,"kcal":334,"grasaSatu":3,"azucares":21,"sal":0,"listaAlergeno":["HUEVOS"]}
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "HARINA ARROZ",
+        "AZUCAR",
+        "CALABAZA ",
+        "ACEITE GIRASOL",
+        "HUEVO PASTEURIZADO",
+        "NARANJA",
+        "LEVADURA",
+        "SAL YODADA"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 4,
+    "lipidos": 20,
+    "hidratos": 38,
+    "kcal": 334,
+    "grasaSatu": 3,
+    "azucares": 21,
+    "sal": 0,
+    "listaAlergeno": [
+        "HUEVOS"
+    ]
+}

@@ -1,1 +1,33 @@
-{"nombrePlato":null,"ingredientesPlato":["LENTEJAS","TOMATE TRITURADO ","ZANAHORIA","CHORIZO","MOSTAZA ","PIMIENTO VERDE ","PIMIENTO ROJO ","CEBOLLA","ACEITE OLIVA","PIMENTON","SAL YODADA","AJO ","LAUREL"],"ingredientesGuarnicion":[],"mostrarValoresNutricionales":true,"mostrarDetallePlato":true,"mostrarIngredientes":true,"mostrarAlergenos":true,"proteinas":17,"lipidos":8,"hidratos":37,"kcal":283,"grasaSatu":2,"azucares":4,"sal":1,"listaAlergeno":["MOSTAZA"]}
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "LENTEJAS",
+        "TOMATE TRITURADO ",
+        "ZANAHORIA",
+        "CHORIZO",
+        "MOSTAZA ",
+        "PIMIENTO VERDE ",
+        "PIMIENTO ROJO ",
+        "CEBOLLA",
+        "ACEITE OLIVA",
+        "PIMENTON",
+        "SAL YODADA",
+        "AJO ",
+        "LAUREL"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 17,
+    "lipidos": 8,
+    "hidratos": 37,
+    "kcal": 283,
+    "grasaSatu": 2,
+    "azucares": 4,
+    "sal": 1,
+    "listaAlergeno": [
+        "MOSTAZA"
+    ]
+}

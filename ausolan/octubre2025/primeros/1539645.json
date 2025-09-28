@@ -1,1 +1,23 @@
-{"nombrePlato":null,"ingredientesPlato":["ARROZ REDONDO/VAPORIZADO","ACEITE OLIVA","SAL YODADA","AJO ","LAUREL"],"ingredientesGuarnicion":[],"mostrarValoresNutricionales":true,"mostrarDetallePlato":true,"mostrarIngredientes":true,"mostrarAlergenos":true,"proteinas":6,"lipidos":5,"hidratos":63,"kcal":308,"grasaSatu":1,"azucares":0,"sal":1,"listaAlergeno":[]}
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "ARROZ REDONDO/VAPORIZADO",
+        "ACEITE OLIVA",
+        "SAL YODADA",
+        "AJO ",
+        "LAUREL"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 6,
+    "lipidos": 5,
+    "hidratos": 63,
+    "kcal": 308,
+    "grasaSatu": 1,
+    "azucares": 0,
+    "sal": 1,
+    "listaAlergeno": []
+}

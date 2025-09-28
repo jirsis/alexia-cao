@@ -1,1 +1,29 @@
-{"nombrePlato":null,"ingredientesPlato":["ALUBIA BLANCA","TOMATE TRITURADO","ZANAHORIA ","PIMIENTO ROJO","CEBOLLA ","PIMIENTO VERDE ","ACEITE OLIVA","SAL YODADA","AJO ","PIMENTON","LAUREL"],"ingredientesGuarnicion":[],"mostrarValoresNutricionales":true,"mostrarDetallePlato":true,"mostrarIngredientes":true,"mostrarAlergenos":true,"proteinas":12,"lipidos":11,"hidratos":35,"kcal":280,"grasaSatu":1,"azucares":5,"sal":1,"listaAlergeno":[]}
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "ALUBIA BLANCA",
+        "TOMATE TRITURADO",
+        "ZANAHORIA ",
+        "PIMIENTO ROJO",
+        "CEBOLLA ",
+        "PIMIENTO VERDE ",
+        "ACEITE OLIVA",
+        "SAL YODADA",
+        "AJO ",
+        "PIMENTON",
+        "LAUREL"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 12,
+    "lipidos": 11,
+    "hidratos": 35,
+    "kcal": 280,
+    "grasaSatu": 1,
+    "azucares": 5,
+    "sal": 1,
+    "listaAlergeno": []
+}

@@ -1,1 +1,26 @@
-{"nombrePlato":null,"ingredientesPlato":["BROCOLI ","PATATA ","ACEITE OLIVA","CEBOLLA ","SAL YODADA","AJO "],"ingredientesGuarnicion":[],"mostrarValoresNutricionales":true,"mostrarDetallePlato":true,"mostrarIngredientes":true,"mostrarAlergenos":true,"proteinas":6,"lipidos":11,"hidratos":12,"kcal":165,"grasaSatu":1,"azucares":3,"sal":1,"listaAlergeno":["DIÓXIDO DE AZUFRE Y SULFITOS"]}
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "BROCOLI ",
+        "PATATA ",
+        "ACEITE OLIVA",
+        "CEBOLLA ",
+        "SAL YODADA",
+        "AJO "
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 6,
+    "lipidos": 11,
+    "hidratos": 12,
+    "kcal": 165,
+    "grasaSatu": 1,
+    "azucares": 3,
+    "sal": 1,
+    "listaAlergeno": [
+        "DI\u00d3XIDO DE AZUFRE Y SULFITOS"
+    ]
+}

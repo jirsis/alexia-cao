@@ -1,1 +1,25 @@
-{"nombrePlato":null,"ingredientesPlato":["PATATA ","CHAMPIÑON ","CEBOLLA ","ACEITE DE OLIVA","SAL YODADA"],"ingredientesGuarnicion":[],"mostrarValoresNutricionales":true,"mostrarDetallePlato":true,"mostrarIngredientes":true,"mostrarAlergenos":true,"proteinas":6,"lipidos":4,"hidratos":27,"kcal":159,"grasaSatu":1,"azucares":3,"sal":0,"listaAlergeno":["DIÓXIDO DE AZUFRE Y SULFITOS"]}
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "PATATA ",
+        "CHAMPI\u00d1ON ",
+        "CEBOLLA ",
+        "ACEITE DE OLIVA",
+        "SAL YODADA"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 6,
+    "lipidos": 4,
+    "hidratos": 27,
+    "kcal": 159,
+    "grasaSatu": 1,
+    "azucares": 3,
+    "sal": 0,
+    "listaAlergeno": [
+        "DI\u00d3XIDO DE AZUFRE Y SULFITOS"
+    ]
+}

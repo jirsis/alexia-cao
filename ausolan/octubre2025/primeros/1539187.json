@@ -1,1 +1,23 @@
-{"nombrePlato":null,"ingredientesPlato":["COLIFLOR","ACEITE OLIVA","SAL YODADA","AJO ","PIMENTON"],"ingredientesGuarnicion":[],"mostrarValoresNutricionales":true,"mostrarDetallePlato":true,"mostrarIngredientes":true,"mostrarAlergenos":true,"proteinas":3,"lipidos":10,"hidratos":5,"kcal":126,"grasaSatu":1,"azucares":4,"sal":1,"listaAlergeno":[]}
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "COLIFLOR",
+        "ACEITE OLIVA",
+        "SAL YODADA",
+        "AJO ",
+        "PIMENTON"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 3,
+    "lipidos": 10,
+    "hidratos": 5,
+    "kcal": 126,
+    "grasaSatu": 1,
+    "azucares": 4,
+    "sal": 1,
+    "listaAlergeno": []
+}

@@ -1,1 +1,20 @@
-{"nombrePlato":null,"ingredientesPlato":["CERDO JAMON/LACON ARGAL","*"],"ingredientesGuarnicion":[],"mostrarValoresNutricionales":true,"mostrarDetallePlato":true,"mostrarIngredientes":true,"mostrarAlergenos":true,"proteinas":15,"lipidos":17,"hidratos":10,"kcal":250,"grasaSatu":4,"azucares":2,"sal":2,"listaAlergeno":[]}
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "CERDO JAMON/LACON ARGAL",
+        "*"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 15,
+    "lipidos": 17,
+    "hidratos": 10,
+    "kcal": 250,
+    "grasaSatu": 4,
+    "azucares": 2,
+    "sal": 2,
+    "listaAlergeno": []
+}

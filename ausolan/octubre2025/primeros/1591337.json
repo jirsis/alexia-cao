@@ -1,1 +1,36 @@
-{"nombrePlato":null,"ingredientesPlato":["ARROZ ","SAL YODADA","CALAMAR/POTA","TINTA CALAMAR","TOMATE TRITURADO ","CEBOLLA ","ACEITE OLIVA","PIMIENTO VERDE ","PIMIENTO ROJO","AJO","PIMENTON","FUMET ","*"],"ingredientesGuarnicion":[],"mostrarValoresNutricionales":true,"mostrarDetallePlato":true,"mostrarIngredientes":true,"mostrarAlergenos":true,"proteinas":7,"lipidos":5,"hidratos":54,"kcal":276,"grasaSatu":1,"azucares":1,"sal":16,"listaAlergeno":["CRUSTACEOS","LECHE","MOLUSCOS","PESCADO"]}
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "ARROZ ",
+        "SAL YODADA",
+        "CALAMAR/POTA",
+        "TINTA CALAMAR",
+        "TOMATE TRITURADO ",
+        "CEBOLLA ",
+        "ACEITE OLIVA",
+        "PIMIENTO VERDE ",
+        "PIMIENTO ROJO",
+        "AJO",
+        "PIMENTON",
+        "FUMET ",
+        "*"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 7,
+    "lipidos": 5,
+    "hidratos": 54,
+    "kcal": 276,
+    "grasaSatu": 1,
+    "azucares": 1,
+    "sal": 16,
+    "listaAlergeno": [
+        "CRUSTACEOS",
+        "LECHE",
+        "MOLUSCOS",
+        "PESCADO"
+    ]
+}

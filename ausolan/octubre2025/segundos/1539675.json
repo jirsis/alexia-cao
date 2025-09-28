@@ -1,1 +1,30 @@
-{"nombrePlato":null,"ingredientesPlato":["COUS COUS ","PIMIENTO ROJO ","PIMIENTO VERDE ","CEBOLLA ","ACEITE OLIVA","SAL YODADA","AJO","CURCUMA"],"ingredientesGuarnicion":[],"mostrarValoresNutricionales":true,"mostrarDetallePlato":true,"mostrarIngredientes":true,"mostrarAlergenos":true,"proteinas":4,"lipidos":2,"hidratos":22,"kcal":120,"grasaSatu":0,"azucares":1,"sal":1,"listaAlergeno":["GLUTEN","MOSTAZA","SOJA"]}
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "COUS COUS ",
+        "PIMIENTO ROJO ",
+        "PIMIENTO VERDE ",
+        "CEBOLLA ",
+        "ACEITE OLIVA",
+        "SAL YODADA",
+        "AJO",
+        "CURCUMA"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 4,
+    "lipidos": 2,
+    "hidratos": 22,
+    "kcal": 120,
+    "grasaSatu": 0,
+    "azucares": 1,
+    "sal": 1,
+    "listaAlergeno": [
+        "GLUTEN",
+        "MOSTAZA",
+        "SOJA"
+    ]
+}

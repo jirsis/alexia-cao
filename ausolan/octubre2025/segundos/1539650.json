@@ -1,1 +1,24 @@
-{"nombrePlato":null,"ingredientesPlato":["POLLO CONTRAMUSLO","ACEITE OLIVA","CEBOLLA","PIMIENTO ROJO ","SAL YODADA","AJOS "],"ingredientesGuarnicion":[],"mostrarValoresNutricionales":true,"mostrarDetallePlato":true,"mostrarIngredientes":true,"mostrarAlergenos":true,"proteinas":13,"lipidos":8,"hidratos":4,"kcal":140,"grasaSatu":2,"azucares":0,"sal":1,"listaAlergeno":[]}
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "POLLO CONTRAMUSLO",
+        "ACEITE OLIVA",
+        "CEBOLLA",
+        "PIMIENTO ROJO ",
+        "SAL YODADA",
+        "AJOS "
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 13,
+    "lipidos": 8,
+    "hidratos": 4,
+    "kcal": 140,
+    "grasaSatu": 2,
+    "azucares": 0,
+    "sal": 1,
+    "listaAlergeno": []
+}

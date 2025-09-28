@@ -1,1 +1,28 @@
-{"nombrePlato":null,"ingredientesPlato":["BACALAO ","HUEVO ","PATATA PANADERA ","ACEITE OLIVA","CEBOLLA ","SAL YODADA"],"ingredientesGuarnicion":[],"mostrarValoresNutricionales":true,"mostrarDetallePlato":true,"mostrarIngredientes":true,"mostrarAlergenos":true,"proteinas":14,"lipidos":9,"hidratos":5,"kcal":155,"grasaSatu":2,"azucares":0,"sal":0,"listaAlergeno":["DIÓXIDO DE AZUFRE Y SULFITOS","HUEVOS","PESCADO"]}
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "BACALAO ",
+        "HUEVO ",
+        "PATATA PANADERA ",
+        "ACEITE OLIVA",
+        "CEBOLLA ",
+        "SAL YODADA"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 14,
+    "lipidos": 9,
+    "hidratos": 5,
+    "kcal": 155,
+    "grasaSatu": 2,
+    "azucares": 0,
+    "sal": 0,
+    "listaAlergeno": [
+        "DI\u00d3XIDO DE AZUFRE Y SULFITOS",
+        "HUEVOS",
+        "PESCADO"
+    ]
+}

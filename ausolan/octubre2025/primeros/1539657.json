@@ -1,1 +1,32 @@
-{"nombrePlato":null,"ingredientesPlato":["PATATA","TOMATE ","ZANAHORIA ","PIMIENTO ROJO ","PIMIENTO VERDE ","CEBOLLA ","ACEITE OLIVA","AJO","PIMENTON","SAL YODADA","PEREJIL ","LAUREL"],"ingredientesGuarnicion":[],"mostrarValoresNutricionales":true,"mostrarDetallePlato":true,"mostrarIngredientes":true,"mostrarAlergenos":true,"proteinas":3,"lipidos":11,"hidratos":22,"kcal":199,"grasaSatu":2,"azucares":3,"sal":0,"listaAlergeno":["DIÓXIDO DE AZUFRE Y SULFITOS"]}
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "PATATA",
+        "TOMATE ",
+        "ZANAHORIA ",
+        "PIMIENTO ROJO ",
+        "PIMIENTO VERDE ",
+        "CEBOLLA ",
+        "ACEITE OLIVA",
+        "AJO",
+        "PIMENTON",
+        "SAL YODADA",
+        "PEREJIL ",
+        "LAUREL"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 3,
+    "lipidos": 11,
+    "hidratos": 22,
+    "kcal": 199,
+    "grasaSatu": 2,
+    "azucares": 3,
+    "sal": 0,
+    "listaAlergeno": [
+        "DI\u00d3XIDO DE AZUFRE Y SULFITOS"
+    ]
+}

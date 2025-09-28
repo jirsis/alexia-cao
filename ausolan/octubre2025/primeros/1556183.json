@@ -1,1 +1,26 @@
-{"nombrePlato":null,"ingredientesPlato":["POLLO PECHUGA ","ZANAHORIA","PUERRO ","ACEITE OLIVA","SAL YODADA","HUEVO COCIDO"],"ingredientesGuarnicion":[],"mostrarValoresNutricionales":true,"mostrarDetallePlato":true,"mostrarIngredientes":true,"mostrarAlergenos":true,"proteinas":7,"lipidos":6,"hidratos":21,"kcal":158,"grasaSatu":1,"azucares":2,"sal":2,"listaAlergeno":["HUEVOS"]}
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "POLLO PECHUGA ",
+        "ZANAHORIA",
+        "PUERRO ",
+        "ACEITE OLIVA",
+        "SAL YODADA",
+        "HUEVO COCIDO"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 7,
+    "lipidos": 6,
+    "hidratos": 21,
+    "kcal": 158,
+    "grasaSatu": 1,
+    "azucares": 2,
+    "sal": 2,
+    "listaAlergeno": [
+        "HUEVOS"
+    ]
+}

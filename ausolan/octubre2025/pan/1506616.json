@@ -1,1 +1,21 @@
-{"nombrePlato":null,"ingredientesPlato":["PAN INTEGRAL "],"ingredientesGuarnicion":[],"mostrarValoresNutricionales":true,"mostrarDetallePlato":true,"mostrarIngredientes":true,"mostrarAlergenos":true,"proteinas":3,"lipidos":1,"hidratos":20,"kcal":96,"grasaSatu":0,"azucares":1,"sal":1,"listaAlergeno":["GLUTEN"]}
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "PAN INTEGRAL "
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 3,
+    "lipidos": 1,
+    "hidratos": 20,
+    "kcal": 96,
+    "grasaSatu": 0,
+    "azucares": 1,
+    "sal": 1,
+    "listaAlergeno": [
+        "GLUTEN"
+    ]
+}

@@ -1,1 +1,27 @@
-{"nombrePlato":null,"ingredientesPlato":["POLLO TROCEADO","TOMATE ","BEBIDA COCO","ACEITE OLIVA","PIMENTON","CEBOLLA","CURRY ","SAL YODADA","AJO"],"ingredientesGuarnicion":[],"mostrarValoresNutricionales":true,"mostrarDetallePlato":true,"mostrarIngredientes":true,"mostrarAlergenos":true,"proteinas":23,"lipidos":11,"hidratos":8,"kcal":224,"grasaSatu":4,"azucares":2,"sal":1,"listaAlergeno":[]}
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "POLLO TROCEADO",
+        "TOMATE ",
+        "BEBIDA COCO",
+        "ACEITE OLIVA",
+        "PIMENTON",
+        "CEBOLLA",
+        "CURRY ",
+        "SAL YODADA",
+        "AJO"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 23,
+    "lipidos": 11,
+    "hidratos": 8,
+    "kcal": 224,
+    "grasaSatu": 4,
+    "azucares": 2,
+    "sal": 1,
+    "listaAlergeno": []
+}

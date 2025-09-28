@@ -1,1 +1,37 @@
-{"nombrePlato":null,"ingredientesPlato":["LAMINA LASAÑA ","LECHE SEMIDESNATADA","TOMATE FRITO ","VERDEL/CABALLA EN CONSERVA","ZANAHORIA ","QUESO RALLADO GRATINAR ","HARINA TRIGO","CEBOLLA ","PIMIENTO ROJO DADO","ACEITE DE OLIVA","SAL YODADA","AJO"],"ingredientesGuarnicion":[],"mostrarValoresNutricionales":true,"mostrarDetallePlato":true,"mostrarIngredientes":true,"mostrarAlergenos":true,"proteinas":18,"lipidos":19,"hidratos":45,"kcal":418,"grasaSatu":5,"azucares":7,"sal":2,"listaAlergeno":["GLUTEN","HUEVOS","LECHE","MOSTAZA","PESCADO","SOJA"]}
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "LAMINA LASA\u00d1A ",
+        "LECHE SEMIDESNATADA",
+        "TOMATE FRITO ",
+        "VERDEL/CABALLA EN CONSERVA",
+        "ZANAHORIA ",
+        "QUESO RALLADO GRATINAR ",
+        "HARINA TRIGO",
+        "CEBOLLA ",
+        "PIMIENTO ROJO DADO",
+        "ACEITE DE OLIVA",
+        "SAL YODADA",
+        "AJO"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 18,
+    "lipidos": 19,
+    "hidratos": 45,
+    "kcal": 418,
+    "grasaSatu": 5,
+    "azucares": 7,
+    "sal": 2,
+    "listaAlergeno": [
+        "GLUTEN",
+        "HUEVOS",
+        "LECHE",
+        "MOSTAZA",
+        "PESCADO",
+        "SOJA"
+    ]
+}

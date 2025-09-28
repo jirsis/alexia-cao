@@ -1,1 +1,28 @@
-{"nombrePlato":null,"ingredientesPlato":["PATATA ","VERDEL/CABALLA EN CONSERVA","ZANAHORIA RALLADA ","ACEITUNAS NEGRAS","ACEITE OLIVA","VINAGRE ","SAL YODADA"],"ingredientesGuarnicion":[],"mostrarValoresNutricionales":true,"mostrarDetallePlato":true,"mostrarIngredientes":true,"mostrarAlergenos":true,"proteinas":9,"lipidos":8,"hidratos":21,"kcal":189,"grasaSatu":1,"azucares":1,"sal":1,"listaAlergeno":["DIÓXIDO DE AZUFRE Y SULFITOS","PESCADO"]}
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "PATATA ",
+        "VERDEL/CABALLA EN CONSERVA",
+        "ZANAHORIA RALLADA ",
+        "ACEITUNAS NEGRAS",
+        "ACEITE OLIVA",
+        "VINAGRE ",
+        "SAL YODADA"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 9,
+    "lipidos": 8,
+    "hidratos": 21,
+    "kcal": 189,
+    "grasaSatu": 1,
+    "azucares": 1,
+    "sal": 1,
+    "listaAlergeno": [
+        "DI\u00d3XIDO DE AZUFRE Y SULFITOS",
+        "PESCADO"
+    ]
+}

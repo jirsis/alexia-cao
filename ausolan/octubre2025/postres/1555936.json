@@ -1,1 +1,19 @@
-{"nombrePlato":null,"ingredientesPlato":["PIÑA EN SU JUGO"],"ingredientesGuarnicion":[],"mostrarValoresNutricionales":true,"mostrarDetallePlato":true,"mostrarIngredientes":true,"mostrarAlergenos":true,"proteinas":0,"lipidos":0,"hidratos":9,"kcal":36,"grasaSatu":0,"azucares":9,"sal":0,"listaAlergeno":[]}
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "PI\u00d1A EN SU JUGO"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 0,
+    "lipidos": 0,
+    "hidratos": 9,
+    "kcal": 36,
+    "grasaSatu": 0,
+    "azucares": 9,
+    "sal": 0,
+    "listaAlergeno": []
+}

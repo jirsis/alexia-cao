@@ -1,1 +1,25 @@
-{"nombrePlato":null,"ingredientesPlato":["LECHUGA ICEBERG","PEPINO ","ACEITE DE OLIVA","VINAGRE DE VINO","SAL YODADA"],"ingredientesGuarnicion":[],"mostrarValoresNutricionales":true,"mostrarDetallePlato":true,"mostrarIngredientes":true,"mostrarAlergenos":true,"proteinas":0,"lipidos":3,"hidratos":0,"kcal":31,"grasaSatu":0,"azucares":0,"sal":1,"listaAlergeno":["DIÓXIDO DE AZUFRE Y SULFITOS"]}
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "LECHUGA ICEBERG",
+        "PEPINO ",
+        "ACEITE DE OLIVA",
+        "VINAGRE DE VINO",
+        "SAL YODADA"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 0,
+    "lipidos": 3,
+    "hidratos": 0,
+    "kcal": 31,
+    "grasaSatu": 0,
+    "azucares": 0,
+    "sal": 1,
+    "listaAlergeno": [
+        "DI\u00d3XIDO DE AZUFRE Y SULFITOS"
+    ]
+}

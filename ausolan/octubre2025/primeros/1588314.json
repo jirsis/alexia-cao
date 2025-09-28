@@ -1,1 +1,26 @@
-{"nombrePlato":null,"ingredientesPlato":["CALABACIN","PATATA","PERA","PUERRO","ACEITE OLIVA","SAL YODADA"],"ingredientesGuarnicion":[],"mostrarValoresNutricionales":true,"mostrarDetallePlato":true,"mostrarIngredientes":true,"mostrarAlergenos":true,"proteinas":4,"lipidos":9,"hidratos":27,"kcal":195,"grasaSatu":1,"azucares":14,"sal":1,"listaAlergeno":["DIÓXIDO DE AZUFRE Y SULFITOS"]}
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "CALABACIN",
+        "PATATA",
+        "PERA",
+        "PUERRO",
+        "ACEITE OLIVA",
+        "SAL YODADA"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 4,
+    "lipidos": 9,
+    "hidratos": 27,
+    "kcal": 195,
+    "grasaSatu": 1,
+    "azucares": 14,
+    "sal": 1,
+    "listaAlergeno": [
+        "DI\u00d3XIDO DE AZUFRE Y SULFITOS"
+    ]
+}

@@ -1,1 +1,23 @@
-{"nombrePlato":null,"ingredientesPlato":["BONIATO ","CALABAZA ","CEBOLLA ","ACEITE OLIVA","SAL YODADA"],"ingredientesGuarnicion":[],"mostrarValoresNutricionales":true,"mostrarDetallePlato":true,"mostrarIngredientes":true,"mostrarAlergenos":true,"proteinas":3,"lipidos":10,"hidratos":36,"kcal":239,"grasaSatu":2,"azucares":13,"sal":2,"listaAlergeno":[]}
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "BONIATO ",
+        "CALABAZA ",
+        "CEBOLLA ",
+        "ACEITE OLIVA",
+        "SAL YODADA"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 3,
+    "lipidos": 10,
+    "hidratos": 36,
+    "kcal": 239,
+    "grasaSatu": 2,
+    "azucares": 13,
+    "sal": 2,
+    "listaAlergeno": []
+}

@@ -1,1 +1,29 @@
-{"nombrePlato":null,"ingredientesPlato":["LAZOS/PAJARITAS ","SAL YODADA","ACEITE OLIVA","AJO","PEREJIL ","ALBAHACA"],"ingredientesGuarnicion":[],"mostrarValoresNutricionales":true,"mostrarDetallePlato":true,"mostrarIngredientes":true,"mostrarAlergenos":true,"proteinas":7,"lipidos":2,"hidratos":46,"kcal":219,"grasaSatu":0,"azucares":0,"sal":1,"listaAlergeno":["GLUTEN","HUEVOS","MOSTAZA","SOJA"]}
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "LAZOS/PAJARITAS ",
+        "SAL YODADA",
+        "ACEITE OLIVA",
+        "AJO",
+        "PEREJIL ",
+        "ALBAHACA"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 7,
+    "lipidos": 2,
+    "hidratos": 46,
+    "kcal": 219,
+    "grasaSatu": 0,
+    "azucares": 0,
+    "sal": 1,
+    "listaAlergeno": [
+        "GLUTEN",
+        "HUEVOS",
+        "MOSTAZA",
+        "SOJA"
+    ]
+}
