@@ -1,11 +1,11 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "MERLUZA FILETE ",
-        "HUEVO PASTEURIZADO",
-        "ACEITE GIRASOL",
-        "AJO ",
-        "PEREJIL ",
+        "LECHUGA ICEBERG",
+        "ACEITE DE OLIVA",
+        "ZANAHORIA RALLADA ",
+        "REMOLACHA RALLADA ",
+        "VINAGRE DE VINO",
         "SAL YODADA"
     ],
     "ingredientesGuarnicion": [],
@@ -13,17 +13,14 @@
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 14,
-    "lipidos": 13,
+    "proteinas": 0,
+    "lipidos": 4,
     "hidratos": 1,
-    "kcal": 175,
-    "grasaSatu": 2,
-    "azucares": 0,
+    "kcal": 41,
+    "grasaSatu": 1,
+    "azucares": 1,
     "sal": 1,
     "listaAlergeno": [
-        "CRUSTACEOS",
-        "HUEVOS",
-        "MOLUSCOS",
-        "PESCADO"
+        "DI\u00d3XIDO DE AZUFRE Y SULFITOS"
     ]
 }

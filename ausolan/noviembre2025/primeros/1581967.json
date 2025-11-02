@@ -1,25 +1,25 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "ARROZ REDONDO/VAPORIZADO",
-        "TOMATE FRITO",
+        "PIMIENTO VERDE",
+        "TOMATE FRESCO",
+        "BERENJENA ",
+        "PIMIENTO ROJO FRESCO",
+        "CALABACIN FRESCO",
         "ACEITE OLIVA",
-        "SAL YODADA",
-        "CEBOLLA ",
-        "AJO",
-        "LAUREL"
+        "SAL YODADA"
     ],
     "ingredientesGuarnicion": [],
     "mostrarValoresNutricionales": true,
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 5,
-    "lipidos": 8,
-    "hidratos": 55,
-    "kcal": 296,
+    "proteinas": 1,
+    "lipidos": 5,
+    "hidratos": 9,
+    "kcal": 89,
     "grasaSatu": 1,
-    "azucares": 2,
+    "azucares": 4,
     "sal": 1,
     "listaAlergeno": []
 }

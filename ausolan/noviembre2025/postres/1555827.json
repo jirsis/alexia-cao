@@ -1,0 +1,21 @@
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "YOGUR"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 4,
+    "lipidos": 3,
+    "hidratos": 12,
+    "kcal": 86,
+    "grasaSatu": 2,
+    "azucares": 12,
+    "sal": 0,
+    "listaAlergeno": [
+        "LECHE"
+    ]
+}

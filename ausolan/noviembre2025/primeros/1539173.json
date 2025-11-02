@@ -1,0 +1,27 @@
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "COLIFLOR ",
+        "HARINA MAIZ ",
+        "QUESO RALLADO GRATINAR",
+        "CEBOLLA",
+        "LECHE SEMIDESNATADA",
+        "SAL YODADA",
+        "ACEITE OLIVA"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 5,
+    "lipidos": 4,
+    "hidratos": 15,
+    "kcal": 114,
+    "grasaSatu": 2,
+    "azucares": 4,
+    "sal": 1,
+    "listaAlergeno": [
+        "LECHE"
+    ]
+}

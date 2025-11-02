@@ -1,11 +1,10 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "MERLUZA FILETE ",
         "HUEVO PASTEURIZADO",
-        "ACEITE GIRASOL",
-        "AJO ",
-        "PEREJIL ",
+        "QUESO RALLADO ",
+        "JAMON COCIDO ",
+        "ACEITE OLIVA",
         "SAL YODADA"
     ],
     "ingredientesGuarnicion": [],
@@ -13,17 +12,15 @@
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 14,
-    "lipidos": 13,
-    "hidratos": 1,
-    "kcal": 175,
-    "grasaSatu": 2,
+    "proteinas": 13,
+    "lipidos": 20,
+    "hidratos": 4,
+    "kcal": 250,
+    "grasaSatu": 6,
     "azucares": 0,
     "sal": 1,
     "listaAlergeno": [
-        "CRUSTACEOS",
         "HUEVOS",
-        "MOLUSCOS",
-        "PESCADO"
+        "LECHE"
     ]
 }

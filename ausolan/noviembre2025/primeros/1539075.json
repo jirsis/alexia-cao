@@ -1,0 +1,31 @@
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "FIDEOS",
+        "ZANAHORIA ",
+        "CARCASAS DE AVE",
+        "ACEITE OLIVA",
+        "HUESOS ESPINAZO Y DE CA\u00d1A",
+        "CERDO CODILLO ",
+        "SAL YODADA",
+        "REPOLLO"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 4,
+    "lipidos": 6,
+    "hidratos": 20,
+    "kcal": 142,
+    "grasaSatu": 1,
+    "azucares": 2,
+    "sal": 2,
+    "listaAlergeno": [
+        "GLUTEN",
+        "HUEVOS",
+        "MOSTAZA",
+        "SOJA"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "MACARRONES INTEGRALES",
+        "SAL YODADA",
+        "AJO",
+        "ACEITE OLIVA",
+        "HIERBAS AROM\u00c1TICAS",
+        "LAUREL"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 9,
+    "lipidos": 2,
+    "hidratos": 45,
+    "kcal": 221,
+    "grasaSatu": 0,
+    "azucares": 1,
+    "sal": 1,
+    "listaAlergeno": [
+        "GLUTEN",
+        "HUEVOS",
+        "MOSTAZA",
+        "SOJA"
+    ]
+}

@@ -1,25 +1,22 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "ARROZ REDONDO/VAPORIZADO",
-        "TOMATE FRITO",
+        "SALTEADO VERDURA ASADAS ",
         "ACEITE OLIVA",
         "SAL YODADA",
-        "CEBOLLA ",
-        "AJO",
-        "LAUREL"
+        "AJO"
     ],
     "ingredientesGuarnicion": [],
     "mostrarValoresNutricionales": true,
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 5,
-    "lipidos": 8,
-    "hidratos": 55,
-    "kcal": 296,
+    "proteinas": 2,
+    "lipidos": 5,
+    "hidratos": 8,
+    "kcal": 92,
     "grasaSatu": 1,
-    "azucares": 2,
+    "azucares": 7,
     "sal": 1,
     "listaAlergeno": []
 }

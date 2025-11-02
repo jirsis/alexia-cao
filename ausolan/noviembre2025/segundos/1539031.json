@@ -1,11 +1,9 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "ARROZ REDONDO/VAPORIZADO",
-        "TOMATE FRITO",
+        "PATATA ENTERA 4\u00ba GAMA",
         "ACEITE OLIVA",
         "SAL YODADA",
-        "CEBOLLA ",
         "AJO",
         "LAUREL"
     ],
@@ -14,12 +12,14 @@
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 5,
-    "lipidos": 8,
-    "hidratos": 55,
-    "kcal": 296,
+    "proteinas": 1,
+    "lipidos": 5,
+    "hidratos": 7,
+    "kcal": 77,
     "grasaSatu": 1,
-    "azucares": 2,
+    "azucares": 0,
     "sal": 1,
-    "listaAlergeno": []
+    "listaAlergeno": [
+        "DI\u00d3XIDO DE AZUFRE Y SULFITOS"
+    ]
 }

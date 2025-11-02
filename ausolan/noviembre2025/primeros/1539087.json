@@ -1,11 +1,16 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "ARROZ REDONDO/VAPORIZADO",
-        "TOMATE FRITO",
+        "SOJA SALSA ",
+        "ARROZ ",
+        "MAIZ ",
+        "ZANAHORIA ",
+        "PIMIENTO ROJO ",
+        "CALABACIN",
+        "PIMIENTO VERDE ",
         "ACEITE OLIVA",
-        "SAL YODADA",
         "CEBOLLA ",
+        "SAL YODADA",
         "AJO",
         "LAUREL"
     ],
@@ -14,12 +19,14 @@
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 5,
-    "lipidos": 8,
-    "hidratos": 55,
-    "kcal": 296,
+    "proteinas": 7,
+    "lipidos": 5,
+    "hidratos": 69,
+    "kcal": 336,
     "grasaSatu": 1,
-    "azucares": 2,
-    "sal": 1,
-    "listaAlergeno": []
+    "azucares": 9,
+    "sal": 10,
+    "listaAlergeno": [
+        "SOJA"
+    ]
 }

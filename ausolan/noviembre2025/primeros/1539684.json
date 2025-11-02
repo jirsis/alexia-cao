@@ -1,0 +1,27 @@
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "PATATA",
+        "LENTEJAS",
+        "ZANAHORIA ",
+        "CEBOLLA",
+        "SAL YODADA",
+        "ACEITE OLIVA",
+        "PIMENTON"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 10,
+    "lipidos": 1,
+    "hidratos": 28,
+    "kcal": 151,
+    "grasaSatu": 0,
+    "azucares": 3,
+    "sal": 2,
+    "listaAlergeno": [
+        "DI\u00d3XIDO DE AZUFRE Y SULFITOS"
+    ]
+}

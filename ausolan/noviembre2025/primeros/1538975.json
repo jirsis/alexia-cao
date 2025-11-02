@@ -1,0 +1,29 @@
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "ALUBIA PINTA",
+        "ZANAHORIA ",
+        "TOMATE TRITURADO",
+        "PIMIENTO ROJO ",
+        "CEBOLLA ",
+        "PIMIENTO VERDE ",
+        "ACEITE OLIVA",
+        "AJO",
+        "SAL YODADA",
+        "LAUREL",
+        "PIMENTON"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 12,
+    "lipidos": 6,
+    "hidratos": 34,
+    "kcal": 231,
+    "grasaSatu": 1,
+    "azucares": 5,
+    "sal": 0,
+    "listaAlergeno": []
+}

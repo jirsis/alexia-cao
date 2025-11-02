@@ -1,25 +1,24 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "ARROZ REDONDO/VAPORIZADO",
-        "TOMATE FRITO",
-        "ACEITE OLIVA",
-        "SAL YODADA",
+        "CERDO LOMO FRESCO",
+        "TOMATE FRESCO",
         "CEBOLLA ",
-        "AJO",
-        "LAUREL"
+        "PUERRO",
+        "ACEITE OLIVA",
+        "SAL YODADA"
     ],
     "ingredientesGuarnicion": [],
     "mostrarValoresNutricionales": true,
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 5,
+    "proteinas": 21,
     "lipidos": 8,
-    "hidratos": 55,
-    "kcal": 296,
-    "grasaSatu": 1,
+    "hidratos": 3,
+    "kcal": 169,
+    "grasaSatu": 2,
     "azucares": 2,
-    "sal": 1,
+    "sal": 0,
     "listaAlergeno": []
 }

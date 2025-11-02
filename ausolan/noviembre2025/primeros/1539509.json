@@ -1,0 +1,24 @@
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "PATATA ",
+        "PUERRO ",
+        "ACEITE DE OLIVA",
+        "SAL YODADA"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 4,
+    "lipidos": 3,
+    "hidratos": 26,
+    "kcal": 146,
+    "grasaSatu": 0,
+    "azucares": 3,
+    "sal": 0,
+    "listaAlergeno": [
+        "DI\u00d3XIDO DE AZUFRE Y SULFITOS"
+    ]
+}

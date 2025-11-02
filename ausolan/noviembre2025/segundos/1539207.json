@@ -1,0 +1,24 @@
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "LECHUGA ICEBERG",
+        "ACEITE OLIVA",
+        "VINAGRE DE VINO",
+        "SAL YODADA"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 1,
+    "lipidos": 3,
+    "hidratos": 1,
+    "kcal": 33,
+    "grasaSatu": 0,
+    "azucares": 1,
+    "sal": 0,
+    "listaAlergeno": [
+        "DI\u00d3XIDO DE AZUFRE Y SULFITOS"
+    ]
+}

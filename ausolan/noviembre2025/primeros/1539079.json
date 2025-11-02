@@ -1,0 +1,30 @@
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "ALUBIA NEGRA",
+        "ARROZ ",
+        "TOMATE NATURAL TRITURADO ",
+        "ZANAHORIA ",
+        "CEBOLLA ",
+        "PIMIENTO VERDE ",
+        "PIMIENTO ROJO ",
+        "ACEITE OLIVA",
+        "SAL YODADA",
+        "PIMENTON",
+        "LAUREL",
+        "AJO"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 12,
+    "lipidos": 3,
+    "hidratos": 43,
+    "kcal": 235,
+    "grasaSatu": 0,
+    "azucares": 3,
+    "sal": 1,
+    "listaAlergeno": []
+}

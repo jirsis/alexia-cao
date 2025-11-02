@@ -2,10 +2,8 @@
     "nombrePlato": null,
     "ingredientesPlato": [
         "MERLUZA FILETE ",
-        "HUEVO PASTEURIZADO",
         "ACEITE GIRASOL",
-        "AJO ",
-        "PEREJIL ",
+        "HARINA TRIGO",
         "SAL YODADA"
     ],
     "ingredientesGuarnicion": [],
@@ -13,17 +11,19 @@
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 14,
-    "lipidos": 13,
-    "hidratos": 1,
-    "kcal": 175,
+    "proteinas": 15,
+    "lipidos": 17,
+    "hidratos": 6,
+    "kcal": 235,
     "grasaSatu": 2,
     "azucares": 0,
     "sal": 1,
     "listaAlergeno": [
         "CRUSTACEOS",
-        "HUEVOS",
+        "GLUTEN",
         "MOLUSCOS",
-        "PESCADO"
+        "MOSTAZA",
+        "PESCADO",
+        "SOJA"
     ]
 }

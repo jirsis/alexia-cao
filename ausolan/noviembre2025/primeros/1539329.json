@@ -1,0 +1,32 @@
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "ARROZ ",
+        "TOMATE NATURAL TRITURADO ",
+        "POLLO ",
+        "ZANAHORIA",
+        "PIMIENTO ROJO",
+        "PIMIENTO VERDE",
+        "ACEITE DE OLIVA",
+        "CEBOLLA ",
+        "SAL YODADA",
+        "AJO ",
+        "PEREJIL",
+        "CARCASAS DE AVE",
+        "CURCUMA",
+        "PIMENTON"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 11,
+    "lipidos": 6,
+    "hidratos": 52,
+    "kcal": 294,
+    "grasaSatu": 1,
+    "azucares": 4,
+    "sal": 1,
+    "listaAlergeno": []
+}

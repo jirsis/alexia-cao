@@ -1,29 +1,26 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "MERLUZA FILETE ",
-        "HUEVO PASTEURIZADO",
-        "ACEITE GIRASOL",
-        "AJO ",
-        "PEREJIL ",
-        "SAL YODADA"
+        "POLLO CONTRAMUSLO",
+        "VINAGRE DE VINO",
+        "AJO",
+        "ACEITE OLIVA",
+        "SAL YODADA",
+        "PEREJIL"
     ],
     "ingredientesGuarnicion": [],
     "mostrarValoresNutricionales": true,
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 14,
-    "lipidos": 13,
+    "proteinas": 8,
+    "lipidos": 3,
     "hidratos": 1,
-    "kcal": 175,
-    "grasaSatu": 2,
+    "kcal": 64,
+    "grasaSatu": 1,
     "azucares": 0,
     "sal": 1,
     "listaAlergeno": [
-        "CRUSTACEOS",
-        "HUEVOS",
-        "MOLUSCOS",
-        "PESCADO"
+        "DI\u00d3XIDO DE AZUFRE Y SULFITOS"
     ]
 }

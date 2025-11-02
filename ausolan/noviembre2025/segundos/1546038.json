@@ -1,11 +1,9 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "ARROZ REDONDO/VAPORIZADO",
-        "TOMATE FRITO",
+        "BONIATO ",
         "ACEITE OLIVA",
         "SAL YODADA",
-        "CEBOLLA ",
         "AJO",
         "LAUREL"
     ],
@@ -14,10 +12,10 @@
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 5,
-    "lipidos": 8,
-    "hidratos": 55,
-    "kcal": 296,
+    "proteinas": 0,
+    "lipidos": 5,
+    "hidratos": 8,
+    "kcal": 77,
     "grasaSatu": 1,
     "azucares": 2,
     "sal": 1,

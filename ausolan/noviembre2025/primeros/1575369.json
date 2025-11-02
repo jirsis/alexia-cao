@@ -1,13 +1,12 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "ARROZ REDONDO/VAPORIZADO",
-        "TOMATE FRITO",
+        "AGUA",
+        "ZANAHORIA ",
+        "PUERRO",
+        "CARCASAS DE AVE",
         "ACEITE OLIVA",
-        "SAL YODADA",
-        "CEBOLLA ",
-        "AJO",
-        "LAUREL"
+        "SAL YODADA"
     ],
     "ingredientesGuarnicion": [],
     "mostrarValoresNutricionales": true,
@@ -15,11 +14,11 @@
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
     "proteinas": 5,
-    "lipidos": 8,
-    "hidratos": 55,
-    "kcal": 296,
+    "lipidos": 4,
+    "hidratos": 30,
+    "kcal": 165,
     "grasaSatu": 1,
-    "azucares": 2,
+    "azucares": 4,
     "sal": 1,
     "listaAlergeno": []
 }

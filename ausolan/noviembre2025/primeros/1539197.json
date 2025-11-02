@@ -1,11 +1,12 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "MERLUZA FILETE ",
-        "HUEVO PASTEURIZADO",
-        "ACEITE GIRASOL",
+        "COLIFLOR",
+        "PATATA ",
+        "ACEITE OLIVA",
+        "CEBOLLA ",
+        "PUERRO ",
         "AJO ",
-        "PEREJIL ",
         "SAL YODADA"
     ],
     "ingredientesGuarnicion": [],
@@ -13,17 +14,14 @@
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 14,
-    "lipidos": 13,
-    "hidratos": 1,
-    "kcal": 175,
-    "grasaSatu": 2,
-    "azucares": 0,
+    "proteinas": 5,
+    "lipidos": 9,
+    "hidratos": 14,
+    "kcal": 147,
+    "grasaSatu": 1,
+    "azucares": 5,
     "sal": 1,
     "listaAlergeno": [
-        "CRUSTACEOS",
-        "HUEVOS",
-        "MOLUSCOS",
-        "PESCADO"
+        "DI\u00d3XIDO DE AZUFRE Y SULFITOS"
     ]
 }

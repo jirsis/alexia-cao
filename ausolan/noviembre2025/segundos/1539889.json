@@ -1,25 +1,26 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "ARROZ REDONDO/VAPORIZADO",
-        "TOMATE FRITO",
+        "VACUNO FILETE",
+        "PIMIENTO VERDE",
+        "PIMIENTO ROJO ",
+        "ZANAHORIA ",
+        "CEBOLLA ",
         "ACEITE OLIVA",
         "SAL YODADA",
-        "CEBOLLA ",
-        "AJO",
-        "LAUREL"
+        "AJO"
     ],
     "ingredientesGuarnicion": [],
     "mostrarValoresNutricionales": true,
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 5,
-    "lipidos": 8,
-    "hidratos": 55,
-    "kcal": 296,
-    "grasaSatu": 1,
-    "azucares": 2,
+    "proteinas": 25,
+    "lipidos": 11,
+    "hidratos": 1,
+    "kcal": 203,
+    "grasaSatu": 3,
+    "azucares": 1,
     "sal": 1,
     "listaAlergeno": []
 }

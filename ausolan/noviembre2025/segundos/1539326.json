@@ -1,25 +1,22 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "ARROZ REDONDO/VAPORIZADO",
-        "TOMATE FRITO",
+        "PAVO CHULETA",
         "ACEITE OLIVA",
         "SAL YODADA",
-        "CEBOLLA ",
-        "AJO",
-        "LAUREL"
+        "AJOS"
     ],
     "ingredientesGuarnicion": [],
     "mostrarValoresNutricionales": true,
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 5,
-    "lipidos": 8,
-    "hidratos": 55,
-    "kcal": 296,
+    "proteinas": 18,
+    "lipidos": 4,
+    "hidratos": 0,
+    "kcal": 105,
     "grasaSatu": 1,
-    "azucares": 2,
+    "azucares": 0,
     "sal": 1,
     "listaAlergeno": []
 }

@@ -1,0 +1,33 @@
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "AGUA",
+        "PAN MIGAS",
+        "HUEVO PASTEURIZADO",
+        "ZANAHORIA ",
+        "JAMON CURADO TAQUITOS ",
+        "CEBOLLA ",
+        "ACEITE OLIVA",
+        "AJO ",
+        "SAL YODADA",
+        "PIMENTON",
+        "VACUNO HUESOS",
+        "HUESOS JAMON"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 11,
+    "lipidos": 11,
+    "hidratos": 40,
+    "kcal": 291,
+    "grasaSatu": 2,
+    "azucares": 3,
+    "sal": 1,
+    "listaAlergeno": [
+        "GLUTEN",
+        "HUEVOS"
+    ]
+}

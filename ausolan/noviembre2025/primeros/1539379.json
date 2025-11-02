@@ -1,13 +1,12 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "ARROZ REDONDO/VAPORIZADO",
-        "TOMATE FRITO",
-        "ACEITE OLIVA",
-        "SAL YODADA",
+        "PATATA",
+        "ZANAHORIA ",
+        "CALABACIN ",
         "CEBOLLA ",
-        "AJO",
-        "LAUREL"
+        "ACEITE OLIVA",
+        "SAL YODADA"
     ],
     "ingredientesGuarnicion": [],
     "mostrarValoresNutricionales": true,
@@ -15,11 +14,13 @@
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
     "proteinas": 5,
-    "lipidos": 8,
-    "hidratos": 55,
-    "kcal": 296,
+    "lipidos": 9,
+    "hidratos": 29,
+    "kcal": 204,
     "grasaSatu": 1,
-    "azucares": 2,
-    "sal": 1,
-    "listaAlergeno": []
+    "azucares": 8,
+    "sal": 3,
+    "listaAlergeno": [
+        "DI\u00d3XIDO DE AZUFRE Y SULFITOS"
+    ]
 }

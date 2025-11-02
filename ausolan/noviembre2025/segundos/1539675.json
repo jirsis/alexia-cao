@@ -1,25 +1,30 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "ARROZ REDONDO/VAPORIZADO",
-        "TOMATE FRITO",
+        "COUS COUS ",
+        "PIMIENTO ROJO ",
+        "PIMIENTO VERDE ",
+        "CEBOLLA ",
         "ACEITE OLIVA",
         "SAL YODADA",
-        "CEBOLLA ",
         "AJO",
-        "LAUREL"
+        "CURCUMA"
     ],
     "ingredientesGuarnicion": [],
     "mostrarValoresNutricionales": true,
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 5,
-    "lipidos": 8,
-    "hidratos": 55,
-    "kcal": 296,
-    "grasaSatu": 1,
-    "azucares": 2,
+    "proteinas": 4,
+    "lipidos": 2,
+    "hidratos": 22,
+    "kcal": 120,
+    "grasaSatu": 0,
+    "azucares": 1,
     "sal": 1,
-    "listaAlergeno": []
+    "listaAlergeno": [
+        "GLUTEN",
+        "MOSTAZA",
+        "SOJA"
+    ]
 }
