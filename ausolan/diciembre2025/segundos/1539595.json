@@ -1,24 +1,28 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "LUBINA ",
+        "MERLUZA FILETE ",
         "ACEITE OLIVA",
+        "HARINA MAIZ ",
         "SAL YODADA",
-        "PEREJIL "
+        "PEREJIL ",
+        "AJO "
     ],
     "ingredientesGuarnicion": [],
     "mostrarValoresNutricionales": true,
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 12,
-    "lipidos": 6,
-    "hidratos": 0,
-    "kcal": 103,
+    "proteinas": 14,
+    "lipidos": 9,
+    "hidratos": 3,
+    "kcal": 148,
     "grasaSatu": 1,
     "azucares": 0,
     "sal": 1,
     "listaAlergeno": [
+        "CRUSTACEOS",
+        "MOLUSCOS",
         "PESCADO"
     ]
 }

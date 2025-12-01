@@ -1,24 +1,23 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "LUBINA ",
+        "TOMATE NATURAL TRITURADO ",
         "ACEITE OLIVA",
-        "SAL YODADA",
-        "PEREJIL "
+        "CEBOLLA ",
+        "ZANAHORIA ",
+        "SAL YODADA"
     ],
     "ingredientesGuarnicion": [],
     "mostrarValoresNutricionales": true,
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 12,
-    "lipidos": 6,
-    "hidratos": 0,
-    "kcal": 103,
+    "proteinas": 0,
+    "lipidos": 5,
+    "hidratos": 2,
+    "kcal": 56,
     "grasaSatu": 1,
-    "azucares": 0,
-    "sal": 1,
-    "listaAlergeno": [
-        "PESCADO"
-    ]
+    "azucares": 2,
+    "sal": 0,
+    "listaAlergeno": []
 }

@@ -1,17 +1,18 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "ALUBIA BLANCA",
-        "TOMATE TRITURADO",
-        "ZANAHORIA ",
+        "LENTEJAS",
+        "TOMATE TRITURADO ",
+        "ZANAHORIA",
         "CHORIZO",
-        "PIMIENTO ROJO",
-        "CEBOLLA ",
+        "MOSTAZA ",
         "PIMIENTO VERDE ",
+        "PIMIENTO ROJO ",
+        "CEBOLLA",
         "ACEITE OLIVA",
+        "PIMENTON",
         "SAL YODADA",
         "AJO ",
-        "PIMENTON",
         "LAUREL"
     ],
     "ingredientesGuarnicion": [],
@@ -19,12 +20,14 @@
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 15,
-    "lipidos": 16,
-    "hidratos": 35,
-    "kcal": 339,
-    "grasaSatu": 4,
-    "azucares": 5,
+    "proteinas": 17,
+    "lipidos": 10,
+    "hidratos": 37,
+    "kcal": 295,
+    "grasaSatu": 3,
+    "azucares": 4,
     "sal": 1,
-    "listaAlergeno": []
+    "listaAlergeno": [
+        "MOSTAZA"
+    ]
 }

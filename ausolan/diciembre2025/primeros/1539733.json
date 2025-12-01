@@ -1,24 +1,25 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "LUBINA ",
+        "PATATA",
+        "CALABAZA ",
+        "CEBOLLA ",
         "ACEITE OLIVA",
-        "SAL YODADA",
-        "PEREJIL "
+        "SAL YODADA"
     ],
     "ingredientesGuarnicion": [],
     "mostrarValoresNutricionales": true,
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 12,
-    "lipidos": 6,
-    "hidratos": 0,
-    "kcal": 103,
+    "proteinas": 5,
+    "lipidos": 9,
+    "hidratos": 29,
+    "kcal": 212,
     "grasaSatu": 1,
-    "azucares": 0,
-    "sal": 1,
+    "azucares": 5,
+    "sal": 2,
     "listaAlergeno": [
-        "PESCADO"
+        "DI\u00d3XIDO DE AZUFRE Y SULFITOS"
     ]
 }

@@ -1,24 +1,24 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "LUBINA ",
+        "AGUA",
+        "ZANAHORIA ",
+        "PUERRO",
+        "CARCASAS DE AVE",
         "ACEITE OLIVA",
-        "SAL YODADA",
-        "PEREJIL "
+        "SAL YODADA"
     ],
     "ingredientesGuarnicion": [],
     "mostrarValoresNutricionales": true,
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 12,
-    "lipidos": 6,
-    "hidratos": 0,
-    "kcal": 103,
+    "proteinas": 5,
+    "lipidos": 4,
+    "hidratos": 30,
+    "kcal": 165,
     "grasaSatu": 1,
-    "azucares": 0,
+    "azucares": 4,
     "sal": 1,
-    "listaAlergeno": [
-        "PESCADO"
-    ]
+    "listaAlergeno": []
 }

@@ -1,24 +1,27 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "LUBINA ",
+        "AGUA ",
+        "LECHE SEMIDESNATADA",
+        "PATATA ",
+        "PATATA COPOS PURE ",
         "ACEITE OLIVA",
-        "SAL YODADA",
-        "PEREJIL "
+        "SAL YODADA"
     ],
     "ingredientesGuarnicion": [],
     "mostrarValoresNutricionales": true,
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 12,
-    "lipidos": 6,
-    "hidratos": 0,
-    "kcal": 103,
+    "proteinas": 4,
+    "lipidos": 4,
+    "hidratos": 24,
+    "kcal": 145,
     "grasaSatu": 1,
-    "azucares": 0,
+    "azucares": 2,
     "sal": 1,
     "listaAlergeno": [
-        "PESCADO"
+        "DI\u00d3XIDO DE AZUFRE Y SULFITOS",
+        "LECHE"
     ]
 }

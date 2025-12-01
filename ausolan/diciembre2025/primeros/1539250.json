@@ -1,24 +1,22 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "LUBINA ",
+        "ALCACHOFA ",
         "ACEITE OLIVA",
         "SAL YODADA",
-        "PEREJIL "
+        "AJO "
     ],
     "ingredientesGuarnicion": [],
     "mostrarValoresNutricionales": true,
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 12,
-    "lipidos": 6,
-    "hidratos": 0,
-    "kcal": 103,
+    "proteinas": 7,
+    "lipidos": 10,
+    "hidratos": 6,
+    "kcal": 141,
     "grasaSatu": 1,
-    "azucares": 0,
-    "sal": 1,
-    "listaAlergeno": [
-        "PESCADO"
-    ]
+    "azucares": 3,
+    "sal": 2,
+    "listaAlergeno": []
 }

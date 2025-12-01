@@ -1,21 +1,18 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "LUBINA ",
-        "ACEITE OLIVA",
-        "SAL YODADA",
-        "PEREJIL "
+        "LOMOS DE CABALLA EN ACEITE"
     ],
     "ingredientesGuarnicion": [],
     "mostrarValoresNutricionales": true,
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 12,
-    "lipidos": 6,
+    "proteinas": 23,
+    "lipidos": 9,
     "hidratos": 0,
-    "kcal": 103,
-    "grasaSatu": 1,
+    "kcal": 172,
+    "grasaSatu": 2,
     "azucares": 0,
     "sal": 1,
     "listaAlergeno": [

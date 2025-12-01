@@ -1,24 +1,22 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "LUBINA ",
-        "ACEITE OLIVA",
-        "SAL YODADA",
-        "PEREJIL "
+        "HAMBURGUESA VACUNO Y CERDO ",
+        "ACEITE OLIVA"
     ],
     "ingredientesGuarnicion": [],
     "mostrarValoresNutricionales": true,
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 12,
+    "proteinas": 15,
     "lipidos": 6,
-    "hidratos": 0,
-    "kcal": 103,
+    "hidratos": 3,
+    "kcal": 117,
     "grasaSatu": 1,
     "azucares": 0,
     "sal": 1,
     "listaAlergeno": [
-        "PESCADO"
+        "DI\u00d3XIDO DE AZUFRE Y SULFITOS"
     ]
 }

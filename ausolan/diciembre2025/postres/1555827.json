@@ -1,24 +1,21 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "LUBINA ",
-        "ACEITE OLIVA",
-        "SAL YODADA",
-        "PEREJIL "
+        "YOGUR"
     ],
     "ingredientesGuarnicion": [],
     "mostrarValoresNutricionales": true,
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 12,
-    "lipidos": 6,
-    "hidratos": 0,
-    "kcal": 103,
-    "grasaSatu": 1,
-    "azucares": 0,
-    "sal": 1,
+    "proteinas": 4,
+    "lipidos": 3,
+    "hidratos": 12,
+    "kcal": 86,
+    "grasaSatu": 2,
+    "azucares": 12,
+    "sal": 0,
     "listaAlergeno": [
-        "PESCADO"
+        "LECHE"
     ]
 }

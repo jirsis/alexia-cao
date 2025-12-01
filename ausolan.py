@@ -17,7 +17,7 @@ class Ausolan():
         else:
             month = datetime.today().strftime('%b')
 
-        self.date=f'{month}+1+2025+00%3A00%3A00+GMT%2B0200+(hora+de+verano+de+Europa+central)'
+        self.date=f'{month}+5+2025+00%3A00%3A00+GMT%2B0200+(hora+de+verano+de+Europa+central)'
         self.month=None
         self.year=None        
         self.session = requests.Session()        

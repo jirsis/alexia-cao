@@ -1,24 +1,25 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "LUBINA ",
+        "ARROZ REDONDO/VAPORIZADO",
+        "TOMATE FRITO",
         "ACEITE OLIVA",
         "SAL YODADA",
-        "PEREJIL "
+        "CEBOLLA ",
+        "AJO",
+        "LAUREL"
     ],
     "ingredientesGuarnicion": [],
     "mostrarValoresNutricionales": true,
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 12,
-    "lipidos": 6,
-    "hidratos": 0,
-    "kcal": 103,
+    "proteinas": 5,
+    "lipidos": 8,
+    "hidratos": 55,
+    "kcal": 296,
     "grasaSatu": 1,
-    "azucares": 0,
+    "azucares": 2,
     "sal": 1,
-    "listaAlergeno": [
-        "PESCADO"
-    ]
+    "listaAlergeno": []
 }

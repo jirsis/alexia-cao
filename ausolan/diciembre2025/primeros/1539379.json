@@ -1,30 +1,25 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "GARBANZO",
-        "POLLO ",
-        "PATATA ",
-        "MORCILLO DE TERNERA",
-        "PANCETA ",
+        "PATATA",
         "ZANAHORIA ",
-        "CHORIZO ",
-        "REPOLLO",
+        "CALABACIN ",
+        "CEBOLLA ",
         "ACEITE OLIVA",
-        "SAL YODADA",
-        "AJO"
+        "SAL YODADA"
     ],
     "ingredientesGuarnicion": [],
     "mostrarValoresNutricionales": true,
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 19,
-    "lipidos": 20,
-    "hidratos": 33,
-    "kcal": 383,
-    "grasaSatu": 6,
-    "azucares": 3,
-    "sal": 1,
+    "proteinas": 5,
+    "lipidos": 9,
+    "hidratos": 29,
+    "kcal": 204,
+    "grasaSatu": 1,
+    "azucares": 8,
+    "sal": 3,
     "listaAlergeno": [
         "DI\u00d3XIDO DE AZUFRE Y SULFITOS"
     ]

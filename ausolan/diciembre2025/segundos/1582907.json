@@ -1,0 +1,29 @@
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "POLLO CONTRAMUSLO",
+        "PATATA COPOS ",
+        "ACEITE GIRASOL",
+        "HUEVO PASTEURIZADO",
+        "SAL YODADA",
+        "PEREJIL",
+        "AJO"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 11,
+    "lipidos": 12,
+    "hidratos": 11,
+    "kcal": 201,
+    "grasaSatu": 2,
+    "azucares": 0,
+    "sal": 0,
+    "listaAlergeno": [
+        "DI\u00d3XIDO DE AZUFRE Y SULFITOS",
+        "HUEVOS",
+        "LECHE"
+    ]
+}

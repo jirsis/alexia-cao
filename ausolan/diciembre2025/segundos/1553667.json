@@ -1,20 +1,19 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "LUBINA ",
+        "DORADA ",
         "ACEITE OLIVA",
-        "SAL YODADA",
-        "PEREJIL "
+        "SAL YODADA"
     ],
     "ingredientesGuarnicion": [],
     "mostrarValoresNutricionales": true,
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 12,
+    "proteinas": 9,
     "lipidos": 6,
     "hidratos": 0,
-    "kcal": 103,
+    "kcal": 96,
     "grasaSatu": 1,
     "azucares": 0,
     "sal": 1,

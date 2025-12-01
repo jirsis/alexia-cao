@@ -1,31 +1,29 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "GARBANZO",
-        "POLLO ",
-        "PATATA ",
-        "MORCILLO DE TERNERA",
-        "PANCETA ",
+        "ARROZ REDONDO/VAPORIZADO",
+        "HUEVO PASTEURIZADO",
+        "JAMON COCIDO ",
         "ZANAHORIA ",
-        "CHORIZO ",
-        "REPOLLO",
+        "MAIZ ",
         "ACEITE OLIVA",
         "SAL YODADA",
-        "AJO"
+        "AJO",
+        "LAUREL"
     ],
     "ingredientesGuarnicion": [],
     "mostrarValoresNutricionales": true,
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 19,
-    "lipidos": 20,
-    "hidratos": 33,
-    "kcal": 383,
-    "grasaSatu": 6,
-    "azucares": 3,
+    "proteinas": 10,
+    "lipidos": 8,
+    "hidratos": 49,
+    "kcal": 296,
+    "grasaSatu": 2,
+    "azucares": 1,
     "sal": 1,
     "listaAlergeno": [
-        "DI\u00d3XIDO DE AZUFRE Y SULFITOS"
+        "HUEVOS"
     ]
 }

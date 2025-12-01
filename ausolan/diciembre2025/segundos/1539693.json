@@ -1,23 +1,23 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "PATATA ENTERA ",
-        "ACEITE OLIVA",
-        "SAL YODADA",
-        "AJO",
-        "LAUREL"
+        "LECHUGA ICEBERG",
+        "ZANAHORIA",
+        "ACEITE DE OLIVA",
+        "VINAGRE DE VINO",
+        "SAL YODADA"
     ],
     "ingredientesGuarnicion": [],
     "mostrarValoresNutricionales": true,
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 1,
-    "lipidos": 5,
-    "hidratos": 7,
-    "kcal": 77,
-    "grasaSatu": 1,
-    "azucares": 0,
+    "proteinas": 0,
+    "lipidos": 3,
+    "hidratos": 1,
+    "kcal": 32,
+    "grasaSatu": 0,
+    "azucares": 1,
     "sal": 1,
     "listaAlergeno": [
         "DI\u00d3XIDO DE AZUFRE Y SULFITOS"

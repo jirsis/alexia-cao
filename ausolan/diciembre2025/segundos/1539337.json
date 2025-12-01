@@ -1,25 +1,28 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "PATATA ENTERA ",
+        "POLLO JAMONCITO",
+        "LIMON",
+        "HARINA MAIZ ",
         "ACEITE OLIVA",
         "SAL YODADA",
         "AJO",
-        "LAUREL"
+        "LAUREL",
+        "TOMILLO",
+        "ALBAHACA",
+        "OREGANO"
     ],
     "ingredientesGuarnicion": [],
     "mostrarValoresNutricionales": true,
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 1,
-    "lipidos": 5,
+    "proteinas": 14,
+    "lipidos": 7,
     "hidratos": 7,
-    "kcal": 77,
-    "grasaSatu": 1,
-    "azucares": 0,
+    "kcal": 141,
+    "grasaSatu": 2,
+    "azucares": 1,
     "sal": 1,
-    "listaAlergeno": [
-        "DI\u00d3XIDO DE AZUFRE Y SULFITOS"
-    ]
+    "listaAlergeno": []
 }

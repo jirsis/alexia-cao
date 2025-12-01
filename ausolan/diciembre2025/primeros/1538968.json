@@ -1,29 +1,24 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "GARBANZO",
-        "POLLO ",
+        "JUDIA VERDE ",
         "PATATA ",
-        "MORCILLO DE TERNERA",
-        "PANCETA ",
-        "ZANAHORIA ",
-        "CHORIZO ",
-        "REPOLLO",
         "ACEITE OLIVA",
         "SAL YODADA",
-        "AJO"
+        "AJO ",
+        "PIMENTON"
     ],
     "ingredientesGuarnicion": [],
     "mostrarValoresNutricionales": true,
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 19,
-    "lipidos": 20,
-    "hidratos": 33,
-    "kcal": 383,
-    "grasaSatu": 6,
-    "azucares": 3,
+    "proteinas": 4,
+    "lipidos": 5,
+    "hidratos": 13,
+    "kcal": 112,
+    "grasaSatu": 1,
+    "azucares": 5,
     "sal": 1,
     "listaAlergeno": [
         "DI\u00d3XIDO DE AZUFRE Y SULFITOS"

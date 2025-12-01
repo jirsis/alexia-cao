@@ -1,24 +1,30 @@
 {
     "nombrePlato": null,
     "ingredientesPlato": [
-        "LUBINA ",
+        "COUS COUS ",
+        "PIMIENTO ROJO ",
+        "PIMIENTO VERDE ",
+        "CEBOLLA ",
         "ACEITE OLIVA",
         "SAL YODADA",
-        "PEREJIL "
+        "AJO",
+        "CURCUMA"
     ],
     "ingredientesGuarnicion": [],
     "mostrarValoresNutricionales": true,
     "mostrarDetallePlato": true,
     "mostrarIngredientes": true,
     "mostrarAlergenos": true,
-    "proteinas": 12,
-    "lipidos": 6,
-    "hidratos": 0,
-    "kcal": 103,
-    "grasaSatu": 1,
-    "azucares": 0,
+    "proteinas": 4,
+    "lipidos": 2,
+    "hidratos": 22,
+    "kcal": 120,
+    "grasaSatu": 0,
+    "azucares": 1,
     "sal": 1,
     "listaAlergeno": [
-        "PESCADO"
+        "GLUTEN",
+        "MOSTAZA",
+        "SOJA"
     ]
 }
