@@ -1,0 +1,29 @@
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "COLIFLOR ",
+        "LECHE SEMIDESNATADA",
+        "NATA LIQUIDA",
+        "HARINA MAIZ",
+        "TOCINETA/BACON ",
+        "CEBOLLA ",
+        "SAL YODADA",
+        "ACEITE OLIVA",
+        "PIMIENTA NEGRA"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 6,
+    "lipidos": 11,
+    "hidratos": 12,
+    "kcal": 171,
+    "grasaSatu": 2,
+    "azucares": 5,
+    "sal": 1,
+    "listaAlergeno": [
+        "LECHE"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "BONIATO ",
+        "ACEITE OLIVA",
+        "SAL YODADA",
+        "AJO",
+        "LAUREL"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 0,
+    "lipidos": 5,
+    "hidratos": 8,
+    "kcal": 77,
+    "grasaSatu": 1,
+    "azucares": 2,
+    "sal": 1,
+    "listaAlergeno": []
+}

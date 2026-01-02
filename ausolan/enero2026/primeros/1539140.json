@@ -1,0 +1,26 @@
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "PATATA",
+        "CALABACIN",
+        "CEBOLLA ",
+        "PUERRO ",
+        "ACEITE OLIVA",
+        "SAL YODADA"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 5,
+    "lipidos": 9,
+    "hidratos": 30,
+    "kcal": 211,
+    "grasaSatu": 1,
+    "azucares": 6,
+    "sal": 2,
+    "listaAlergeno": [
+        "DI\u00d3XIDO DE AZUFRE Y SULFITOS"
+    ]
+}

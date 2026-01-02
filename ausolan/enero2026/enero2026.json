@@ -1,0 +1,1588 @@
+{
+    "listadoPlatos": [
+        {
+            "primerosPlatos": [
+                {
+                    "idPlatoVersion": 1539210,
+                    "nombrePlato": "ARROZ CON TOMATE",
+                    "orden": "11A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                },
+                {
+                    "idPlatoVersion": 1539645,
+                    "nombrePlato": "ARROZ BLANCO AL AJILLO",
+                    "orden": "12A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "segundosPlatos": [
+                {
+                    "idPlatoVersion": 1565127,
+                    "nombrePlato": "HAMBURGUESA A LA PLANCHA",
+                    "orden": "21A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 1539719
+                },
+                {
+                    "idPlatoVersion": 1539719,
+                    "nombrePlato": "ENSALADA DE COLORES",
+                    "orden": "21G",
+                    "platoAlternativo": false,
+                    "guarnicion": true,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "postres": [
+                {
+                    "idPlatoVersion": 1555827,
+                    "nombrePlato": "YOGUR",
+                    "orden": "31B",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                },
+                {
+                    "idPlatoVersion": 1555808,
+                    "nombrePlato": "FRUTA",
+                    "orden": "32B",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "pan": {
+                "idPlatoVersion": 1507163,
+                "nombrePlato": "PAN",
+                "orden": "01A",
+                "platoAlternativo": false,
+                "guarnicion": false,
+                "ultimoPlato": false,
+                "nombrePlatoOriginal": null,
+                "idPlatoVersionGuarnicion": 0
+            },
+            "proteinas": 27,
+            "lipidos": 20,
+            "hidratos": 93,
+            "kcal": 641,
+            "grasaSatu": 5,
+            "azucares": 16,
+            "sal": 3,
+            "fecha": "2026-01-08",
+            "dayOfWeek": 4,
+            "weekOfMonth": 2,
+            "dia": 8,
+            "separadorPlatos": true,
+            "diaActual": false
+        },
+        {
+            "primerosPlatos": [
+                {
+                    "idPlatoVersion": 1538968,
+                    "nombrePlato": "JUDIAS VERDES A LA GALLEGA",
+                    "orden": "11A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                },
+                {
+                    "idPlatoVersion": 1539097,
+                    "nombrePlato": "PUR\u00c9 DE JUD\u00cdAS VERDES",
+                    "orden": "12A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "segundosPlatos": [
+                {
+                    "idPlatoVersion": 1571858,
+                    "nombrePlato": "LASA\u00d1A DE CABALLA",
+                    "orden": "21A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 1539127
+                },
+                {
+                    "idPlatoVersion": 1539127,
+                    "nombrePlato": "TOMATE ALI\u00d1ADO",
+                    "orden": "21G",
+                    "platoAlternativo": false,
+                    "guarnicion": true,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "postres": [
+                {
+                    "idPlatoVersion": 1555808,
+                    "nombrePlato": "FRUTA",
+                    "orden": "31B",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "pan": {
+                "idPlatoVersion": 1506616,
+                "nombrePlato": "PAN INTEGRAL",
+                "orden": "01A",
+                "platoAlternativo": false,
+                "guarnicion": false,
+                "ultimoPlato": false,
+                "nombrePlatoOriginal": null,
+                "idPlatoVersionGuarnicion": 0
+            },
+            "proteinas": 26,
+            "lipidos": 29,
+            "hidratos": 94,
+            "kcal": 720,
+            "grasaSatu": 6,
+            "azucares": 28,
+            "sal": 4,
+            "fecha": "2026-01-09",
+            "dayOfWeek": 5,
+            "weekOfMonth": 2,
+            "dia": 9,
+            "separadorPlatos": true,
+            "diaActual": false
+        },
+        {
+            "primerosPlatos": [
+                {
+                    "idPlatoVersion": 1539190,
+                    "nombrePlato": "GUISANTES SALTEADOS CON JAM\u00d3N",
+                    "orden": "11A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                },
+                {
+                    "idPlatoVersion": 1539583,
+                    "nombrePlato": "PUR\u00c9 DE GUISANTES",
+                    "orden": "12A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "segundosPlatos": [
+                {
+                    "idPlatoVersion": 1539104,
+                    "nombrePlato": "TORTILLA ESPA\u00d1OLA",
+                    "orden": "21A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 1539373
+                },
+                {
+                    "idPlatoVersion": 1539373,
+                    "nombrePlato": "ENSALADA DEL TIEMPO",
+                    "orden": "21G",
+                    "platoAlternativo": false,
+                    "guarnicion": true,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "postres": [
+                {
+                    "idPlatoVersion": 1555808,
+                    "nombrePlato": "FRUTA",
+                    "orden": "31B",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "pan": {
+                "idPlatoVersion": 1507163,
+                "nombrePlato": "PAN",
+                "orden": "01A",
+                "platoAlternativo": false,
+                "guarnicion": false,
+                "ultimoPlato": false,
+                "nombrePlatoOriginal": null,
+                "idPlatoVersionGuarnicion": 0
+            },
+            "proteinas": 24,
+            "lipidos": 29,
+            "hidratos": 72,
+            "kcal": 635,
+            "grasaSatu": 5,
+            "azucares": 22,
+            "sal": 3,
+            "fecha": "2026-01-12",
+            "dayOfWeek": 1,
+            "weekOfMonth": 3,
+            "dia": 12,
+            "separadorPlatos": true,
+            "diaActual": false
+        },
+        {
+            "primerosPlatos": [
+                {
+                    "idPlatoVersion": 1596739,
+                    "nombrePlato": "MACARRONES INTEGRALES A LA BOLO\u00d1ESA",
+                    "orden": "11A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                },
+                {
+                    "idPlatoVersion": 1539330,
+                    "nombrePlato": "MACARRONES INTEGRALES AL AJILLO",
+                    "orden": "12A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "segundosPlatos": [
+                {
+                    "idPlatoVersion": 1539063,
+                    "nombrePlato": "DORADA AJILLO",
+                    "orden": "21A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 1539719
+                },
+                {
+                    "idPlatoVersion": 1539719,
+                    "nombrePlato": "ENSALADA DE COLORES",
+                    "orden": "21G",
+                    "platoAlternativo": false,
+                    "guarnicion": true,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "postres": [
+                {
+                    "idPlatoVersion": 1555827,
+                    "nombrePlato": "YOGUR",
+                    "orden": "31B",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                },
+                {
+                    "idPlatoVersion": 1555808,
+                    "nombrePlato": "FRUTA",
+                    "orden": "32B",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "pan": {
+                "idPlatoVersion": 1507163,
+                "nombrePlato": "PAN",
+                "orden": "01A",
+                "platoAlternativo": false,
+                "guarnicion": false,
+                "ultimoPlato": false,
+                "nombrePlatoOriginal": null,
+                "idPlatoVersionGuarnicion": 0
+            },
+            "proteinas": 30,
+            "lipidos": 20,
+            "hidratos": 87,
+            "kcal": 628,
+            "grasaSatu": 5,
+            "azucares": 19,
+            "sal": 4,
+            "fecha": "2026-01-13",
+            "dayOfWeek": 2,
+            "weekOfMonth": 3,
+            "dia": 13,
+            "separadorPlatos": true,
+            "diaActual": false
+        },
+        {
+            "primerosPlatos": [
+                {
+                    "idPlatoVersion": 1539038,
+                    "nombrePlato": "CREMA DE ESPINACAS",
+                    "orden": "11A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                },
+                {
+                    "idPlatoVersion": 1539607,
+                    "nombrePlato": "ESPINACAS SALTEADAS",
+                    "orden": "12A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "segundosPlatos": [
+                {
+                    "idPlatoVersion": 1581923,
+                    "nombrePlato": "LOMO ASADO EN SU JUGO",
+                    "orden": "21A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 1581655
+                },
+                {
+                    "idPlatoVersion": 1581655,
+                    "nombrePlato": "PUR\u00c9 DE PATATA",
+                    "orden": "21G",
+                    "platoAlternativo": false,
+                    "guarnicion": true,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                },
+                {
+                    "idPlatoVersion": 1539697,
+                    "nombrePlato": "LECHUGA Y ACEITUNAS",
+                    "orden": "22G",
+                    "platoAlternativo": false,
+                    "guarnicion": true,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "postres": [
+                {
+                    "idPlatoVersion": 1555808,
+                    "nombrePlato": "FRUTA",
+                    "orden": "31B",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "pan": {
+                "idPlatoVersion": 1506616,
+                "nombrePlato": "PAN INTEGRAL",
+                "orden": "01A",
+                "platoAlternativo": false,
+                "guarnicion": false,
+                "ultimoPlato": false,
+                "nombrePlatoOriginal": null,
+                "idPlatoVersionGuarnicion": 0
+            },
+            "proteinas": 34,
+            "lipidos": 22,
+            "hidratos": 72,
+            "kcal": 613,
+            "grasaSatu": 4,
+            "azucares": 22,
+            "sal": 3,
+            "fecha": "2026-01-14",
+            "dayOfWeek": 3,
+            "weekOfMonth": 3,
+            "dia": 14,
+            "separadorPlatos": true,
+            "diaActual": false
+        },
+        {
+            "primerosPlatos": [
+                {
+                    "idPlatoVersion": 1539329,
+                    "nombrePlato": "PAELLA DE POLLO",
+                    "orden": "11A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                },
+                {
+                    "idPlatoVersion": 1539645,
+                    "nombrePlato": "ARROZ BLANCO SALTEADO",
+                    "orden": "12A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "segundosPlatos": [
+                {
+                    "idPlatoVersion": 1539148,
+                    "nombrePlato": "SALM\u00d3N A LA NARANJA",
+                    "orden": "21A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 1539611
+                },
+                {
+                    "idPlatoVersion": 1539611,
+                    "nombrePlato": "ENSALADA VERDE",
+                    "orden": "21G",
+                    "platoAlternativo": false,
+                    "guarnicion": true,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "postres": [
+                {
+                    "idPlatoVersion": 1555827,
+                    "nombrePlato": "YOGUR",
+                    "orden": "31B",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                },
+                {
+                    "idPlatoVersion": 1555808,
+                    "nombrePlato": "FRUTA",
+                    "orden": "32B",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "pan": {
+                "idPlatoVersion": 1507163,
+                "nombrePlato": "PAN",
+                "orden": "01A",
+                "platoAlternativo": false,
+                "guarnicion": false,
+                "ultimoPlato": false,
+                "nombrePlatoOriginal": null,
+                "idPlatoVersionGuarnicion": 0
+            },
+            "proteinas": 40,
+            "lipidos": 27,
+            "hidratos": 87,
+            "kcal": 728,
+            "grasaSatu": 6,
+            "azucares": 18,
+            "sal": 3,
+            "fecha": "2026-01-15",
+            "dayOfWeek": 4,
+            "weekOfMonth": 3,
+            "dia": 15,
+            "separadorPlatos": true,
+            "diaActual": false
+        },
+        {
+            "primerosPlatos": [
+                {
+                    "idPlatoVersion": 1539075,
+                    "nombrePlato": "SOPA DE COCIDO CON FIDEOS",
+                    "orden": "11A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "segundosPlatos": [
+                {
+                    "idPlatoVersion": 1539313,
+                    "nombrePlato": "COCIDO MADRILE\u00d1O",
+                    "orden": "21A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "postres": [
+                {
+                    "idPlatoVersion": 1555808,
+                    "nombrePlato": "FRUTA",
+                    "orden": "31B",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "pan": {
+                "idPlatoVersion": 1506616,
+                "nombrePlato": "PAN INTEGRAL",
+                "orden": "01A",
+                "platoAlternativo": false,
+                "guarnicion": false,
+                "ultimoPlato": false,
+                "nombrePlatoOriginal": null,
+                "idPlatoVersionGuarnicion": 0
+            },
+            "proteinas": 28,
+            "lipidos": 26,
+            "hidratos": 87,
+            "kcal": 676,
+            "grasaSatu": 6,
+            "azucares": 20,
+            "sal": 4,
+            "fecha": "2026-01-16",
+            "dayOfWeek": 5,
+            "weekOfMonth": 3,
+            "dia": 16,
+            "separadorPlatos": false,
+            "diaActual": false
+        },
+        {
+            "primerosPlatos": [
+                {
+                    "idPlatoVersion": 1593327,
+                    "nombrePlato": "FARFALLE A LA NORMA",
+                    "orden": "11A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                },
+                {
+                    "idPlatoVersion": 1564430,
+                    "nombrePlato": "FARFALLE AL AJILLO",
+                    "orden": "12A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "segundosPlatos": [
+                {
+                    "idPlatoVersion": 1539889,
+                    "nombrePlato": "TERNERA EN SALSA DE VERDURAS",
+                    "orden": "21A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 1539719
+                },
+                {
+                    "idPlatoVersion": 1539719,
+                    "nombrePlato": "ENSALADA DE COLORES",
+                    "orden": "21G",
+                    "platoAlternativo": false,
+                    "guarnicion": true,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "postres": [
+                {
+                    "idPlatoVersion": 1555808,
+                    "nombrePlato": "FRUTA",
+                    "orden": "31B",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "pan": {
+                "idPlatoVersion": 1507163,
+                "nombrePlato": "PAN",
+                "orden": "01A",
+                "platoAlternativo": false,
+                "guarnicion": false,
+                "ultimoPlato": false,
+                "nombrePlatoOriginal": null,
+                "idPlatoVersionGuarnicion": 0
+            },
+            "proteinas": 38,
+            "lipidos": 20,
+            "hidratos": 91,
+            "kcal": 676,
+            "grasaSatu": 4,
+            "azucares": 21,
+            "sal": 4,
+            "fecha": "2026-01-19",
+            "dayOfWeek": 1,
+            "weekOfMonth": 4,
+            "dia": 19,
+            "separadorPlatos": true,
+            "diaActual": false
+        },
+        {
+            "primerosPlatos": [
+                {
+                    "idPlatoVersion": 1539681,
+                    "nombrePlato": "PATATAS GUISADAS CON CALAMAR Y GAMBA",
+                    "orden": "11A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                },
+                {
+                    "idPlatoVersion": 1539657,
+                    "nombrePlato": "PATATAS CON VERDURAS",
+                    "orden": "12A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "segundosPlatos": [
+                {
+                    "idPlatoVersion": 1538971,
+                    "nombrePlato": "HUEVOS REVUELTOS CON QUESO",
+                    "orden": "21A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 1539373
+                },
+                {
+                    "idPlatoVersion": 1539373,
+                    "nombrePlato": "ENSALADA DEL TIEMPO",
+                    "orden": "21G",
+                    "platoAlternativo": false,
+                    "guarnicion": true,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "postres": [
+                {
+                    "idPlatoVersion": 1555827,
+                    "nombrePlato": "YOGUR",
+                    "orden": "31B",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                },
+                {
+                    "idPlatoVersion": 1555808,
+                    "nombrePlato": "FRUTA",
+                    "orden": "32B",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "pan": {
+                "idPlatoVersion": 1507163,
+                "nombrePlato": "PAN",
+                "orden": "01A",
+                "platoAlternativo": false,
+                "guarnicion": false,
+                "ultimoPlato": false,
+                "nombrePlatoOriginal": null,
+                "idPlatoVersionGuarnicion": 0
+            },
+            "proteinas": 30,
+            "lipidos": 40,
+            "hidratos": 67,
+            "kcal": 737,
+            "grasaSatu": 10,
+            "azucares": 15,
+            "sal": 4,
+            "fecha": "2026-01-20",
+            "dayOfWeek": 2,
+            "weekOfMonth": 4,
+            "dia": 20,
+            "separadorPlatos": true,
+            "diaActual": false
+        },
+        {
+            "primerosPlatos": [
+                {
+                    "idPlatoVersion": 1539017,
+                    "nombrePlato": "ALUBIAS BLANCAS ESTOFADAS",
+                    "orden": "11A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                },
+                {
+                    "idPlatoVersion": 1539463,
+                    "nombrePlato": "CREMA DE ALUBIAS",
+                    "orden": "12A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "segundosPlatos": [
+                {
+                    "idPlatoVersion": 1539203,
+                    "nombrePlato": "BACALAO CON TOMATE",
+                    "orden": "21A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 1539617
+                },
+                {
+                    "idPlatoVersion": 1539617,
+                    "nombrePlato": "ARROZ INTEGRAL SALTEADO",
+                    "orden": "21G",
+                    "platoAlternativo": false,
+                    "guarnicion": true,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                },
+                {
+                    "idPlatoVersion": 1539420,
+                    "nombrePlato": "LECHUGA Y MA\u00cdZ",
+                    "orden": "22G",
+                    "platoAlternativo": false,
+                    "guarnicion": true,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "postres": [
+                {
+                    "idPlatoVersion": 1555808,
+                    "nombrePlato": "FRUTA",
+                    "orden": "31B",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "pan": {
+                "idPlatoVersion": 1506616,
+                "nombrePlato": "PAN INTEGRAL",
+                "orden": "01A",
+                "platoAlternativo": false,
+                "guarnicion": false,
+                "ultimoPlato": false,
+                "nombrePlatoOriginal": null,
+                "idPlatoVersionGuarnicion": 0
+            },
+            "proteinas": 37,
+            "lipidos": 26,
+            "hidratos": 126,
+            "kcal": 858,
+            "grasaSatu": 4,
+            "azucares": 23,
+            "sal": 3,
+            "fecha": "2026-01-21",
+            "dayOfWeek": 3,
+            "weekOfMonth": 4,
+            "dia": 21,
+            "separadorPlatos": true,
+            "diaActual": false
+        },
+        {
+            "primerosPlatos": [
+                {
+                    "idPlatoVersion": 1539415,
+                    "nombrePlato": "BR\u00d3COLI SALTEADO",
+                    "orden": "11A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                },
+                {
+                    "idPlatoVersion": 1539243,
+                    "nombrePlato": "PUR\u00c9 DE BR\u00d3COLI",
+                    "orden": "12A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "segundosPlatos": [
+                {
+                    "idPlatoVersion": 1539337,
+                    "nombrePlato": "POLLO ASADO",
+                    "orden": "21A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 1539128
+                },
+                {
+                    "idPlatoVersion": 1539128,
+                    "nombrePlato": "PATATAS FRITAS",
+                    "orden": "21G",
+                    "platoAlternativo": false,
+                    "guarnicion": true,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                },
+                {
+                    "idPlatoVersion": 1539693,
+                    "nombrePlato": "ENSALADA CON ZANAHORIA",
+                    "orden": "22G",
+                    "platoAlternativo": false,
+                    "guarnicion": true,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "postres": [
+                {
+                    "idPlatoVersion": 1555827,
+                    "nombrePlato": "YOGUR",
+                    "orden": "31B",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                },
+                {
+                    "idPlatoVersion": 1555808,
+                    "nombrePlato": "FRUTA",
+                    "orden": "32B",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "pan": {
+                "idPlatoVersion": 1507163,
+                "nombrePlato": "PAN",
+                "orden": "01A",
+                "platoAlternativo": false,
+                "guarnicion": false,
+                "ultimoPlato": false,
+                "nombrePlatoOriginal": null,
+                "idPlatoVersionGuarnicion": 0
+            },
+            "proteinas": 27,
+            "lipidos": 25,
+            "hidratos": 50,
+            "kcal": 531,
+            "grasaSatu": 6,
+            "azucares": 17,
+            "sal": 3,
+            "fecha": "2026-01-22",
+            "dayOfWeek": 4,
+            "weekOfMonth": 4,
+            "dia": 22,
+            "separadorPlatos": true,
+            "diaActual": false
+        },
+        {
+            "primerosPlatos": [
+                {
+                    "idPlatoVersion": 1539390,
+                    "nombrePlato": "LENTEJAS CON CHORIZO",
+                    "orden": "11A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                },
+                {
+                    "idPlatoVersion": 1539684,
+                    "nombrePlato": "CREMA DE LENTEJAS",
+                    "orden": "12A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "segundosPlatos": [
+                {
+                    "idPlatoVersion": 1593298,
+                    "nombrePlato": "LUBINA  A LA BILBA\u00cdNA",
+                    "orden": "21A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 1539093
+                },
+                {
+                    "idPlatoVersion": 1539093,
+                    "nombrePlato": "ENSALADA DE TOMATE",
+                    "orden": "21G",
+                    "platoAlternativo": false,
+                    "guarnicion": true,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "postres": [
+                {
+                    "idPlatoVersion": 1555808,
+                    "nombrePlato": "FRUTA",
+                    "orden": "31B",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "pan": {
+                "idPlatoVersion": 1506616,
+                "nombrePlato": "PAN INTEGRAL",
+                "orden": "01A",
+                "platoAlternativo": false,
+                "guarnicion": false,
+                "ultimoPlato": false,
+                "nombrePlatoOriginal": null,
+                "idPlatoVersionGuarnicion": 0
+            },
+            "proteinas": 38,
+            "lipidos": 18,
+            "hidratos": 75,
+            "kcal": 592,
+            "grasaSatu": 3,
+            "azucares": 20,
+            "sal": 3,
+            "fecha": "2026-01-23",
+            "dayOfWeek": 5,
+            "weekOfMonth": 4,
+            "dia": 23,
+            "separadorPlatos": true,
+            "diaActual": false
+        },
+        {
+            "primerosPlatos": [
+                {
+                    "idPlatoVersion": 1539140,
+                    "nombrePlato": "CREMA DE CALABAC\u00cdN",
+                    "orden": "11A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                },
+                {
+                    "idPlatoVersion": 1539483,
+                    "nombrePlato": "MENESTRA DE VERDURA SALTEADA",
+                    "orden": "12A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "segundosPlatos": [
+                {
+                    "idPlatoVersion": 1596965,
+                    "nombrePlato": "HUEVOS ROTOS CON PATATAS Y JAM\u00d3N",
+                    "orden": "21A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 1539373
+                },
+                {
+                    "idPlatoVersion": 1539373,
+                    "nombrePlato": "ENSALADA DEL TIEMPO",
+                    "orden": "21G",
+                    "platoAlternativo": false,
+                    "guarnicion": true,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "postres": [
+                {
+                    "idPlatoVersion": 1555808,
+                    "nombrePlato": "FRUTA",
+                    "orden": "31B",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "pan": {
+                "idPlatoVersion": 1507163,
+                "nombrePlato": "PAN",
+                "orden": "01A",
+                "platoAlternativo": false,
+                "guarnicion": false,
+                "ultimoPlato": false,
+                "nombrePlatoOriginal": null,
+                "idPlatoVersionGuarnicion": 0
+            },
+            "proteinas": 23,
+            "lipidos": 37,
+            "hidratos": 76,
+            "kcal": 705,
+            "grasaSatu": 6,
+            "azucares": 23,
+            "sal": 4,
+            "fecha": "2026-01-26",
+            "dayOfWeek": 1,
+            "weekOfMonth": 5,
+            "dia": 26,
+            "separadorPlatos": true,
+            "diaActual": false
+        },
+        {
+            "primerosPlatos": [
+                {
+                    "idPlatoVersion": 1582738,
+                    "nombrePlato": "COLIFLOR A LA  CARBONARA",
+                    "orden": "11A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                },
+                {
+                    "idPlatoVersion": 1539197,
+                    "nombrePlato": "PUR\u00c9 DE COLIFLOR",
+                    "orden": "12A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "segundosPlatos": [
+                {
+                    "idPlatoVersion": 1539090,
+                    "nombrePlato": "MERLUZA A LA ANDALUZA",
+                    "orden": "21A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 1546038
+                },
+                {
+                    "idPlatoVersion": 1546038,
+                    "nombrePlato": "BONIATO ASADO",
+                    "orden": "21G",
+                    "platoAlternativo": false,
+                    "guarnicion": true,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                },
+                {
+                    "idPlatoVersion": 1539420,
+                    "nombrePlato": "LECHUGA Y MA\u00cdZ",
+                    "orden": "22G",
+                    "platoAlternativo": false,
+                    "guarnicion": true,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "postres": [
+                {
+                    "idPlatoVersion": 1555827,
+                    "nombrePlato": "YOGUR",
+                    "orden": "31B",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                },
+                {
+                    "idPlatoVersion": 1555808,
+                    "nombrePlato": "FRUTA",
+                    "orden": "32B",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "pan": {
+                "idPlatoVersion": 1507163,
+                "nombrePlato": "PAN",
+                "orden": "01A",
+                "platoAlternativo": false,
+                "guarnicion": false,
+                "ultimoPlato": false,
+                "nombrePlatoOriginal": null,
+                "idPlatoVersionGuarnicion": 0
+            },
+            "proteinas": 28,
+            "lipidos": 37,
+            "hidratos": 58,
+            "kcal": 667,
+            "grasaSatu": 7,
+            "azucares": 20,
+            "sal": 3,
+            "fecha": "2026-01-27",
+            "dayOfWeek": 2,
+            "weekOfMonth": 5,
+            "dia": 27,
+            "separadorPlatos": true,
+            "diaActual": false
+        },
+        {
+            "primerosPlatos": [
+                {
+                    "idPlatoVersion": 1539075,
+                    "nombrePlato": "SOPA DE COCIDO",
+                    "orden": "11A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "segundosPlatos": [
+                {
+                    "idPlatoVersion": 1539313,
+                    "nombrePlato": "COCIDO MADRILE\u00d1O",
+                    "orden": "21A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "postres": [
+                {
+                    "idPlatoVersion": 1555808,
+                    "nombrePlato": "FRUTA",
+                    "orden": "31B",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "pan": {
+                "idPlatoVersion": 1506616,
+                "nombrePlato": "PAN INTEGRAL",
+                "orden": "01A",
+                "platoAlternativo": false,
+                "guarnicion": false,
+                "ultimoPlato": false,
+                "nombrePlatoOriginal": null,
+                "idPlatoVersionGuarnicion": 0
+            },
+            "proteinas": 28,
+            "lipidos": 26,
+            "hidratos": 87,
+            "kcal": 676,
+            "grasaSatu": 6,
+            "azucares": 20,
+            "sal": 4,
+            "fecha": "2026-01-28",
+            "dayOfWeek": 3,
+            "weekOfMonth": 5,
+            "dia": 28,
+            "separadorPlatos": false,
+            "diaActual": false
+        },
+        {
+            "primerosPlatos": [
+                {
+                    "idPlatoVersion": 1539221,
+                    "nombrePlato": "ARROZ TRES DELICIAS",
+                    "orden": "11A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                },
+                {
+                    "idPlatoVersion": 1539645,
+                    "nombrePlato": "ARROZ BLANCO SALTEADO",
+                    "orden": "12A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "segundosPlatos": [
+                {
+                    "idPlatoVersion": 1539326,
+                    "nombrePlato": "CHULETA DE PAVO A LA PLANCHA",
+                    "orden": "21A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 1539719
+                },
+                {
+                    "idPlatoVersion": 1539719,
+                    "nombrePlato": "ENSALADA DE COLORES",
+                    "orden": "21G",
+                    "platoAlternativo": false,
+                    "guarnicion": true,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "postres": [
+                {
+                    "idPlatoVersion": 1555827,
+                    "nombrePlato": "YOGUR",
+                    "orden": "31B",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                },
+                {
+                    "idPlatoVersion": 1555808,
+                    "nombrePlato": "FRUTA",
+                    "orden": "32B",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "pan": {
+                "idPlatoVersion": 1507163,
+                "nombrePlato": "PAN",
+                "orden": "01A",
+                "platoAlternativo": false,
+                "guarnicion": false,
+                "ultimoPlato": false,
+                "nombrePlatoOriginal": null,
+                "idPlatoVersionGuarnicion": 0
+            },
+            "proteinas": 36,
+            "lipidos": 19,
+            "hidratos": 84,
+            "kcal": 629,
+            "grasaSatu": 5,
+            "azucares": 14,
+            "sal": 3,
+            "fecha": "2026-01-29",
+            "dayOfWeek": 4,
+            "weekOfMonth": 5,
+            "dia": 29,
+            "separadorPlatos": true,
+            "diaActual": false
+        },
+        {
+            "primerosPlatos": [
+                {
+                    "idPlatoVersion": 1538975,
+                    "nombrePlato": "JUDIAS PINTAS CON VERDURAS",
+                    "orden": "11A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                },
+                {
+                    "idPlatoVersion": 1539404,
+                    "nombrePlato": "PURE DE ALUBIAS PINTAS",
+                    "orden": "12A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "segundosPlatos": [
+                {
+                    "idPlatoVersion": 1539063,
+                    "nombrePlato": "DORADA AL HORNO",
+                    "orden": "21A",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": false,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 1539080
+                },
+                {
+                    "idPlatoVersion": 1539080,
+                    "nombrePlato": "ENSALADA CON REMOLACHA",
+                    "orden": "21G",
+                    "platoAlternativo": false,
+                    "guarnicion": true,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "postres": [
+                {
+                    "idPlatoVersion": 1555808,
+                    "nombrePlato": "FRUTA",
+                    "orden": "31B",
+                    "platoAlternativo": false,
+                    "guarnicion": false,
+                    "ultimoPlato": true,
+                    "nombrePlatoOriginal": null,
+                    "idPlatoVersionGuarnicion": 0
+                }
+            ],
+            "pan": {
+                "idPlatoVersion": 1506616,
+                "nombrePlato": "PAN INTEGRAL",
+                "orden": "01A",
+                "platoAlternativo": false,
+                "guarnicion": false,
+                "ultimoPlato": false,
+                "nombrePlatoOriginal": null,
+                "idPlatoVersionGuarnicion": 0
+            },
+            "proteinas": 27,
+            "lipidos": 18,
+            "hidratos": 70,
+            "kcal": 529,
+            "grasaSatu": 3,
+            "azucares": 21,
+            "sal": 3,
+            "fecha": "2026-01-30",
+            "dayOfWeek": 5,
+            "weekOfMonth": 5,
+            "dia": 30,
+            "separadorPlatos": true,
+            "diaActual": false
+        }
+    ],
+    "mostrarFinDeSemana": false,
+    "mes": "Enero",
+    "anyo": 2026,
+    "disableSiguiente": false,
+    "disableAnterior": false,
+    "vista": "mes",
+    "mostrarValoresNutricionales": true,
+    "listaDias": "45123451234512345",
+    "mapaDiasRellenar": {
+        "56": {
+            "esDiaActual": false,
+            "numeroDia": 31
+        },
+        "55": {
+            "esDiaActual": false,
+            "numeroDia": 30
+        },
+        "17": {
+            "esDiaActual": false,
+            "numeroDia": 4
+        },
+        "35": {
+            "esDiaActual": false,
+            "numeroDia": 16
+        },
+        "36": {
+            "esDiaActual": false,
+            "numeroDia": 17
+        },
+        "15": {
+            "esDiaActual": true,
+            "numeroDia": 2
+        },
+        "33": {
+            "esDiaActual": false,
+            "numeroDia": 14
+        },
+        "16": {
+            "esDiaActual": false,
+            "numeroDia": 3
+        },
+        "34": {
+            "esDiaActual": false,
+            "numeroDia": 15
+        },
+        "14": {
+            "esDiaActual": false,
+            "numeroDia": 1
+        },
+        "37": {
+            "esDiaActual": false,
+            "numeroDia": 18
+        },
+        "21": {
+            "esDiaActual": false,
+            "numeroDia": 5
+        },
+        "43": {
+            "esDiaActual": false,
+            "numeroDia": 21
+        },
+        "42": {
+            "esDiaActual": false,
+            "numeroDia": 20
+        },
+        "41": {
+            "esDiaActual": false,
+            "numeroDia": 19
+        },
+        "45": {
+            "esDiaActual": false,
+            "numeroDia": 23
+        },
+        "44": {
+            "esDiaActual": false,
+            "numeroDia": 22
+        },
+        "47": {
+            "esDiaActual": false,
+            "numeroDia": 25
+        },
+        "46": {
+            "esDiaActual": false,
+            "numeroDia": 24
+        },
+        "22": {
+            "esDiaActual": false,
+            "numeroDia": 6
+        },
+        "23": {
+            "esDiaActual": false,
+            "numeroDia": 7
+        },
+        "24": {
+            "esDiaActual": false,
+            "numeroDia": 8
+        },
+        "25": {
+            "esDiaActual": false,
+            "numeroDia": 9
+        },
+        "26": {
+            "esDiaActual": false,
+            "numeroDia": 10
+        },
+        "27": {
+            "esDiaActual": false,
+            "numeroDia": 11
+        },
+        "32": {
+            "esDiaActual": false,
+            "numeroDia": 13
+        },
+        "31": {
+            "esDiaActual": false,
+            "numeroDia": 12
+        },
+        "51": {
+            "esDiaActual": false,
+            "numeroDia": 26
+        },
+        "52": {
+            "esDiaActual": false,
+            "numeroDia": 27
+        },
+        "53": {
+            "esDiaActual": false,
+            "numeroDia": 28
+        },
+        "54": {
+            "esDiaActual": false,
+            "numeroDia": 29
+        }
+    },
+    "fecha": 1767222000000,
+    "mostrarPopupIngredientes": true,
+    "exportarAlergenos": false
+}

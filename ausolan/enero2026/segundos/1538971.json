@@ -1,0 +1,25 @@
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "HUEVO PASTEURIZADO",
+        "QUESO RALLADO GRATINAR",
+        "ACEITE OLIVA",
+        "SAL YODADA"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 12,
+    "lipidos": 20,
+    "hidratos": 3,
+    "kcal": 238,
+    "grasaSatu": 6,
+    "azucares": 0,
+    "sal": 1,
+    "listaAlergeno": [
+        "HUEVOS",
+        "LECHE"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "POLLO JAMONCITO",
+        "LIMON",
+        "HARINA MAIZ ",
+        "ACEITE OLIVA",
+        "SAL YODADA",
+        "AJO",
+        "LAUREL",
+        "TOMILLO",
+        "ALBAHACA",
+        "OREGANO"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 14,
+    "lipidos": 7,
+    "hidratos": 7,
+    "kcal": 141,
+    "grasaSatu": 2,
+    "azucares": 1,
+    "sal": 1,
+    "listaAlergeno": []
+}

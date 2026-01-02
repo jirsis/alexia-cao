@@ -1,0 +1,22 @@
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "HUEVO FRESCO",
+        "ACEITE GIRASOL"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 13,
+    "lipidos": 21,
+    "hidratos": 8,
+    "kcal": 271,
+    "grasaSatu": 4,
+    "azucares": 0,
+    "sal": 1,
+    "listaAlergeno": [
+        "HUEVOS"
+    ]
+}

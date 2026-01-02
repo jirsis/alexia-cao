@@ -1,0 +1,30 @@
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "LENTEJAS",
+        "TOMATE TRITURADO ",
+        "CHORIZO ",
+        "ZANAHORIA",
+        "PIMIENTO ROJO ",
+        "CEBOLLA",
+        "PIMIENTO VERDE ",
+        "ACEITE OLIVA",
+        "PIMENTON",
+        "SAL YODADA",
+        "AJO ",
+        "LAUREL"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 19,
+    "lipidos": 7,
+    "hidratos": 36,
+    "kcal": 276,
+    "grasaSatu": 2,
+    "azucares": 4,
+    "sal": 1,
+    "listaAlergeno": []
+}

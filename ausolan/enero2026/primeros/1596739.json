@@ -1,0 +1,32 @@
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "MACARRONES INTEGRAL ",
+        "TOMATE FRITO ",
+        "CARNE PICADA MIXTA",
+        "ZANAHORIA ",
+        "PIMIENTO ROJO DADO",
+        "CEBOLLA ",
+        "ACEITE DE OLIVA",
+        "SAL YODADA",
+        "AJO"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 13,
+    "lipidos": 6,
+    "hidratos": 51,
+    "kcal": 301,
+    "grasaSatu": 2,
+    "azucares": 5,
+    "sal": 2,
+    "listaAlergeno": [
+        "GLUTEN",
+        "HUEVOS",
+        "MOSTAZA",
+        "SOJA"
+    ]
+}

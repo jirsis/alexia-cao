@@ -1,0 +1,23 @@
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "GUISANTE ",
+        "JAMON CURADO ",
+        "ACEITE OLIVA",
+        "SAL YODADA",
+        "AJO"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 16,
+    "lipidos": 10,
+    "hidratos": 21,
+    "kcal": 234,
+    "grasaSatu": 2,
+    "azucares": 5,
+    "sal": 2,
+    "listaAlergeno": []
+}

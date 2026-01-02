@@ -1,0 +1,25 @@
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "PATATA",
+        "JUDIA VERDE ",
+        "CEBOLLA ",
+        "ACEITE OLIVA",
+        "SAL YODADA"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 5,
+    "lipidos": 3,
+    "hidratos": 25,
+    "kcal": 148,
+    "grasaSatu": 0,
+    "azucares": 5,
+    "sal": 0,
+    "listaAlergeno": [
+        "DI\u00d3XIDO DE AZUFRE Y SULFITOS"
+    ]
+}

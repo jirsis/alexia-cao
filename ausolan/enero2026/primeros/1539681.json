@@ -1,0 +1,35 @@
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "PATATA",
+        "CALAMAR/POTA ",
+        "GAMBA PELADA ",
+        "ACEITE DE GIRASOL",
+        "PIMIENTO ROJO ",
+        "PIMIENTO VERDE ",
+        "ZANAHORIA ",
+        "CEBOLLA ",
+        "SAL YODADA",
+        "AJOS ",
+        "CURCUMA",
+        "PEREJIL",
+        "TOMATE FRITO"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 10,
+    "lipidos": 11,
+    "hidratos": 30,
+    "kcal": 252,
+    "grasaSatu": 1,
+    "azucares": 2,
+    "sal": 2,
+    "listaAlergeno": [
+        "CRUSTACEOS",
+        "DI\u00d3XIDO DE AZUFRE Y SULFITOS",
+        "MOLUSCOS"
+    ]
+}

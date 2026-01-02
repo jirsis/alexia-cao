@@ -1,0 +1,22 @@
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "ARROZ INTEGRAL",
+        "ACEITE OLIVA",
+        "AJO ",
+        "SAL YODADA"
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 6,
+    "lipidos": 7,
+    "hidratos": 53,
+    "kcal": 287,
+    "grasaSatu": 1,
+    "azucares": 1,
+    "sal": 1,
+    "listaAlergeno": []
+}

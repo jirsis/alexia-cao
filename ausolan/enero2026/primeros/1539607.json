@@ -1,0 +1,22 @@
+{
+    "nombrePlato": null,
+    "ingredientesPlato": [
+        "ESPINACAS",
+        "ACEITE DE OLIVA",
+        "SAL YODADA",
+        "AJO "
+    ],
+    "ingredientesGuarnicion": [],
+    "mostrarValoresNutricionales": true,
+    "mostrarDetallePlato": true,
+    "mostrarIngredientes": true,
+    "mostrarAlergenos": true,
+    "proteinas": 7,
+    "lipidos": 6,
+    "hidratos": 4,
+    "kcal": 98,
+    "grasaSatu": 1,
+    "azucares": 4,
+    "sal": 1,
+    "listaAlergeno": []
+}
