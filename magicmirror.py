@@ -7,7 +7,7 @@ class MagicMirror():
         self.month =  commons.Months.month_to_number(month)
 
     def generate(self):
-        print('[ ] generando json para magic mirror 2')
+        print('[*] generando json para magic mirror 2...')
         menu = []
         for day in self.menu['listadoPlatos']:
             menu.append(self.fill_menu_day(
@@ -18,6 +18,7 @@ class MagicMirror():
             ))
             self.primerPlato(day['primerosPlatos'])
         commons.ToFile.persist_file(data=menu, path="..", filename=f'menu-{self.month}.json')
+        print('[√] generando json para magic mirror 2')
     
     def fecha(self, day):
         return int(day.split('-')[2])

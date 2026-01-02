@@ -39,7 +39,7 @@ if __name__ == '__main__':
     parser.add_argument('-n', '--next_month', action='store_true', help='recupera el próximo mes o el actual, [True]', default=False)
     args = parser.parse_args()
 
-    print('[ ] Generando menu para el módulo de MagicMirror2 de alexia-cao...')
+    print('[*] Generando menu para el módulo de MagicMirror2 de alexia-cao...')
     ausolan = ausolan.Ausolan(next_month=args.next_month)
     
     ausolan.home()

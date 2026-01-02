@@ -14,28 +14,30 @@ class Ausolan():
         if(next_month):
             next_month = datetime.today() + relativedelta(months=1)
             month = next_month.strftime('%b')
+            self.year = next_month.strftime('%Y')
         else:
             month = datetime.today().strftime('%b')
+            self.year= datetime.today().strftime('%Y')
 
-        self.date=f'{month}+5+2025+00%3A00%3A00+GMT%2B0200+(hora+de+verano+de+Europa+central)'
+        self.date=f'{month}+05+{self.year}+00%3A00%3A00+GMT%2B0200+(hora+de+verano+de+Europa+central)'
         self.month=None
-        self.year=None        
+        
         self.session = requests.Session()        
         
         if(debug):
             self.session.hooks["response"] = [logging_hook]
 
     def home(self):
-        print("[ ] home")
+        print("[*] home")
         response = self.session.get(self.url_base)
         if(response.status_code == 200):
-            print(f"[ ] cookies: {self.session.cookies}")
-            print("[ ] home OK")
+            print(f"[√] cookies: {self.session.cookies}")
+            print("[√] home OK")
         else:
             print("[!] home KO")
 
     def login(self):
-        print("[ ] login")        
+        print("[*] login")        
         login_data={
             'contrasenaCentro': '', 
             'idProvincia': '', 
@@ -48,10 +50,10 @@ class Ausolan():
         headers={}
         headers['content-type'] = 'application/x-www-form-urlencoded'
         response = self.session.post(f'{self.url_base}/home', data=login_data, headers=headers)
-        print(f'[ ] login {response.status_code}')
+        print(f'[√] login {response.status_code}')
 
     def get_menu(self):
-        print('[ ] get menu')        
+        print('[*] get menu')        
         headers={
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:143.0) Gecko/20100101 Firefox/143.0',
             'Accept': '*/*',
@@ -73,13 +75,13 @@ class Ausolan():
         response = self.session.get(f'{self.url_base}/menu/cambiarServicios?idTurno={self.servicio_turno}', headers=headers)
         
         if( response.status_code == 200):
-            print(f'[ ] menu OK - {response.json()['nombreCentro']}')
+            print(f'[√] menu OK - {response.json()['nombreCentro']}')
             self.menu = response.json()['comboMenu']['idMenu']            
         else:
             print(f'[!] menu KO {response.status_code}')
 
     def get_monthly_menu(self):
-        print('[ ] get monthly menu')
+        print('[*] get monthly menu')
         headers={
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:143.0) Gecko/20100101 Firefox/143.0',
             'Accept': '*/*',
@@ -101,7 +103,7 @@ class Ausolan():
         if( response.status_code == 200):
             self.year = response.json()['anyo']
             self.month = response.json()['mes'].lower()
-            print(f'[ ] monthly menu OK - {self.month}/{self.year}')
+            print(f'[√] monthly menu OK - {self.month}/{self.year}')
             data = response.json()
             ToFile.persist_file(data, path=f'{self.month}{self.year}', filename=f'{self.month}{self.year}.json')
             return data
@@ -167,7 +169,7 @@ class Ausolan():
             print(f"[!] ingredientes KO - {response.status_code}")
 
     def show_git_instructions(self, year, month):
-        print('[ ] ahora ejecuta:')
+        print('[-] ahora ejecuta:')
         print(f'\tgit add ausolan/{month}{year}/*')
         print(f'\tgit add menu-{Months.month_to_number(month)}.json')
         print(f'\tgit commit -m "{month} {year}"')
