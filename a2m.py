@@ -54,7 +54,7 @@ class A2M:
             'platos': []
             } for day in range(1, self.last_day_of_month+1)]
         self._mark_days_off()
-        #self._mark_rotations()
+        self._mark_rotations()
         self._get_menu_day()
 
     def magic_mirror_format(self):
@@ -136,25 +136,39 @@ class A2M:
         current_day = self.today.replace(day=1)
         for _ in range(0, self.last_day_of_month):
             day_of_month = format_date(current_day, 'dd', locale='es')
-            daily_menu = next((menu for menu in self.menu if menu['day'] == day_of_month))
-            iso = current_day.replace(hour=0, minute=0, second=0, microsecond=0).isoformat()
-            dishes = [
-                dish for dish in self.scheduled_raw['planificacionPlatos']
-                if all([
-                    dish.get('fecha') == iso
-                    ])
-            ]
-            dishes.sort(key = lambda d: d['ordenPlato'])
-            daily_menu['platos'] = dishes
-            self.menu = [ daily_menu if m['day'] == day_of_month else m for m in self.menu]
+            daily_menu = next((menu for menu in self.menu if menu['day'] == day_of_month))  
+            if not daily_menu['off-day']:
+                dishes = [
+                    dish for dish in self.menu_raw['platos']
+                    if all([
+                        dish['rotacion'] == daily_menu['rotation'],
+                        dish['diaSemana'] == daily_menu['day-of-week']
+                        ])
+                ]
+                dishes.sort(key = lambda d: d['ordenPlato'])
+                daily_menu['platos'] = dishes
+                self.menu = [ daily_menu if m['day'] == day_of_month else m for m in self.menu]
             current_day = current_day + timedelta(days=1)
 
     def _mark_rotations(self):
-        self.weeks = 1
+        first_rotation = self._find_min_rotation()
+        self.weeks = first_rotation
+        skip_off_days = False
         for day in self.menu:
-            day['rotation'] = -1 if day['day-of-week'] in (6,7) else self.weeks
-            if day['day-of-week'] >= 6: 
+            if day['off-day']:
+                day['rotation'] = -1
+            else:
+                day['rotation'] = self.weeks
+                skip_off_days=True
+
+            if day['day-of-week'] == 7 and skip_off_days: 
                 self.weeks = self.weeks + 1
+
+
+    def _find_min_rotation(self):
+        rotation = min(self.menu_raw['platos'], key=lambda p: (p['rotacion']))
+        return rotation['rotacion']
+
 
     def _mark_days_off(self):
         for day in self.menu:
@@ -266,7 +280,7 @@ class A2M:
         'dietaPk=d12fe25a9bbd49239e3cd65eef62e7c5&' \
         f'fechaInicio={start_date}Z&' \
         f'fechaFin={end_date}Z&' \
-        'idiomaPk=undefined'
+        'idiomaPk=00242C08E94B10101810432101271385'
         headers = {
             'Host': 'apimenuo.ausolan.com',
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:147.0) Gecko/20100101 Firefox/147.0',
@@ -304,17 +318,17 @@ if __name__ == '__main__':
     logging.basicConfig() # you need to initialize logging, otherwise you will not see anything from requests
     logging.getLogger().setLevel(logging.DEBUG)
     requests_log = logging.getLogger("urllib3")
-    requests_log.setLevel(logging.DEBUG)
+    requests_log.setLevel(logging.INFO)
     requests_log.propagate = True
 
     a2m = A2M(datetime.today().replace(day=1))
-    a2m.login()
-    a2m.create_raw_directory()
-    a2m.download_month()
+    #a2m.login()
+    #a2m.create_raw_directory()
+    #a2m.download_month()
     a2m.load_month()
-    a2m.download_parties()
+    #a2m.download_parties()
     a2m.load_parties()
-    a2m.download_scheduled()
+    #a2m.download_scheduled()
     a2m.load_scheduled()
     a2m.generate_month()
     a2m.magic_mirror_format()

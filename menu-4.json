@@ -3,15 +3,15 @@
     "day": 1,
     "month": "4",
     "firstDish": {
-      "label": "Paella de pollo | Arroz blanco salteado",
+      "label": "no",
       "quality": -2
     },
     "secondDish": {
-      "label": "Tortilla francesa + ensalada de colores ",
+      "label": "lectivo",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan, yogur",
+      "label": null,
       "quality": -2
     },
     "nap": {
@@ -26,21 +26,21 @@
       "label": "",
       "quality": -2
     },
-    "teacherComments": "Hoy todav\u00eda no han comentado nada"
+    "teacherComments": "Hoy todavía no han comentado nada"
   },
   {
     "day": 2,
     "month": "4",
     "firstDish": {
-      "label": "Lentejas con chorizo | Pure de lentejas",
+      "label": "no",
       "quality": -2
     },
     "secondDish": {
-      "label": "Chuleta de pavo al ajillo + tomate ali\u00f1ado ",
+      "label": "lectivo",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan integral, fruta",
+      "label": null,
       "quality": -2
     },
     "nap": {
@@ -55,21 +55,21 @@
       "label": "",
       "quality": -2
     },
-    "teacherComments": "Hoy todav\u00eda no han comentado nada"
+    "teacherComments": "Hoy todavía no han comentado nada"
   },
   {
     "day": 3,
     "month": "4",
     "firstDish": {
-      "label": "Crema de acelgas y verduras | Menestra de verdura salteada",
+      "label": "no",
       "quality": -2
     },
     "secondDish": {
-      "label": " filete de ternera en salsa + zanahoria baby + ensalada con maiz ",
+      "label": "lectivo",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan, yogur",
+      "label": null,
       "quality": -2
     },
     "nap": {
@@ -84,21 +84,21 @@
       "label": "",
       "quality": -2
     },
-    "teacherComments": "Hoy todav\u00eda no han comentado nada"
+    "teacherComments": "Hoy todavía no han comentado nada"
   },
   {
     "day": 4,
     "month": "4",
     "firstDish": {
-      "label": "Judias pintas con verduras | Crema de alubias pintas",
+      "label": "no",
       "quality": -2
     },
     "secondDish": {
-      "label": "Dorada al horno + patatas con hierbas provenzales + ensalada con aceitunas ",
+      "label": "lectivo",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan, fruta",
+      "label": null,
       "quality": -2
     },
     "nap": {
@@ -113,21 +113,79 @@
       "label": "",
       "quality": -2
     },
-    "teacherComments": "Hoy todav\u00eda no han comentado nada"
+    "teacherComments": "Hoy todavía no han comentado nada"
+  },
+  {
+    "day": 5,
+    "month": "4",
+    "firstDish": {
+      "label": "no",
+      "quality": -2
+    },
+    "secondDish": {
+      "label": "lectivo",
+      "quality": -2
+    },
+    "dessertDish": {
+      "label": null,
+      "quality": -2
+    },
+    "nap": {
+      "label": "",
+      "quality": -2
+    },
+    "snack": {
+      "label": "",
+      "quality": -2
+    },
+    "deposiciones": {
+      "label": "",
+      "quality": -2
+    },
+    "teacherComments": "Hoy todavía no han comentado nada"
+  },
+  {
+    "day": 6,
+    "month": "4",
+    "firstDish": {
+      "label": "no",
+      "quality": -2
+    },
+    "secondDish": {
+      "label": "lectivo",
+      "quality": -2
+    },
+    "dessertDish": {
+      "label": null,
+      "quality": -2
+    },
+    "nap": {
+      "label": "",
+      "quality": -2
+    },
+    "snack": {
+      "label": "",
+      "quality": -2
+    },
+    "deposiciones": {
+      "label": "",
+      "quality": -2
+    },
+    "teacherComments": "Hoy todavía no han comentado nada"
   },
   {
     "day": 7,
     "month": "4",
     "firstDish": {
-      "label": "Patatas con magro | Patatas con verduras",
+      "label": "Lentejas con calabaza | Puré de lentejas",
       "quality": -2
     },
     "secondDish": {
-      "label": "Revuelto de huevos con pavo + ensalada verde ",
+      "label": "Bacalao rebozado + Ensalada de colores",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan, fruta",
+      "label": "Pan blanco, Fruta de temporada",
       "quality": -2
     },
     "nap": {
@@ -142,21 +200,50 @@
       "label": "",
       "quality": -2
     },
-    "teacherComments": "Hoy todav\u00eda no han comentado nada"
+    "teacherComments": "Hoy todavía no han comentado nada"
   },
   {
     "day": 8,
+    "month": "4",
+    "firstDish": {
+      "label": "Coliflor a la carbonara | Coliflor salteada",
+      "quality": -2
+    },
+    "secondDish": {
+      "label": "Lomo a la plancha + Taboulé",
+      "quality": -2
+    },
+    "dessertDish": {
+      "label": "Pan integral, Fruta de temporada",
+      "quality": -2
+    },
+    "nap": {
+      "label": "",
+      "quality": -2
+    },
+    "snack": {
+      "label": "",
+      "quality": -2
+    },
+    "deposiciones": {
+      "label": "",
+      "quality": -2
+    },
+    "teacherComments": "Hoy todavía no han comentado nada"
+  },
+  {
+    "day": 9,
     "month": "4",
     "firstDish": {
       "label": "Sopa de cocido",
       "quality": -2
     },
     "secondDish": {
-      "label": "Cocido completo ",
+      "label": "Cocido completo + ",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan, yogur",
+      "label": "Pan blanco, Yogur natural | Fruta de temporada",
       "quality": -2
     },
     "nap": {
@@ -171,50 +258,21 @@
       "label": "",
       "quality": -2
     },
-    "teacherComments": "Hoy todav\u00eda no han comentado nada"
-  },
-  {
-    "day": 9,
-    "month": "4",
-    "firstDish": {
-      "label": " brocoli con queso | Pur\u00e9 de brocoli",
-      "quality": -2
-    },
-    "secondDish": {
-      "label": "Escalope de pollo + arroz salteado + ensalada con remolacha ",
-      "quality": -2
-    },
-    "dessertDish": {
-      "label": "Pan integral, fruta",
-      "quality": -2
-    },
-    "nap": {
-      "label": "",
-      "quality": -2
-    },
-    "snack": {
-      "label": "",
-      "quality": -2
-    },
-    "deposiciones": {
-      "label": "",
-      "quality": -2
-    },
-    "teacherComments": "Hoy todav\u00eda no han comentado nada"
+    "teacherComments": "Hoy todavía no han comentado nada"
   },
   {
     "day": 10,
     "month": "4",
     "firstDish": {
-      "label": "Alubias blancas estofadas | Crema de alubias",
+      "label": "Arroz integral con tomate | Arroz integral salteado",
       "quality": -2
     },
     "secondDish": {
-      "label": "Salmon al eneldo + ensalada del tiempo ",
+      "label": "Merluza en salsa de cúrcuma + Ensalada verde",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan, actimel",
+      "label": "Pan integral, Fruta de temporada",
       "quality": -2
     },
     "nap": {
@@ -229,21 +287,340 @@
       "label": "",
       "quality": -2
     },
-    "teacherComments": "Hoy todav\u00eda no han comentado nada"
+    "teacherComments": "Hoy todavía no han comentado nada"
+  },
+  {
+    "day": 11,
+    "month": "4",
+    "firstDish": {
+      "label": "no",
+      "quality": -2
+    },
+    "secondDish": {
+      "label": "lectivo",
+      "quality": -2
+    },
+    "dessertDish": {
+      "label": null,
+      "quality": -2
+    },
+    "nap": {
+      "label": "",
+      "quality": -2
+    },
+    "snack": {
+      "label": "",
+      "quality": -2
+    },
+    "deposiciones": {
+      "label": "",
+      "quality": -2
+    },
+    "teacherComments": "Hoy todavía no han comentado nada"
+  },
+  {
+    "day": 12,
+    "month": "4",
+    "firstDish": {
+      "label": "no",
+      "quality": -2
+    },
+    "secondDish": {
+      "label": "lectivo",
+      "quality": -2
+    },
+    "dessertDish": {
+      "label": null,
+      "quality": -2
+    },
+    "nap": {
+      "label": "",
+      "quality": -2
+    },
+    "snack": {
+      "label": "",
+      "quality": -2
+    },
+    "deposiciones": {
+      "label": "",
+      "quality": -2
+    },
+    "teacherComments": "Hoy todavía no han comentado nada"
+  },
+  {
+    "day": 13,
+    "month": "4",
+    "firstDish": {
+      "label": "Puré de puerro | Parrillada de verdura",
+      "quality": -2
+    },
+    "secondDish": {
+      "label": "Albóndigas a la jardinera + Cous cous + Ensalada con remolacha",
+      "quality": -2
+    },
+    "dessertDish": {
+      "label": "Pan blanco, Fruta de temporada",
+      "quality": -2
+    },
+    "nap": {
+      "label": "",
+      "quality": -2
+    },
+    "snack": {
+      "label": "",
+      "quality": -2
+    },
+    "deposiciones": {
+      "label": "",
+      "quality": -2
+    },
+    "teacherComments": "Hoy todavía no han comentado nada"
+  },
+  {
+    "day": 14,
+    "month": "4",
+    "firstDish": {
+      "label": "Macarrones integrales al pesto de brócoli | Macarrones integrales al ajillo",
+      "quality": -2
+    },
+    "secondDish": {
+      "label": "Salmón con salsa de soja y jengibre + Tomate aliñado",
+      "quality": -2
+    },
+    "dessertDish": {
+      "label": "Pan blanco, Fruta de temporada",
+      "quality": -2
+    },
+    "nap": {
+      "label": "",
+      "quality": -2
+    },
+    "snack": {
+      "label": "",
+      "quality": -2
+    },
+    "deposiciones": {
+      "label": "",
+      "quality": -2
+    },
+    "teacherComments": "Hoy todavía no han comentado nada"
+  },
+  {
+    "day": 15,
+    "month": "4",
+    "firstDish": {
+      "label": "Alubias pintas con verduras | Puré de alubias pintas",
+      "quality": -2
+    },
+    "secondDish": {
+      "label": "Huevos rotos con jamón + ",
+      "quality": -2
+    },
+    "dessertDish": {
+      "label": "Pan integral, Fruta de temporada",
+      "quality": -2
+    },
+    "nap": {
+      "label": "",
+      "quality": -2
+    },
+    "snack": {
+      "label": "",
+      "quality": -2
+    },
+    "deposiciones": {
+      "label": "",
+      "quality": -2
+    },
+    "teacherComments": "Hoy todavía no han comentado nada"
+  },
+  {
+    "day": 16,
+    "month": "4",
+    "firstDish": {
+      "label": "Arroz con verduras y pollo | Arroz con verduras",
+      "quality": -2
+    },
+    "secondDish": {
+      "label": "Dorada al horno + Ensalada de lechuga y pepino",
+      "quality": -2
+    },
+    "dessertDish": {
+      "label": "Pan blanco, Yogur natural | Fruta de temporada",
+      "quality": -2
+    },
+    "nap": {
+      "label": "",
+      "quality": -2
+    },
+    "snack": {
+      "label": "",
+      "quality": -2
+    },
+    "deposiciones": {
+      "label": "",
+      "quality": -2
+    },
+    "teacherComments": "Hoy todavía no han comentado nada"
+  },
+  {
+    "day": 17,
+    "month": "4",
+    "firstDish": {
+      "label": "Judías verdes a la gallega | Puré de judías de verdes",
+      "quality": -2
+    },
+    "secondDish": {
+      "label": "Ragout de pavo + Ensalada con zanahoria",
+      "quality": -2
+    },
+    "dessertDish": {
+      "label": "Pan integral, Fruta de temporada",
+      "quality": -2
+    },
+    "nap": {
+      "label": "",
+      "quality": -2
+    },
+    "snack": {
+      "label": "",
+      "quality": -2
+    },
+    "deposiciones": {
+      "label": "",
+      "quality": -2
+    },
+    "teacherComments": "Hoy todavía no han comentado nada"
+  },
+  {
+    "day": 18,
+    "month": "4",
+    "firstDish": {
+      "label": "no",
+      "quality": -2
+    },
+    "secondDish": {
+      "label": "lectivo",
+      "quality": -2
+    },
+    "dessertDish": {
+      "label": null,
+      "quality": -2
+    },
+    "nap": {
+      "label": "",
+      "quality": -2
+    },
+    "snack": {
+      "label": "",
+      "quality": -2
+    },
+    "deposiciones": {
+      "label": "",
+      "quality": -2
+    },
+    "teacherComments": "Hoy todavía no han comentado nada"
+  },
+  {
+    "day": 19,
+    "month": "4",
+    "firstDish": {
+      "label": "no",
+      "quality": -2
+    },
+    "secondDish": {
+      "label": "lectivo",
+      "quality": -2
+    },
+    "dessertDish": {
+      "label": null,
+      "quality": -2
+    },
+    "nap": {
+      "label": "",
+      "quality": -2
+    },
+    "snack": {
+      "label": "",
+      "quality": -2
+    },
+    "deposiciones": {
+      "label": "",
+      "quality": -2
+    },
+    "teacherComments": "Hoy todavía no han comentado nada"
+  },
+  {
+    "day": 20,
+    "month": "4",
+    "firstDish": {
+      "label": "Guisantes salteados con pavo | Puré de guisantes",
+      "quality": -2
+    },
+    "secondDish": {
+      "label": "Tortilla de patata  + Ensalada de lechuga y tomate",
+      "quality": -2
+    },
+    "dessertDish": {
+      "label": "Pan blanco, Fruta de temporada",
+      "quality": -2
+    },
+    "nap": {
+      "label": "",
+      "quality": -2
+    },
+    "snack": {
+      "label": "",
+      "quality": -2
+    },
+    "deposiciones": {
+      "label": "",
+      "quality": -2
+    },
+    "teacherComments": "Hoy todavía no han comentado nada"
+  },
+  {
+    "day": 21,
+    "month": "4",
+    "firstDish": {
+      "label": "Arroz tres delicias | Arroz blanco salteado",
+      "quality": -2
+    },
+    "secondDish": {
+      "label": "Bacalao en salsa de tomate + Ensalada de lechuga, maíz y zanahoria",
+      "quality": -2
+    },
+    "dessertDish": {
+      "label": "Pan blanco, Fruta de temporada",
+      "quality": -2
+    },
+    "nap": {
+      "label": "",
+      "quality": -2
+    },
+    "snack": {
+      "label": "",
+      "quality": -2
+    },
+    "deposiciones": {
+      "label": "",
+      "quality": -2
+    },
+    "teacherComments": "Hoy todavía no han comentado nada"
   },
   {
     "day": 22,
     "month": "4",
     "firstDish": {
-      "label": "Arroz tres delicias | Arroz blanco al ajillo",
+      "label": "Sopa de cocido",
       "quality": -2
     },
     "secondDish": {
-      "label": "Alb\u00f3ndigas  a la jardinera + ensalada de colores ",
+      "label": "Cocido completo + ",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan, yogur",
+      "label": "Pan integral, Fruta de temporada",
       "quality": -2
     },
     "nap": {
@@ -258,21 +635,21 @@
       "label": "",
       "quality": -2
     },
-    "teacherComments": "Hoy todav\u00eda no han comentado nada"
+    "teacherComments": "Hoy todavía no han comentado nada"
   },
   {
     "day": 23,
     "month": "4",
     "firstDish": {
-      "label": "Sopa de estrellas | Ensalada completa",
+      "label": "Puré de verduras y acelgas | Menestra de verduras salteada",
       "quality": -2
     },
     "secondDish": {
-      "label": "Lubina a la espalda + boniato frito + lechuga y zanahoria ",
+      "label": "Pollo al chilindrón + Boniato frito + Ensalada con zanahoria",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan integral, fruta",
+      "label": "Pan blanco, Yogur natural | Fruta de temporada",
       "quality": -2
     },
     "nap": {
@@ -287,21 +664,21 @@
       "label": "",
       "quality": -2
     },
-    "teacherComments": "Hoy todav\u00eda no han comentado nada"
+    "teacherComments": "Hoy todavía no han comentado nada"
   },
   {
     "day": 24,
     "month": "4",
     "firstDish": {
-      "label": "Crema de calabacin | Alcachofas salteadas",
+      "label": "Espirales integrales \"alla norma\" | Espirales integrales a las hierbas aromáticas",
       "quality": -2
     },
     "secondDish": {
-      "label": "Pollo asado al limon + ensalada del tiempo ",
+      "label": "Lubina a la bilbaína + Ensalada de colores",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan, yogur",
+      "label": "Pan integral, Fruta de temporada",
       "quality": -2
     },
     "nap": {
@@ -316,21 +693,21 @@
       "label": "",
       "quality": -2
     },
-    "teacherComments": "Hoy todav\u00eda no han comentado nada"
+    "teacherComments": "Hoy todavía no han comentado nada"
   },
   {
     "day": 25,
     "month": "4",
     "firstDish": {
-      "label": "Lentejas con verduras | Crema de lentejas",
+      "label": "no",
       "quality": -2
     },
     "secondDish": {
-      "label": "Bacalao con tomate + ensalada verde ",
+      "label": "lectivo",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan, fruta",
+      "label": null,
       "quality": -2
     },
     "nap": {
@@ -345,21 +722,79 @@
       "label": "",
       "quality": -2
     },
-    "teacherComments": "Hoy todav\u00eda no han comentado nada"
+    "teacherComments": "Hoy todavía no han comentado nada"
+  },
+  {
+    "day": 26,
+    "month": "4",
+    "firstDish": {
+      "label": "no",
+      "quality": -2
+    },
+    "secondDish": {
+      "label": "lectivo",
+      "quality": -2
+    },
+    "dessertDish": {
+      "label": null,
+      "quality": -2
+    },
+    "nap": {
+      "label": "",
+      "quality": -2
+    },
+    "snack": {
+      "label": "",
+      "quality": -2
+    },
+    "deposiciones": {
+      "label": "",
+      "quality": -2
+    },
+    "teacherComments": "Hoy todavía no han comentado nada"
+  },
+  {
+    "day": 27,
+    "month": "4",
+    "firstDish": {
+      "label": "Brócoli salteado",
+      "quality": -2
+    },
+    "secondDish": {
+      "label": "Lasaña casera de caballa + Ensalada verde",
+      "quality": -2
+    },
+    "dessertDish": {
+      "label": "Pan blanco, Fruta de temporada",
+      "quality": -2
+    },
+    "nap": {
+      "label": "",
+      "quality": -2
+    },
+    "snack": {
+      "label": "",
+      "quality": -2
+    },
+    "deposiciones": {
+      "label": "",
+      "quality": -2
+    },
+    "teacherComments": "Hoy todavía no han comentado nada"
   },
   {
     "day": 28,
     "month": "4",
     "firstDish": {
-      "label": "Guisantes salteados con jamon | Pure de guisantes",
+      "label": "Arroz integral al pomodoro y albahaca | Arroz integral salteado",
       "quality": -2
     },
     "secondDish": {
-      "label": "Cinta de lomo a la plancha + patatas fritas + ensalada con aceitunas ",
+      "label": "Lomo en su jugo + Zanahoria salteada + Ensalada con aceitunas",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan, fruta",
+      "label": "Pan blanco, Fruta de temporada",
       "quality": -2
     },
     "nap": {
@@ -374,21 +809,21 @@
       "label": "",
       "quality": -2
     },
-    "teacherComments": "Hoy todav\u00eda no han comentado nada"
+    "teacherComments": "Hoy todavía no han comentado nada"
   },
   {
     "day": 29,
     "month": "4",
     "firstDish": {
-      "label": "Macarrones en salsa napolitana casera | Macarrones al ajillo",
+      "label": "Patatas a la riojana | Patatas con verduras",
       "quality": -2
     },
     "secondDish": {
-      "label": "Merluza a la andaluza + ensalada del tiempo ",
+      "label": "Merluza en salsa verde + Ensalada de lechuga y tomate",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan, yogur",
+      "label": "Pan integral, Fruta de temporada",
       "quality": -2
     },
     "nap": {
@@ -403,21 +838,21 @@
       "label": "",
       "quality": -2
     },
-    "teacherComments": "Hoy todav\u00eda no han comentado nada"
+    "teacherComments": "Hoy todavía no han comentado nada"
   },
   {
     "day": 30,
     "month": "4",
     "firstDish": {
-      "label": "Judias verdes a la gallega | Pure de judias verdes",
+      "label": "Alubias blancas con verduras | Puré de alubias blancas",
       "quality": -2
     },
     "secondDish": {
-      "label": "Fajitas de pollo + ensalada de tomate ",
+      "label": "Filete de pollo al ajillo + Ensalada con remolacha",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan integral, fruta",
+      "label": "Pan blanco, Yogur natural | Fruta de temporada",
       "quality": -2
     },
     "nap": {
@@ -432,6 +867,6 @@
       "label": "",
       "quality": -2
     },
-    "teacherComments": "Hoy todav\u00eda no han comentado nada"
+    "teacherComments": "Hoy todavía no han comentado nada"
   }
 ]
