@@ -341,4 +341,3 @@ if __name__ == '__main__':
     a2m.magic_mirror_format()
     a2m.show_menu()
     
-
