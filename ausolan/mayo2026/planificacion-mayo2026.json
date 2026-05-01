@@ -1,0 +1,3718 @@
+{
+  "planificacionPlatos": [
+    {
+      "nombre": "Macarrones integrales cabonara",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 343.2,
+        "hidratosCarbono": 47.5,
+        "grasasSaturadas": 3.3,
+        "grasas": 10.1,
+        "proteinas": 12.3,
+        "azucares": 3.5,
+        "sal": 0.2
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-04T00:00:00",
+      "articuloPk": "1a05938749d54d4ca930b3ef00c524f8",
+      "familiaTecnicaPk": "44f4da5cc4554028914ab3ef00c529ac",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Ensalada de colores",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 42.0,
+        "hidratosCarbono": 1.0,
+        "grasasSaturadas": 0.5,
+        "grasas": 3.8,
+        "proteinas": 0.6,
+        "azucares": 0.6,
+        "sal": 0.3
+      },
+      "ordenPlato": 4,
+      "fecha": "2026-05-04T00:00:00",
+      "articuloPk": "9b6d212e4c3943beb97bb3d100de61b6",
+      "familiaTecnicaPk": "38d77693a6a44d56a767b3d100de83a8",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Fruta de temporada",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 49.7,
+        "hidratosCarbono": 12.1,
+        "grasasSaturadas": 0.0,
+        "grasas": 0.2,
+        "proteinas": 0.6,
+        "azucares": 11.6,
+        "sal": 0.0
+      },
+      "ordenPlato": 6,
+      "fecha": "2026-05-04T00:00:00",
+      "articuloPk": "dff2c08bb6a94fc39e47b15e00ec6f61",
+      "familiaTecnicaPk": "38374181BC874FC1A77DF607149B3A4C",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Macarrones integrales salteados",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 281.6,
+        "hidratosCarbono": 45.1,
+        "grasasSaturadas": 0.9,
+        "grasas": 5.9,
+        "proteinas": 8.8,
+        "azucares": 2.0,
+        "sal": 0.2
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-04T00:00:00",
+      "articuloPk": "e13ee1f84da644e8a8cfb3ef00c550c0",
+      "familiaTecnicaPk": "81f8551a3090451da300b3ef00c564a2",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "a9fd0a3dbe4f4b9d83adf3d2abd37e27",
+        "descripcion": "Segunda Opcion",
+        "codigo": "TIPO_OPCION_PLATO_002",
+        "orden": 2.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Revuelto de pavo",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 217.0,
+        "hidratosCarbono": 1.9,
+        "grasasSaturadas": 4.0,
+        "grasas": 17.2,
+        "proteinas": 13.7,
+        "azucares": 0.0,
+        "sal": 0.8
+      },
+      "ordenPlato": 3,
+      "fecha": "2026-05-04T00:00:00",
+      "articuloPk": "dabf85cef72b4f3aa96bb3d100c52a4d",
+      "familiaTecnicaPk": "077b764302c64781aa1db3d100c52e13",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Pan blanco",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 97.6,
+        "hidratosCarbono": 20.6,
+        "grasasSaturadas": 0.2,
+        "grasas": 0.6,
+        "proteinas": 3.6,
+        "azucares": 1.1,
+        "sal": 0.5
+      },
+      "ordenPlato": 7,
+      "fecha": "2026-05-04T00:00:00",
+      "articuloPk": "d4e123f6f85c4ed59ec0b15e00ec75f8",
+      "familiaTecnicaPk": "8A5CFE79A2AC4616A09B5D3045D5F9E0",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Pan blanco",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 97.6,
+        "hidratosCarbono": 20.6,
+        "grasasSaturadas": 0.2,
+        "grasas": 0.6,
+        "proteinas": 3.6,
+        "azucares": 1.1,
+        "sal": 0.5
+      },
+      "ordenPlato": 7,
+      "fecha": "2026-05-05T00:00:00",
+      "articuloPk": "d4e123f6f85c4ed59ec0b15e00ec75f8",
+      "familiaTecnicaPk": "8A5CFE79A2AC4616A09B5D3045D5F9E0",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Lechuga y maíz",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 38.8,
+        "hidratosCarbono": 1.6,
+        "grasasSaturadas": 0.4,
+        "grasas": 3.2,
+        "proteinas": 0.6,
+        "azucares": 0.7,
+        "sal": 0.1
+      },
+      "ordenPlato": 4,
+      "fecha": "2026-05-07T00:00:00",
+      "articuloPk": "47ac3248f8074d208169b3d100e44382",
+      "familiaTecnicaPk": "c6e5be40cf534eacb1f8b3d100e4501f",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "a9fd0a3dbe4f4b9d83adf3d2abd37e27",
+        "descripcion": "Segunda Opcion",
+        "codigo": "TIPO_OPCION_PLATO_002",
+        "orden": 2.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Arroz hortelana",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 290.4,
+        "hidratosCarbono": 54.8,
+        "grasasSaturadas": 0.7,
+        "grasas": 5.5,
+        "proteinas": 4.8,
+        "azucares": 2.2,
+        "sal": 0.2
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-06T00:00:00",
+      "articuloPk": "3e44ec807e6c4cee90e2b3d300c325f8",
+      "familiaTecnicaPk": "2d0e544e013a4132a459b3d300c558c3",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "a9fd0a3dbe4f4b9d83adf3d2abd37e27",
+        "descripcion": "Segunda Opcion",
+        "codigo": "TIPO_OPCION_PLATO_002",
+        "orden": 2.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Parrillada de verdura",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 92.4,
+        "hidratosCarbono": 8.1,
+        "grasasSaturadas": 0.7,
+        "grasas": 5.3,
+        "proteinas": 2.0,
+        "azucares": 7.3,
+        "sal": 0.2
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-07T00:00:00",
+      "articuloPk": "5c93e272f795448cabb8b3d100bf0401",
+      "familiaTecnicaPk": "4a9ea7d33dee4de69284b3d100bf0997",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "a9fd0a3dbe4f4b9d83adf3d2abd37e27",
+        "descripcion": "Segunda Opcion",
+        "codigo": "TIPO_OPCION_PLATO_002",
+        "orden": 2.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Yogur natural",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 77.5,
+        "hidratosCarbono": 5.8,
+        "grasasSaturadas": 2.6,
+        "grasas": 4.1,
+        "proteinas": 4.3,
+        "azucares": 4.4,
+        "sal": 0.1
+      },
+      "ordenPlato": 6,
+      "fecha": "2026-05-07T00:00:00",
+      "articuloPk": "98aec1c97b9e4665b063b29600fdef6b",
+      "familiaTecnicaPk": "95b6fa1179c24f068a28b29600fed058",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Ternera en salsa casera",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 305.0,
+        "hidratosCarbono": 1.6,
+        "grasasSaturadas": 10.0,
+        "grasas": 26.6,
+        "proteinas": 14.6,
+        "azucares": 1.1,
+        "sal": 0.4
+      },
+      "ordenPlato": 3,
+      "fecha": "2026-05-06T00:00:00",
+      "articuloPk": "b351f6c5013348ab81eab3d300f83169",
+      "familiaTecnicaPk": "cba0eefcb1484bcba3f5b3d300fcf5f8",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Fruta de temporada",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 49.7,
+        "hidratosCarbono": 12.1,
+        "grasasSaturadas": 0.0,
+        "grasas": 0.2,
+        "proteinas": 0.6,
+        "azucares": 11.6,
+        "sal": 0.0
+      },
+      "ordenPlato": 6,
+      "fecha": "2026-05-06T00:00:00",
+      "articuloPk": "dff2c08bb6a94fc39e47b15e00ec6f61",
+      "familiaTecnicaPk": "38374181BC874FC1A77DF607149B3A4C",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Salmón al eneldo",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 271.0,
+        "hidratosCarbono": 0.0,
+        "grasasSaturadas": 3.3,
+        "grasas": 19.4,
+        "proteinas": 24.2,
+        "azucares": 0.0,
+        "sal": 0.1
+      },
+      "ordenPlato": 3,
+      "fecha": "2026-05-05T00:00:00",
+      "articuloPk": "31116714fc2a4310a10ab3d100d4c080",
+      "familiaTecnicaPk": "3298d9eca0884a75acf6b3d100d4c4c9",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Puré de alubias pintas",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 308.0,
+        "hidratosCarbono": 44.2,
+        "grasasSaturadas": 0.7,
+        "grasas": 5.9,
+        "proteinas": 13.0,
+        "azucares": 5.7,
+        "sal": 0.2
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-05T00:00:00",
+      "articuloPk": "bcfc95abbc554573b252b3d100bb1b8a",
+      "familiaTecnicaPk": "66f3a5571f2045da8da3b3d100bb4710",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "a9fd0a3dbe4f4b9d83adf3d2abd37e27",
+        "descripcion": "Segunda Opcion",
+        "codigo": "TIPO_OPCION_PLATO_002",
+        "orden": 2.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Ensalada verde",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 38.2,
+        "hidratosCarbono": 0.4,
+        "grasasSaturadas": 0.5,
+        "grasas": 3.7,
+        "proteinas": 0.5,
+        "azucares": 0.4,
+        "sal": 0.3
+      },
+      "ordenPlato": 4,
+      "fecha": "2026-05-06T00:00:00",
+      "articuloPk": "20939a29f8544ff19f3bb3d100df434b",
+      "familiaTecnicaPk": "34c98fa8ebe64e5daf42b3d100df5185",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Ensalada del tiempo",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 37.4,
+        "hidratosCarbono": 1.4,
+        "grasasSaturadas": 0.4,
+        "grasas": 3.2,
+        "proteinas": 0.6,
+        "azucares": 0.9,
+        "sal": 0.0
+      },
+      "ordenPlato": 4,
+      "fecha": "2026-05-05T00:00:00",
+      "articuloPk": "7bf97b19e41e432fb704b3d100e4d3a6",
+      "familiaTecnicaPk": "983dd7743f6e410caabdb3d100e4e4dc",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Fruta de temporada",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 49.7,
+        "hidratosCarbono": 12.1,
+        "grasasSaturadas": 0.0,
+        "grasas": 0.2,
+        "proteinas": 0.6,
+        "azucares": 11.6,
+        "sal": 0.0
+      },
+      "ordenPlato": 6,
+      "fecha": "2026-05-05T00:00:00",
+      "articuloPk": "dff2c08bb6a94fc39e47b15e00ec6f61",
+      "familiaTecnicaPk": "38374181BC874FC1A77DF607149B3A4C",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Arroz a banda",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 391.6,
+        "hidratosCarbono": 54.1,
+        "grasasSaturadas": 0.7,
+        "grasas": 14.7,
+        "proteinas": 10.1,
+        "azucares": 1.5,
+        "sal": 0.9
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-06T00:00:00",
+      "articuloPk": "1f48518dbdd446e3bf61b3cc00c472a0",
+      "familiaTecnicaPk": "2a2b300692664b22852db3cc00c53d98",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Pan integral",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 96.0,
+        "hidratosCarbono": 19.6,
+        "grasasSaturadas": 0.2,
+        "grasas": 1.0,
+        "proteinas": 3.4,
+        "azucares": 0.8,
+        "sal": 0.7
+      },
+      "ordenPlato": 7,
+      "fecha": "2026-05-06T00:00:00",
+      "articuloPk": "02119c1457a2498380acb15e00ec7623",
+      "familiaTecnicaPk": "81225468DE314920B55EE2BB329A50AB",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Alubias pintas con chorizo",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 321.2,
+        "hidratosCarbono": 35.2,
+        "grasasSaturadas": 2.4,
+        "grasas": 9.5,
+        "proteinas": 17.2,
+        "azucares": 3.5,
+        "sal": 0.7
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-05T00:00:00",
+      "articuloPk": "62aef2fcf43e40619009b43300a89c75",
+      "familiaTecnicaPk": "6cc3a86737264a4689ceb43300abc74e",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Fruta de temporada",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 49.7,
+        "hidratosCarbono": 12.1,
+        "grasasSaturadas": 0.0,
+        "grasas": 0.2,
+        "proteinas": 0.6,
+        "azucares": 11.6,
+        "sal": 0.0
+      },
+      "ordenPlato": 6,
+      "fecha": "2026-05-25T00:00:00",
+      "articuloPk": "dff2c08bb6a94fc39e47b15e00ec6f61",
+      "familiaTecnicaPk": "38374181BC874FC1A77DF607149B3A4C",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Huevos con bechamel",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 221.0,
+        "hidratosCarbono": 6.2,
+        "grasasSaturadas": 3.4,
+        "grasas": 16.4,
+        "proteinas": 12.1,
+        "azucares": 0.8,
+        "sal": 0.5
+      },
+      "ordenPlato": 3,
+      "fecha": "2026-05-25T00:00:00",
+      "articuloPk": "b94758f80b3948cbac51b3d100c7f862",
+      "familiaTecnicaPk": "372f0f286a384c65b0f6b3d100c7ffba",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Pan blanco",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 97.6,
+        "hidratosCarbono": 20.6,
+        "grasasSaturadas": 0.2,
+        "grasas": 0.6,
+        "proteinas": 3.6,
+        "azucares": 1.1,
+        "sal": 0.5
+      },
+      "ordenPlato": 7,
+      "fecha": "2026-05-11T00:00:00",
+      "articuloPk": "d4e123f6f85c4ed59ec0b15e00ec75f8",
+      "familiaTecnicaPk": "8A5CFE79A2AC4616A09B5D3045D5F9E0",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Brócoli salteado con jamón",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 118.8,
+        "hidratosCarbono": 2.4,
+        "grasasSaturadas": 1.3,
+        "grasas": 7.5,
+        "proteinas": 8.6,
+        "azucares": 2.0,
+        "sal": 0.7
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-28T00:00:00",
+      "articuloPk": "68a70569e4e3481ca8f6b43300aa0e42",
+      "familiaTecnicaPk": "7badec912cb84ffba67fb43300b9c72f",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "a9fd0a3dbe4f4b9d83adf3d2abd37e27",
+        "descripcion": "Segunda Opcion",
+        "codigo": "TIPO_OPCION_PLATO_002",
+        "orden": 2.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Pan blanco",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 97.6,
+        "hidratosCarbono": 20.6,
+        "grasasSaturadas": 0.2,
+        "grasas": 0.6,
+        "proteinas": 3.6,
+        "azucares": 1.1,
+        "sal": 0.5
+      },
+      "ordenPlato": 7,
+      "fecha": "2026-05-28T00:00:00",
+      "articuloPk": "d4e123f6f85c4ed59ec0b15e00ec75f8",
+      "familiaTecnicaPk": "8A5CFE79A2AC4616A09B5D3045D5F9E0",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Pan integral",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 96.0,
+        "hidratosCarbono": 19.6,
+        "grasasSaturadas": 0.2,
+        "grasas": 1.0,
+        "proteinas": 3.4,
+        "azucares": 0.8,
+        "sal": 0.7
+      },
+      "ordenPlato": 7,
+      "fecha": "2026-05-08T00:00:00",
+      "articuloPk": "02119c1457a2498380acb15e00ec7623",
+      "familiaTecnicaPk": "81225468DE314920B55EE2BB329A50AB",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Chips de boniato",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 104.6,
+        "hidratosCarbono": 5.1,
+        "grasasSaturadas": 1.1,
+        "grasas": 9.1,
+        "proteinas": 0.3,
+        "azucares": 1.4,
+        "sal": 0.0
+      },
+      "ordenPlato": 4,
+      "fecha": "2026-05-11T00:00:00",
+      "articuloPk": "c8e2dc212fce4f6cb9c3b3d3010b943e",
+      "familiaTecnicaPk": "5f8f549f2b564ce08d23b3d3010b9804",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Fruta de temporada",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 49.7,
+        "hidratosCarbono": 12.1,
+        "grasasSaturadas": 0.0,
+        "grasas": 0.2,
+        "proteinas": 0.6,
+        "azucares": 11.6,
+        "sal": 0.0
+      },
+      "ordenPlato": 6,
+      "fecha": "2026-05-28T00:00:00",
+      "articuloPk": "dff2c08bb6a94fc39e47b15e00ec6f61",
+      "familiaTecnicaPk": "38374181BC874FC1A77DF607149B3A4C",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "a9fd0a3dbe4f4b9d83adf3d2abd37e27",
+        "descripcion": "Segunda Opcion",
+        "codigo": "TIPO_OPCION_PLATO_002",
+        "orden": 2.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Crema de verduras",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 173.8,
+        "hidratosCarbono": 24.9,
+        "grasasSaturadas": 0.7,
+        "grasas": 5.7,
+        "proteinas": 3.7,
+        "azucares": 8.8,
+        "sal": 0.2
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-07T00:00:00",
+      "articuloPk": "d832c1ea39dc41ce9399b3d000ad8dd8",
+      "familiaTecnicaPk": "244b549e01b24ce1a1beb3d000ad95d8",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Arroz con verduras",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 290.4,
+        "hidratosCarbono": 54.8,
+        "grasasSaturadas": 0.7,
+        "grasas": 5.5,
+        "proteinas": 4.8,
+        "azucares": 2.2,
+        "sal": 0.2
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-25T00:00:00",
+      "articuloPk": "3e44ec807e6c4cee90e2b3d300c325f8",
+      "familiaTecnicaPk": "2d0e544e013a4132a459b3d300c558c3",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Alubias estofadas con arroz",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 334.4,
+        "hidratosCarbono": 51.7,
+        "grasasSaturadas": 0.7,
+        "grasas": 5.9,
+        "proteinas": 13.0,
+        "azucares": 3.3,
+        "sal": 0.2
+      },
+      "ordenPlato": 3,
+      "fecha": "2026-05-28T00:00:00",
+      "articuloPk": "bf62c32cdb654250aa3ab43500b79891",
+      "familiaTecnicaPk": "2b68ddc415c140c580ebb43500b79d41",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Puré de lentejas",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 301.4,
+        "hidratosCarbono": 44.9,
+        "grasasSaturadas": 0.7,
+        "grasas": 5.5,
+        "proteinas": 13.9,
+        "azucares": 4.8,
+        "sal": 0.2
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-08T00:00:00",
+      "articuloPk": "75c40bda311443cdaac3b3d100b17782",
+      "familiaTecnicaPk": "2f3015d3c3db435db6abb3d100b17ce0",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "a9fd0a3dbe4f4b9d83adf3d2abd37e27",
+        "descripcion": "Segunda Opcion",
+        "codigo": "TIPO_OPCION_PLATO_002",
+        "orden": 2.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Pan blanco",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 97.6,
+        "hidratosCarbono": 20.6,
+        "grasasSaturadas": 0.2,
+        "grasas": 0.6,
+        "proteinas": 3.6,
+        "azucares": 1.1,
+        "sal": 0.5
+      },
+      "ordenPlato": 7,
+      "fecha": "2026-05-25T00:00:00",
+      "articuloPk": "d4e123f6f85c4ed59ec0b15e00ec75f8",
+      "familiaTecnicaPk": "8A5CFE79A2AC4616A09B5D3045D5F9E0",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Ensalada campera",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 202.4,
+        "hidratosCarbono": 20.5,
+        "grasasSaturadas": 1.1,
+        "grasas": 9.2,
+        "proteinas": 7.9,
+        "azucares": 1.5,
+        "sal": 0.7
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-11T00:00:00",
+      "articuloPk": "fbc3ae740c104e628137b43300a9e7dc",
+      "familiaTecnicaPk": "e1708fc05fd843fbae9eb43300b98a2d",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Pan blanco",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 97.6,
+        "hidratosCarbono": 20.6,
+        "grasasSaturadas": 0.2,
+        "grasas": 0.6,
+        "proteinas": 3.6,
+        "azucares": 1.1,
+        "sal": 0.5
+      },
+      "ordenPlato": 7,
+      "fecha": "2026-05-07T00:00:00",
+      "articuloPk": "d4e123f6f85c4ed59ec0b15e00ec75f8",
+      "familiaTecnicaPk": "8A5CFE79A2AC4616A09B5D3045D5F9E0",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Espinacas salteadas con patata",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 156.2,
+        "hidratosCarbono": 9.7,
+        "grasasSaturadas": 1.3,
+        "grasas": 10.3,
+        "proteinas": 4.2,
+        "azucares": 1.8,
+        "sal": 0.4
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-11T00:00:00",
+      "articuloPk": "28a67c7016b64e208f0bb3d300ce3b1a",
+      "familiaTecnicaPk": "2ff630ef7b834cfbaceab3d300ce401f",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "a9fd0a3dbe4f4b9d83adf3d2abd37e27",
+        "descripcion": "Segunda Opcion",
+        "codigo": "TIPO_OPCION_PLATO_002",
+        "orden": 2.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Fruta de temporada",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 49.7,
+        "hidratosCarbono": 12.1,
+        "grasasSaturadas": 0.0,
+        "grasas": 0.2,
+        "proteinas": 0.6,
+        "azucares": 11.6,
+        "sal": 0.0
+      },
+      "ordenPlato": 6,
+      "fecha": "2026-05-08T00:00:00",
+      "articuloPk": "dff2c08bb6a94fc39e47b15e00ec6f61",
+      "familiaTecnicaPk": "38374181BC874FC1A77DF607149B3A4C",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Dorada en salsa de limón",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 109.0,
+        "hidratosCarbono": 0.6,
+        "grasasSaturadas": 1.0,
+        "grasas": 6.8,
+        "proteinas": 11.2,
+        "azucares": 0.6,
+        "sal": 0.1
+      },
+      "ordenPlato": 3,
+      "fecha": "2026-05-07T00:00:00",
+      "articuloPk": "392888e7cce2437fb289b43300ab3982",
+      "familiaTecnicaPk": "55fe410a5b3043dc8020b43300bc1418",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Ensalada cesar",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 268.4,
+        "hidratosCarbono": 4.6,
+        "grasasSaturadas": 2.9,
+        "grasas": 21.8,
+        "proteinas": 12.8,
+        "azucares": 4.0,
+        "sal": 1.3
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-28T00:00:00",
+      "articuloPk": "f1982f250afa48fc8887b43300a9f97e",
+      "familiaTecnicaPk": "5d30af828bea4af48717b43300b9b9c8",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Tomate aliñado",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 32.2,
+        "hidratosCarbono": 0.8,
+        "grasasSaturadas": 0.4,
+        "grasas": 3.0,
+        "proteinas": 0.2,
+        "azucares": 0.8,
+        "sal": 0.0
+      },
+      "ordenPlato": 4,
+      "fecha": "2026-05-08T00:00:00",
+      "articuloPk": "4c2701727a5540ca9693b3d100e2bc73",
+      "familiaTecnicaPk": "b498c69bf2624efa95fab3d100e2c0ae",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Fruta de temporada",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 49.7,
+        "hidratosCarbono": 12.1,
+        "grasasSaturadas": 0.0,
+        "grasas": 0.2,
+        "proteinas": 0.6,
+        "azucares": 11.6,
+        "sal": 0.0
+      },
+      "ordenPlato": 6,
+      "fecha": "2026-05-11T00:00:00",
+      "articuloPk": "dff2c08bb6a94fc39e47b15e00ec6f61",
+      "familiaTecnicaPk": "38374181BC874FC1A77DF607149B3A4C",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Fruta de temporada",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 49.7,
+        "hidratosCarbono": 12.1,
+        "grasasSaturadas": 0.0,
+        "grasas": 0.2,
+        "proteinas": 0.6,
+        "azucares": 11.6,
+        "sal": 0.0
+      },
+      "ordenPlato": 6,
+      "fecha": "2026-05-07T00:00:00",
+      "articuloPk": "dff2c08bb6a94fc39e47b15e00ec6f61",
+      "familiaTecnicaPk": "38374181BC874FC1A77DF607149B3A4C",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "a9fd0a3dbe4f4b9d83adf3d2abd37e27",
+        "descripcion": "Segunda Opcion",
+        "codigo": "TIPO_OPCION_PLATO_002",
+        "orden": 2.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Patatas al horno",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 55.0,
+        "hidratosCarbono": 5.6,
+        "grasasSaturadas": 0.4,
+        "grasas": 3.1,
+        "proteinas": 0.9,
+        "azucares": 0.2,
+        "sal": 0.0
+      },
+      "ordenPlato": 4,
+      "fecha": "2026-05-07T00:00:00",
+      "articuloPk": "767626d622024b319537b3d3010c2072",
+      "familiaTecnicaPk": "99402dac947b4248876db3d3010c2340",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Lentejas con boniato",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 250.8,
+        "hidratosCarbono": 35.0,
+        "grasasSaturadas": 0.7,
+        "grasas": 5.5,
+        "proteinas": 11.9,
+        "azucares": 3.7,
+        "sal": 0.2
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-08T00:00:00",
+      "articuloPk": "264a72a14a524a23bf33b3ef00c4f696",
+      "familiaTecnicaPk": "287e37893b4b46f4ac9eb3ef00c4fcd5",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Yogur natural",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 77.5,
+        "hidratosCarbono": 5.8,
+        "grasasSaturadas": 2.6,
+        "grasas": 4.1,
+        "proteinas": 4.3,
+        "azucares": 4.4,
+        "sal": 0.1
+      },
+      "ordenPlato": 6,
+      "fecha": "2026-05-28T00:00:00",
+      "articuloPk": "98aec1c97b9e4665b063b29600fdef6b",
+      "familiaTecnicaPk": "95b6fa1179c24f068a28b29600fed058",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Hamburguesa mixta a la plancha",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 220.0,
+        "hidratosCarbono": 4.8,
+        "grasasSaturadas": 6.1,
+        "grasas": 17.0,
+        "proteinas": 12.0,
+        "azucares": 0.7,
+        "sal": 1.2
+      },
+      "ordenPlato": 3,
+      "fecha": "2026-05-11T00:00:00",
+      "articuloPk": "52bad0e0d23c423d8132b3ef00c7a106",
+      "familiaTecnicaPk": "b5219b885e314aceb026b3ef00c7a54a",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Cordon bleu",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 311.0,
+        "hidratosCarbono": 24.1,
+        "grasasSaturadas": 4.8,
+        "grasas": 20.3,
+        "proteinas": 7.9,
+        "azucares": 2.1,
+        "sal": 2.0
+      },
+      "ordenPlato": 3,
+      "fecha": "2026-05-08T00:00:00",
+      "articuloPk": "e95a0555f3d644f38373b3db00a994a2",
+      "familiaTecnicaPk": "c0bce319724a460aacffb3db00a99936",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Ensalada de lechuga y tomate",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 35.4,
+        "hidratosCarbono": 1.1,
+        "grasasSaturadas": 0.4,
+        "grasas": 3.1,
+        "proteinas": 0.5,
+        "azucares": 1.1,
+        "sal": 0.0
+      },
+      "ordenPlato": 4,
+      "fecha": "2026-05-11T00:00:00",
+      "articuloPk": "616bacc18f754f51aa7fb3d3010c8e41",
+      "familiaTecnicaPk": "6295cf5526184499bba1b3d3010cb965",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "a9fd0a3dbe4f4b9d83adf3d2abd37e27",
+        "descripcion": "Segunda Opcion",
+        "codigo": "TIPO_OPCION_PLATO_002",
+        "orden": 2.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Pan blanco",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 97.6,
+        "hidratosCarbono": 20.6,
+        "grasasSaturadas": 0.2,
+        "grasas": 0.6,
+        "proteinas": 3.6,
+        "azucares": 1.1,
+        "sal": 0.5
+      },
+      "ordenPlato": 7,
+      "fecha": "2026-05-21T00:00:00",
+      "articuloPk": "d4e123f6f85c4ed59ec0b15e00ec75f8",
+      "familiaTecnicaPk": "8A5CFE79A2AC4616A09B5D3045D5F9E0",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Ensalada con zanahoria",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 34.6,
+        "hidratosCarbono": 1.0,
+        "grasasSaturadas": 0.4,
+        "grasas": 3.1,
+        "proteinas": 0.5,
+        "azucares": 0.9,
+        "sal": 0.0
+      },
+      "ordenPlato": 4,
+      "fecha": "2026-05-26T00:00:00",
+      "articuloPk": "7ebc4d68d3014fb68119b3d100e05969",
+      "familiaTecnicaPk": "4102b9a75a8b4a75b9feb3d100e07378",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "a9fd0a3dbe4f4b9d83adf3d2abd37e27",
+        "descripcion": "Segunda Opcion",
+        "codigo": "TIPO_OPCION_PLATO_002",
+        "orden": 2.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Patatas fritas",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 109.9,
+        "hidratosCarbono": 4.0,
+        "grasasSaturadas": 1.2,
+        "grasas": 10.0,
+        "proteinas": 0.6,
+        "azucares": 0.1,
+        "sal": 0.0
+      },
+      "ordenPlato": 4,
+      "fecha": "2026-05-26T00:00:00",
+      "articuloPk": "794970969141447dbb52b3ef00c44afb",
+      "familiaTecnicaPk": "ee75086059214f1d81b0b3ef00c454b4",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Puré de guisantes",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 198.0,
+        "hidratosCarbono": 26.4,
+        "grasasSaturadas": 0.9,
+        "grasas": 5.5,
+        "proteinas": 7.3,
+        "azucares": 6.4,
+        "sal": 0.2
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-12T00:00:00",
+      "articuloPk": "d8ca6dd7ca12436ca2b9b3d100b54d5f",
+      "familiaTecnicaPk": "95567fc5d25144e19e65b3d100b55823",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "a9fd0a3dbe4f4b9d83adf3d2abd37e27",
+        "descripcion": "Segunda Opcion",
+        "codigo": "TIPO_OPCION_PLATO_002",
+        "orden": 2.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Crema de zanahoria",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 176.0,
+        "hidratosCarbono": 25.7,
+        "grasasSaturadas": 0.7,
+        "grasas": 5.5,
+        "proteinas": 3.5,
+        "azucares": 9.2,
+        "sal": 0.2
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-27T00:00:00",
+      "articuloPk": "5251a0c771884c4f934cb3d000d193f6",
+      "familiaTecnicaPk": "293d1e17280c4eb18a59b3d000d19909",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Ensalada de lentejas",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 195.8,
+        "hidratosCarbono": 15.4,
+        "grasasSaturadas": 1.3,
+        "grasas": 10.6,
+        "proteinas": 9.5,
+        "azucares": 2.4,
+        "sal": 0.7
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-19T00:00:00",
+      "articuloPk": "6e9994e8bb564929a815b43300a8e53d",
+      "familiaTecnicaPk": "efa66bda18cc4d62b441b43300af8c33",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "a9fd0a3dbe4f4b9d83adf3d2abd37e27",
+        "descripcion": "Segunda Opcion",
+        "codigo": "TIPO_OPCION_PLATO_002",
+        "orden": 2.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Lechuga y aceitunas",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 37.8,
+        "hidratosCarbono": 0.4,
+        "grasasSaturadas": 0.5,
+        "grasas": 3.7,
+        "proteinas": 0.5,
+        "azucares": 0.4,
+        "sal": 0.3
+      },
+      "ordenPlato": 4,
+      "fecha": "2026-05-12T00:00:00",
+      "articuloPk": "a008b8229d7d4382baccb3d100dd870c",
+      "familiaTecnicaPk": "2b19cd0802b14bb8880ab3d100dda225",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Pan integral",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 96.0,
+        "hidratosCarbono": 19.6,
+        "grasasSaturadas": 0.2,
+        "grasas": 1.0,
+        "proteinas": 3.4,
+        "azucares": 0.8,
+        "sal": 0.7
+      },
+      "ordenPlato": 7,
+      "fecha": "2026-05-27T00:00:00",
+      "articuloPk": "02119c1457a2498380acb15e00ec7623",
+      "familiaTecnicaPk": "81225468DE314920B55EE2BB329A50AB",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Bacalao a la madrileña",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 191.0,
+        "hidratosCarbono": 0.1,
+        "grasasSaturadas": 1.5,
+        "grasas": 11.4,
+        "proteinas": 21.9,
+        "azucares": 0.0,
+        "sal": 0.3
+      },
+      "ordenPlato": 3,
+      "fecha": "2026-05-20T00:00:00",
+      "articuloPk": "3d12a2af0b5e4307bc94b43300aaecc0",
+      "familiaTecnicaPk": "275d4ecfbdf1474f8f11b43300bb93dd",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Fruta de temporada",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 49.7,
+        "hidratosCarbono": 12.1,
+        "grasasSaturadas": 0.0,
+        "grasas": 0.2,
+        "proteinas": 0.6,
+        "azucares": 11.6,
+        "sal": 0.0
+      },
+      "ordenPlato": 6,
+      "fecha": "2026-05-13T00:00:00",
+      "articuloPk": "dff2c08bb6a94fc39e47b15e00ec6f61",
+      "familiaTecnicaPk": "38374181BC874FC1A77DF607149B3A4C",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Revuelto de trigueros con jamón",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 205.0,
+        "hidratosCarbono": 1.8,
+        "grasasSaturadas": 3.9,
+        "grasas": 15.8,
+        "proteinas": 13.8,
+        "azucares": 0.1,
+        "sal": 0.5
+      },
+      "ordenPlato": 3,
+      "fecha": "2026-05-19T00:00:00",
+      "articuloPk": "9c93fbbf21c44be2b08db3ef00c84c7c",
+      "familiaTecnicaPk": "0dc599be9f2743b591f2b3ef00c8cac1",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Fruta de temporada",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 49.7,
+        "hidratosCarbono": 12.1,
+        "grasasSaturadas": 0.0,
+        "grasas": 0.2,
+        "proteinas": 0.6,
+        "azucares": 11.6,
+        "sal": 0.0
+      },
+      "ordenPlato": 6,
+      "fecha": "2026-05-27T00:00:00",
+      "articuloPk": "dff2c08bb6a94fc39e47b15e00ec6f61",
+      "familiaTecnicaPk": "38374181BC874FC1A77DF607149B3A4C",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Potaje de garbanzos",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 299.2,
+        "hidratosCarbono": 35.0,
+        "grasasSaturadas": 0.9,
+        "grasas": 8.6,
+        "proteinas": 16.1,
+        "azucares": 2.9,
+        "sal": 0.2
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-26T00:00:00",
+      "articuloPk": "49715aba61024d7a8c03b43300aa86ab",
+      "familiaTecnicaPk": "d15bb1c8a6b84e99b9d6b43300baba88",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Ensalada del tiempo",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 37.4,
+        "hidratosCarbono": 1.4,
+        "grasasSaturadas": 0.4,
+        "grasas": 3.2,
+        "proteinas": 0.6,
+        "azucares": 0.9,
+        "sal": 0.0
+      },
+      "ordenPlato": 4,
+      "fecha": "2026-05-19T00:00:00",
+      "articuloPk": "7bf97b19e41e432fb704b3d100e4d3a6",
+      "familiaTecnicaPk": "983dd7743f6e410caabdb3d100e4e4dc",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Fideua de verduras",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 286.0,
+        "hidratosCarbono": 48.2,
+        "grasasSaturadas": 0.9,
+        "grasas": 6.2,
+        "proteinas": 7.5,
+        "azucares": 3.5,
+        "sal": 0.2
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-20T00:00:00",
+      "articuloPk": "739ca63524a44a409419b43300a92f2e",
+      "familiaTecnicaPk": "b3ee6bedc65b4066b7d4b43300b3a60a",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Cous Cous",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 134.4,
+        "hidratosCarbono": 21.5,
+        "grasasSaturadas": 0.5,
+        "grasas": 3.4,
+        "proteinas": 3.8,
+        "azucares": 0.3,
+        "sal": 0.0
+      },
+      "ordenPlato": 4,
+      "fecha": "2026-05-27T00:00:00",
+      "articuloPk": "f212ba11e69b47af9a86b3d100da3348",
+      "familiaTecnicaPk": "4e3136a49abf44558002b3d100da3df9",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Pollo asado",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 100.0,
+        "hidratosCarbono": 1.3,
+        "grasasSaturadas": 1.2,
+        "grasas": 5.1,
+        "proteinas": 12.1,
+        "azucares": 0.9,
+        "sal": 0.0
+      },
+      "ordenPlato": 3,
+      "fecha": "2026-05-27T00:00:00",
+      "articuloPk": "de471c663cc44719a408b3f4007b23f3",
+      "familiaTecnicaPk": "7137f55a6ba64bf0af36b3f4007b2e50",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Arroz integral con tomate",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 299.2,
+        "hidratosCarbono": 48.2,
+        "grasasSaturadas": 1.1,
+        "grasas": 8.6,
+        "proteinas": 5.9,
+        "azucares": 4.4,
+        "sal": 0.7
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-13T00:00:00",
+      "articuloPk": "827d493699d948a093b2b3cc00f7e996",
+      "familiaTecnicaPk": "a134a8faf49b4be4a2c9b3cc00f877ad",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Pan blanco",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 97.6,
+        "hidratosCarbono": 20.6,
+        "grasasSaturadas": 0.2,
+        "grasas": 0.6,
+        "proteinas": 3.6,
+        "azucares": 1.1,
+        "sal": 0.5
+      },
+      "ordenPlato": 7,
+      "fecha": "2026-05-26T00:00:00",
+      "articuloPk": "d4e123f6f85c4ed59ec0b15e00ec75f8",
+      "familiaTecnicaPk": "8A5CFE79A2AC4616A09B5D3045D5F9E0",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Ensalada de colores",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 42.0,
+        "hidratosCarbono": 1.0,
+        "grasasSaturadas": 0.5,
+        "grasas": 3.8,
+        "proteinas": 0.6,
+        "azucares": 0.6,
+        "sal": 0.3
+      },
+      "ordenPlato": 4,
+      "fecha": "2026-05-13T00:00:00",
+      "articuloPk": "9b6d212e4c3943beb97bb3d100de61b6",
+      "familiaTecnicaPk": "38d77693a6a44d56a767b3d100de83a8",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Fruta de temporada",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 49.7,
+        "hidratosCarbono": 12.1,
+        "grasasSaturadas": 0.0,
+        "grasas": 0.2,
+        "proteinas": 0.6,
+        "azucares": 11.6,
+        "sal": 0.0
+      },
+      "ordenPlato": 6,
+      "fecha": "2026-05-12T00:00:00",
+      "articuloPk": "dff2c08bb6a94fc39e47b15e00ec6f61",
+      "familiaTecnicaPk": "38374181BC874FC1A77DF607149B3A4C",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Pan blanco",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 97.6,
+        "hidratosCarbono": 20.6,
+        "grasasSaturadas": 0.2,
+        "grasas": 0.6,
+        "proteinas": 3.6,
+        "azucares": 1.1,
+        "sal": 0.5
+      },
+      "ordenPlato": 7,
+      "fecha": "2026-05-19T00:00:00",
+      "articuloPk": "d4e123f6f85c4ed59ec0b15e00ec75f8",
+      "familiaTecnicaPk": "8A5CFE79A2AC4616A09B5D3045D5F9E0",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Fruta de temporada",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 49.7,
+        "hidratosCarbono": 12.1,
+        "grasasSaturadas": 0.0,
+        "grasas": 0.2,
+        "proteinas": 0.6,
+        "azucares": 11.6,
+        "sal": 0.0
+      },
+      "ordenPlato": 6,
+      "fecha": "2026-05-21T00:00:00",
+      "articuloPk": "dff2c08bb6a94fc39e47b15e00ec6f61",
+      "familiaTecnicaPk": "38374181BC874FC1A77DF607149B3A4C",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "a9fd0a3dbe4f4b9d83adf3d2abd37e27",
+        "descripcion": "Segunda Opcion",
+        "codigo": "TIPO_OPCION_PLATO_002",
+        "orden": 2.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Coditos con boloñesa de soja texturizada",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 440.0,
+        "hidratosCarbono": 54.3,
+        "grasasSaturadas": 1.8,
+        "grasas": 13.6,
+        "proteinas": 20.5,
+        "azucares": 5.7,
+        "sal": 0.4
+      },
+      "ordenPlato": 3,
+      "fecha": "2026-05-21T00:00:00",
+      "articuloPk": "8ee41177cf5449d190a9b43300a97f61",
+      "familiaTecnicaPk": "6f66eef6d62a47428bdcb43300b8aca2",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Pan integral",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 96.0,
+        "hidratosCarbono": 19.6,
+        "grasasSaturadas": 0.2,
+        "grasas": 1.0,
+        "proteinas": 3.4,
+        "azucares": 0.8,
+        "sal": 0.7
+      },
+      "ordenPlato": 7,
+      "fecha": "2026-05-22T00:00:00",
+      "articuloPk": "02119c1457a2498380acb15e00ec7623",
+      "familiaTecnicaPk": "81225468DE314920B55EE2BB329A50AB",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Lomo en salsa de verduras",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 164.0,
+        "hidratosCarbono": 1.6,
+        "grasasSaturadas": 1.9,
+        "grasas": 8.4,
+        "proteinas": 20.2,
+        "azucares": 1.1,
+        "sal": 0.4
+      },
+      "ordenPlato": 3,
+      "fecha": "2026-05-26T00:00:00",
+      "articuloPk": "e6259237886d4699bd9db43300aafc50",
+      "familiaTecnicaPk": "3fccdd70a92346e38e55b43300bbe492",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Lubina al horno",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 114.0,
+        "hidratosCarbono": 0.5,
+        "grasasSaturadas": 0.9,
+        "grasas": 6.0,
+        "proteinas": 14.5,
+        "azucares": 0.0,
+        "sal": 0.2
+      },
+      "ordenPlato": 3,
+      "fecha": "2026-05-13T00:00:00",
+      "articuloPk": "ee4a8309c45349999897b3d100c449c7",
+      "familiaTecnicaPk": "f305e0f8cc244bfdbad0b3d100c44d75",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Menestra de verduras salteada",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 101.2,
+        "hidratosCarbono": 5.9,
+        "grasasSaturadas": 0.9,
+        "grasas": 5.9,
+        "proteinas": 3.7,
+        "azucares": 3.1,
+        "sal": 0.2
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-12T00:00:00",
+      "articuloPk": "2e3ee1eba9764b40a041b3d300ca27ca",
+      "familiaTecnicaPk": "4a5f7a1bda2e40909368b3d300cb1bf6",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Pan blanco",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 97.6,
+        "hidratosCarbono": 20.6,
+        "grasasSaturadas": 0.2,
+        "grasas": 0.6,
+        "proteinas": 3.6,
+        "azucares": 1.1,
+        "sal": 0.5
+      },
+      "ordenPlato": 7,
+      "fecha": "2026-05-14T00:00:00",
+      "articuloPk": "d4e123f6f85c4ed59ec0b15e00ec75f8",
+      "familiaTecnicaPk": "8A5CFE79A2AC4616A09B5D3045D5F9E0",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Yogur natural",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 77.5,
+        "hidratosCarbono": 5.8,
+        "grasasSaturadas": 2.6,
+        "grasas": 4.1,
+        "proteinas": 4.3,
+        "azucares": 4.4,
+        "sal": 0.1
+      },
+      "ordenPlato": 6,
+      "fecha": "2026-05-14T00:00:00",
+      "articuloPk": "98aec1c97b9e4665b063b29600fdef6b",
+      "familiaTecnicaPk": "95b6fa1179c24f068a28b29600fed058",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Ensalada verde",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 38.2,
+        "hidratosCarbono": 0.4,
+        "grasasSaturadas": 0.5,
+        "grasas": 3.7,
+        "proteinas": 0.5,
+        "azucares": 0.4,
+        "sal": 0.3
+      },
+      "ordenPlato": 4,
+      "fecha": "2026-05-20T00:00:00",
+      "articuloPk": "20939a29f8544ff19f3bb3d100df434b",
+      "familiaTecnicaPk": "34c98fa8ebe64e5daf42b3d100df5185",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Lentejas con arroz integral",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 312.4,
+        "hidratosCarbono": 48.2,
+        "grasasSaturadas": 0.9,
+        "grasas": 5.9,
+        "proteinas": 13.6,
+        "azucares": 2.6,
+        "sal": 0.2
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-19T00:00:00",
+      "articuloPk": "80a19474e8df499498a6b3ef00c6d959",
+      "familiaTecnicaPk": "0c7dff3523f14e87a5cdb3ef00c6dc84",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Ensalada de colores",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 42.0,
+        "hidratosCarbono": 1.0,
+        "grasasSaturadas": 0.5,
+        "grasas": 3.8,
+        "proteinas": 0.6,
+        "azucares": 0.6,
+        "sal": 0.3
+      },
+      "ordenPlato": 4,
+      "fecha": "2026-05-22T00:00:00",
+      "articuloPk": "9b6d212e4c3943beb97bb3d100de61b6",
+      "familiaTecnicaPk": "38d77693a6a44d56a767b3d100de83a8",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Puré de alubias pintas",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 308.0,
+        "hidratosCarbono": 44.2,
+        "grasasSaturadas": 0.7,
+        "grasas": 5.9,
+        "proteinas": 13.0,
+        "azucares": 5.7,
+        "sal": 0.2
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-22T00:00:00",
+      "articuloPk": "bcfc95abbc554573b252b3d100bb1b8a",
+      "familiaTecnicaPk": "66f3a5571f2045da8da3b3d100bb4710",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "a9fd0a3dbe4f4b9d83adf3d2abd37e27",
+        "descripcion": "Segunda Opcion",
+        "codigo": "TIPO_OPCION_PLATO_002",
+        "orden": 2.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Garbanzos en vinagreta",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 237.6,
+        "hidratosCarbono": 18.7,
+        "grasasSaturadas": 1.5,
+        "grasas": 12.5,
+        "proteinas": 8.1,
+        "azucares": 2.6,
+        "sal": 0.4
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-26T00:00:00",
+      "articuloPk": "6101f87c190240eaabddb43500b536bb",
+      "familiaTecnicaPk": "58631cdfa56143319f57b43500b53f02",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "a9fd0a3dbe4f4b9d83adf3d2abd37e27",
+        "descripcion": "Segunda Opcion",
+        "codigo": "TIPO_OPCION_PLATO_002",
+        "orden": 2.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Fruta de temporada",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 49.7,
+        "hidratosCarbono": 12.1,
+        "grasasSaturadas": 0.0,
+        "grasas": 0.2,
+        "proteinas": 0.6,
+        "azucares": 11.6,
+        "sal": 0.0
+      },
+      "ordenPlato": 6,
+      "fecha": "2026-05-19T00:00:00",
+      "articuloPk": "dff2c08bb6a94fc39e47b15e00ec6f61",
+      "familiaTecnicaPk": "38374181BC874FC1A77DF607149B3A4C",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Pan integral",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 96.0,
+        "hidratosCarbono": 19.6,
+        "grasasSaturadas": 0.2,
+        "grasas": 1.0,
+        "proteinas": 3.4,
+        "azucares": 0.8,
+        "sal": 0.7
+      },
+      "ordenPlato": 7,
+      "fecha": "2026-05-20T00:00:00",
+      "articuloPk": "02119c1457a2498380acb15e00ec7623",
+      "familiaTecnicaPk": "81225468DE314920B55EE2BB329A50AB",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Fruta de temporada",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 49.7,
+        "hidratosCarbono": 12.1,
+        "grasasSaturadas": 0.0,
+        "grasas": 0.2,
+        "proteinas": 0.6,
+        "azucares": 11.6,
+        "sal": 0.0
+      },
+      "ordenPlato": 6,
+      "fecha": "2026-05-22T00:00:00",
+      "articuloPk": "dff2c08bb6a94fc39e47b15e00ec6f61",
+      "familiaTecnicaPk": "38374181BC874FC1A77DF607149B3A4C",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Fruta de temporada",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 49.7,
+        "hidratosCarbono": 12.1,
+        "grasasSaturadas": 0.0,
+        "grasas": 0.2,
+        "proteinas": 0.6,
+        "azucares": 11.6,
+        "sal": 0.0
+      },
+      "ordenPlato": 6,
+      "fecha": "2026-05-14T00:00:00",
+      "articuloPk": "dff2c08bb6a94fc39e47b15e00ec6f61",
+      "familiaTecnicaPk": "38374181BC874FC1A77DF607149B3A4C",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "a9fd0a3dbe4f4b9d83adf3d2abd37e27",
+        "descripcion": "Segunda Opcion",
+        "codigo": "TIPO_OPCION_PLATO_002",
+        "orden": 2.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Alcachofas al ajillo",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 217.8,
+        "hidratosCarbono": 3.7,
+        "grasasSaturadas": 2.6,
+        "grasas": 19.1,
+        "proteinas": 4.2,
+        "azucares": 1.8,
+        "sal": 0.2
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-27T00:00:00",
+      "articuloPk": "7aa7651e73bc4c7d9737b43300aa2321",
+      "familiaTecnicaPk": "fd16b5d76d4a4cb387dcb43300ba5270",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "a9fd0a3dbe4f4b9d83adf3d2abd37e27",
+        "descripcion": "Segunda Opcion",
+        "codigo": "TIPO_OPCION_PLATO_002",
+        "orden": 2.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Yogur natural",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 77.5,
+        "hidratosCarbono": 5.8,
+        "grasasSaturadas": 2.6,
+        "grasas": 4.1,
+        "proteinas": 4.3,
+        "azucares": 4.4,
+        "sal": 0.1
+      },
+      "ordenPlato": 6,
+      "fecha": "2026-05-21T00:00:00",
+      "articuloPk": "98aec1c97b9e4665b063b29600fdef6b",
+      "familiaTecnicaPk": "95b6fa1179c24f068a28b29600fed058",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Cocido completo",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 292.0,
+        "hidratosCarbono": 32.5,
+        "grasasSaturadas": 2.6,
+        "grasas": 9.2,
+        "proteinas": 15.8,
+        "azucares": 2.8,
+        "sal": 0.1
+      },
+      "ordenPlato": 3,
+      "fecha": "2026-05-14T00:00:00",
+      "articuloPk": "5cfc3eec834f4f30b7f7b3d100cbba94",
+      "familiaTecnicaPk": "15a4f9facb204146a799b3d100cbbfdf",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Pasta al ajillo",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 272.8,
+        "hidratosCarbono": 45.5,
+        "grasasSaturadas": 0.9,
+        "grasas": 6.2,
+        "proteinas": 7.3,
+        "azucares": 1.3,
+        "sal": 0.2
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-20T00:00:00",
+      "articuloPk": "bfc06f2314204c4da095b43300a93f67",
+      "familiaTecnicaPk": "1618bb3fbc7645289ff4b43300b4d010",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "a9fd0a3dbe4f4b9d83adf3d2abd37e27",
+        "descripcion": "Segunda Opcion",
+        "codigo": "TIPO_OPCION_PLATO_002",
+        "orden": 2.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Sopa de cocido",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 136.4,
+        "hidratosCarbono": 17.8,
+        "grasasSaturadas": 0.7,
+        "grasas": 5.5,
+        "proteinas": 2.6,
+        "azucares": 2.6,
+        "sal": 0.2
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-14T00:00:00",
+      "articuloPk": "4f86d3d251e940d99da0b3cc01074398",
+      "familiaTecnicaPk": "e203ca96d12c4a02a9cab3cc0107c760",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Lechuga y aceitunas",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 37.8,
+        "hidratosCarbono": 0.4,
+        "grasasSaturadas": 0.5,
+        "grasas": 3.7,
+        "proteinas": 0.5,
+        "azucares": 0.4,
+        "sal": 0.3
+      },
+      "ordenPlato": 4,
+      "fecha": "2026-05-27T00:00:00",
+      "articuloPk": "a008b8229d7d4382baccb3d100dd870c",
+      "familiaTecnicaPk": "2b19cd0802b14bb8880ab3d100dda225",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "a9fd0a3dbe4f4b9d83adf3d2abd37e27",
+        "descripcion": "Segunda Opcion",
+        "codigo": "TIPO_OPCION_PLATO_002",
+        "orden": 2.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Arroz integral salteado",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 259.6,
+        "hidratosCarbono": 44.0,
+        "grasasSaturadas": 1.1,
+        "grasas": 6.8,
+        "proteinas": 4.8,
+        "azucares": 0.7,
+        "sal": 0.2
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-13T00:00:00",
+      "articuloPk": "c3dbb5a67d7842f4a87bb3d100b60c8d",
+      "familiaTecnicaPk": "0398907117a94084a5e0b3d100b61109",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "a9fd0a3dbe4f4b9d83adf3d2abd37e27",
+        "descripcion": "Segunda Opcion",
+        "codigo": "TIPO_OPCION_PLATO_002",
+        "orden": 2.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Merluza a la vizcaína",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 157.0,
+        "hidratosCarbono": 7.3,
+        "grasasSaturadas": 1.1,
+        "grasas": 7.4,
+        "proteinas": 15.2,
+        "azucares": 0.8,
+        "sal": 0.3
+      },
+      "ordenPlato": 3,
+      "fecha": "2026-05-22T00:00:00",
+      "articuloPk": "b0d47e26d0b14a94b580b3ef00c880e8",
+      "familiaTecnicaPk": "c7940f80716741ee812ab3ef00c8861b",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Pan blanco",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 97.6,
+        "hidratosCarbono": 20.6,
+        "grasasSaturadas": 0.2,
+        "grasas": 0.6,
+        "proteinas": 3.6,
+        "azucares": 1.1,
+        "sal": 0.5
+      },
+      "ordenPlato": 7,
+      "fecha": "2026-05-12T00:00:00",
+      "articuloPk": "d4e123f6f85c4ed59ec0b15e00ec75f8",
+      "familiaTecnicaPk": "8A5CFE79A2AC4616A09B5D3045D5F9E0",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Huevos rotos con jamón y patatas",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 264.0,
+        "hidratosCarbono": 7.7,
+        "grasasSaturadas": 4.2,
+        "grasas": 20.3,
+        "proteinas": 12.2,
+        "azucares": 0.3,
+        "sal": 0.4
+      },
+      "ordenPlato": 3,
+      "fecha": "2026-05-12T00:00:00",
+      "articuloPk": "c3d5179998f34beeafdbb40f00acb7af",
+      "familiaTecnicaPk": "bca343f8e2ce452ebde7b40f00b36997",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Arroz blanco salteado",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 277.2,
+        "hidratosCarbono": 52.1,
+        "grasasSaturadas": 0.7,
+        "grasas": 5.5,
+        "proteinas": 4.6,
+        "azucares": 0.0,
+        "sal": 0.2
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-25T00:00:00",
+      "articuloPk": "4f9f244b44ed42739386b3d100b07e44",
+      "familiaTecnicaPk": "1b58da7fdf194e1c896db3d100b083da",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "a9fd0a3dbe4f4b9d83adf3d2abd37e27",
+        "descripcion": "Segunda Opcion",
+        "codigo": "TIPO_OPCION_PLATO_002",
+        "orden": 2.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Ensalada con remolacha",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 33.6,
+        "hidratosCarbono": 0.8,
+        "grasasSaturadas": 0.4,
+        "grasas": 3.1,
+        "proteinas": 0.5,
+        "azucares": 0.7,
+        "sal": 0.0
+      },
+      "ordenPlato": 4,
+      "fecha": "2026-05-25T00:00:00",
+      "articuloPk": "f911b32935de4a90ab82b3d100e1e959",
+      "familiaTecnicaPk": "416b323d76d84464b1f8b3d100e1f90f",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Judías verdes salteadas",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 211.2,
+        "hidratosCarbono": 5.7,
+        "grasasSaturadas": 2.6,
+        "grasas": 19.1,
+        "proteinas": 2.4,
+        "azucares": 4.0,
+        "sal": 0.0
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-21T00:00:00",
+      "articuloPk": "9f630d219a724c2f97e2b43300a9bc5f",
+      "familiaTecnicaPk": "6ba3c99096b84532b461b43300b91f26",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Fruta de temporada",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 49.7,
+        "hidratosCarbono": 12.1,
+        "grasasSaturadas": 0.0,
+        "grasas": 0.2,
+        "proteinas": 0.6,
+        "azucares": 11.6,
+        "sal": 0.0
+      },
+      "ordenPlato": 6,
+      "fecha": "2026-05-20T00:00:00",
+      "articuloPk": "dff2c08bb6a94fc39e47b15e00ec6f61",
+      "familiaTecnicaPk": "38374181BC874FC1A77DF607149B3A4C",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Alubias pintas con verduras",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 272.8,
+        "hidratosCarbono": 35.2,
+        "grasasSaturadas": 0.9,
+        "grasas": 5.9,
+        "proteinas": 13.0,
+        "azucares": 3.5,
+        "sal": 0.2
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-22T00:00:00",
+      "articuloPk": "26c2dd53ddda4b86a262b3d000ab29b9",
+      "familiaTecnicaPk": "ea977a5eacfe45dcaa68b3d000ab3908",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Fruta de temporada",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 49.7,
+        "hidratosCarbono": 12.1,
+        "grasasSaturadas": 0.0,
+        "grasas": 0.2,
+        "proteinas": 0.6,
+        "azucares": 11.6,
+        "sal": 0.0
+      },
+      "ordenPlato": 6,
+      "fecha": "2026-05-26T00:00:00",
+      "articuloPk": "dff2c08bb6a94fc39e47b15e00ec6f61",
+      "familiaTecnicaPk": "38374181BC874FC1A77DF607149B3A4C",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Pan integral",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 96.0,
+        "hidratosCarbono": 19.6,
+        "grasasSaturadas": 0.2,
+        "grasas": 1.0,
+        "proteinas": 3.4,
+        "azucares": 0.8,
+        "sal": 0.7
+      },
+      "ordenPlato": 7,
+      "fecha": "2026-05-13T00:00:00",
+      "articuloPk": "02119c1457a2498380acb15e00ec7623",
+      "familiaTecnicaPk": "81225468DE314920B55EE2BB329A50AB",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Fruta de temporada",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 49.7,
+        "hidratosCarbono": 12.1,
+        "grasasSaturadas": 0.0,
+        "grasas": 0.2,
+        "proteinas": 0.6,
+        "azucares": 11.6,
+        "sal": 0.0
+      },
+      "ordenPlato": 6,
+      "fecha": "2026-05-18T00:00:00",
+      "articuloPk": "dff2c08bb6a94fc39e47b15e00ec6f61",
+      "familiaTecnicaPk": "38374181BC874FC1A77DF607149B3A4C",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Macarrones integrales a la boloñesa",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 349.8,
+        "hidratosCarbono": 48.6,
+        "grasasSaturadas": 2.0,
+        "grasas": 9.7,
+        "proteinas": 13.4,
+        "azucares": 4.4,
+        "sal": 0.4
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-29T00:00:00",
+      "articuloPk": "7502c130ef714e93b3f4b43300aa613e",
+      "familiaTecnicaPk": "867e0f477a7f4a1bbf11b43300bac4ad",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Pan integral",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 96.0,
+        "hidratosCarbono": 19.6,
+        "grasasSaturadas": 0.2,
+        "grasas": 1.0,
+        "proteinas": 3.4,
+        "azucares": 0.8,
+        "sal": 0.7
+      },
+      "ordenPlato": 7,
+      "fecha": "2026-05-29T00:00:00",
+      "articuloPk": "02119c1457a2498380acb15e00ec7623",
+      "familiaTecnicaPk": "81225468DE314920B55EE2BB329A50AB",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Ensalada de quinoa",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 111.3,
+        "hidratosCarbono": 13.1,
+        "grasasSaturadas": 0.9,
+        "grasas": 4.4,
+        "proteinas": 3.6,
+        "azucares": 0.5,
+        "sal": 0.1
+      },
+      "ordenPlato": 4,
+      "fecha": "2026-05-18T00:00:00",
+      "articuloPk": "e0a2cb5acfcc400e91f7b43300abae2a",
+      "familiaTecnicaPk": "fa68fbadfe3a45e48a1eb43300e1e327",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Dorada al horno",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 106.0,
+        "hidratosCarbono": 0.0,
+        "grasasSaturadas": 1.0,
+        "grasas": 6.8,
+        "proteinas": 11.2,
+        "azucares": 0.0,
+        "sal": 0.1
+      },
+      "ordenPlato": 3,
+      "fecha": "2026-05-29T00:00:00",
+      "articuloPk": "27f47ab6603c4c928864b3d100cd1410",
+      "familiaTecnicaPk": "3af63ff0e7ae46428d90b3d100cd1b67",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Fruta de temporada",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 49.7,
+        "hidratosCarbono": 12.1,
+        "grasasSaturadas": 0.0,
+        "grasas": 0.2,
+        "proteinas": 0.6,
+        "azucares": 11.6,
+        "sal": 0.0
+      },
+      "ordenPlato": 6,
+      "fecha": "2026-05-29T00:00:00",
+      "articuloPk": "dff2c08bb6a94fc39e47b15e00ec6f61",
+      "familiaTecnicaPk": "38374181BC874FC1A77DF607149B3A4C",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Pan blanco",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 97.6,
+        "hidratosCarbono": 20.6,
+        "grasasSaturadas": 0.2,
+        "grasas": 0.6,
+        "proteinas": 3.6,
+        "azucares": 1.1,
+        "sal": 0.5
+      },
+      "ordenPlato": 7,
+      "fecha": "2026-05-18T00:00:00",
+      "articuloPk": "d4e123f6f85c4ed59ec0b15e00ec75f8",
+      "familiaTecnicaPk": "8A5CFE79A2AC4616A09B5D3045D5F9E0",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Ensalada de colores",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 42.0,
+        "hidratosCarbono": 1.0,
+        "grasasSaturadas": 0.5,
+        "grasas": 3.8,
+        "proteinas": 0.6,
+        "azucares": 0.6,
+        "sal": 0.3
+      },
+      "ordenPlato": 4,
+      "fecha": "2026-05-29T00:00:00",
+      "articuloPk": "9b6d212e4c3943beb97bb3d100de61b6",
+      "familiaTecnicaPk": "38d77693a6a44d56a767b3d100de83a8",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Chuleta de pavo al ajillo",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 151.0,
+        "hidratosCarbono": 0.1,
+        "grasasSaturadas": 1.6,
+        "grasas": 7.8,
+        "proteinas": 20.0,
+        "azucares": 0.0,
+        "sal": 0.2
+      },
+      "ordenPlato": 3,
+      "fecha": "2026-05-18T00:00:00",
+      "articuloPk": "0482904436254d0daea7b3f300d01a4d",
+      "familiaTecnicaPk": "57ffea9c556e40cca0cdb3f300d025cd",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Crema de boniato y puerro",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 165.0,
+        "hidratosCarbono": 24.4,
+        "grasasSaturadas": 0.9,
+        "grasas": 5.7,
+        "proteinas": 2.0,
+        "azucares": 10.8,
+        "sal": 0.2
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-18T00:00:00",
+      "articuloPk": "e92f735387ad461ea8f4b43300a90162",
+      "familiaTecnicaPk": "d4a2dfd1efb64189abc4b43300af3fb3",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "7148d19011b643c29b5612616f19607f",
+        "descripcion": "Primera Opcion",
+        "codigo": "TIPO_OPCION_PLATO_001",
+        "orden": 1.0
+      },
+      "ordenPersonalizado": 0.0
+    },
+    {
+      "nombre": "Macarrones integrales al ajillo",
+      "dieta": {
+        "dietaPk": "d12fe25a9bbd49239e3cd65eef62e7c5",
+        "nombre": "Basal"
+      },
+      "valorNutricionalPlato": {
+        "valorEnergeticoKcal": 281.6,
+        "hidratosCarbono": 45.1,
+        "grasasSaturadas": 0.9,
+        "grasas": 5.9,
+        "proteinas": 8.8,
+        "azucares": 2.0,
+        "sal": 0.2
+      },
+      "ordenPlato": 2,
+      "fecha": "2026-05-29T00:00:00",
+      "articuloPk": "e13ee1f84da644e8a8cfb3ef00c550c0",
+      "familiaTecnicaPk": "81f8551a3090451da300b3ef00c564a2",
+      "tipoServicio": {
+        "tipoServicioPk": "6f6096586ff248189d7d535b8509f411",
+        "descripcion": "Comida",
+        "codigo": "TIPO_SERVICIO_20_COMIDA"
+      },
+      "tipoOpcionPlato": {
+        "tipoOpcionPlatoPk": "a9fd0a3dbe4f4b9d83adf3d2abd37e27",
+        "descripcion": "Segunda Opcion",
+        "codigo": "TIPO_OPCION_PLATO_002",
+        "orden": 2.0
+      },
+      "ordenPersonalizado": 0.0
+    }
+  ],
+  "aportacionesValorPlanificacion": [],
+  "recomendacionesPortalMenus": []
+}

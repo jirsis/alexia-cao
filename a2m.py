@@ -104,7 +104,10 @@ class A2M:
 
     def _first_dish(self, menu):
         if menu['off-day']:
-            return 'no'
+            if menu['day-of-week'] in (6, 7):
+                return 'Fin'
+            else:
+                return ''
         else:
             dishes = [ d for d in menu['platos'] if d['ordenPlato'] == 2 ]
             dishes.sort(key=lambda d: d['tipoOpcionPlato']['orden'])
@@ -112,7 +115,10 @@ class A2M:
     
     def _main_dish(self, menu):
         if menu['off-day']:
-            return 'lectivo'
+            if menu['day-of-week'] in (6, 7):
+                return 'de'
+            else:
+                return 'Vacaciones'
         else:
             dishes = [ d for d in menu['platos'] if d['ordenPlato'] == 3 ]
             dishes.sort(key=lambda d: d['tipoOpcionPlato']['orden'])
@@ -123,7 +129,12 @@ class A2M:
             return f'{dishes} + {sides}'
     
     def _dessert(self, menu):
-        if not menu['off-day']:
+        if menu['off-day']:
+            if menu['day-of-week'] in (6, 7):
+                return 'semana'
+            else:
+                return ''
+        else:
             bread = [ d for d in menu['platos'] if d['ordenPlato'] == 7 ]
             bread.sort(key=lambda d: d['tipoOpcionPlato']['orden'])
             bread = ' | '.join(d['nombre'] for d in bread)
@@ -153,27 +164,23 @@ class A2M:
     def _mark_rotations(self):
         first_rotation = self._find_min_rotation()
         self.weeks = first_rotation
-        skip_off_days = False
         for day in self.menu:
             if day['off-day']:
                 day['rotation'] = -1
             else:
                 day['rotation'] = self.weeks
-                skip_off_days=True
 
-            if day['day-of-week'] == 7 and skip_off_days: 
+            if day['day-of-week'] == 7: 
                 self.weeks = self.weeks + 1
 
 
     def _find_min_rotation(self):
-        rotation = min(self.menu_raw['platos'], key=lambda p: (p['rotacion']))
-        return rotation['rotacion']
-
+        return self.menu_raw['rotacionActiva']
 
     def _mark_days_off(self):
         for day in self.menu:
             date = f"{day['year']}-{day['month']}-{day['day']}T00:00:00"
-            day_off = any(off['fecha'] == date for off in self.days_off_raw)
+            day_off = any(off['fecha'] == date and off['nombre'] == 'DiaFestivo' for off in self.days_off_raw)
             day['off-day'] = day_off
 
     def show_menu(self):
@@ -322,13 +329,13 @@ if __name__ == '__main__':
     requests_log.propagate = True
 
     a2m = A2M(datetime.today().replace(day=1))
-    #a2m.login()
-    #a2m.create_raw_directory()
-    #a2m.download_month()
+    a2m.login()
+    a2m.create_raw_directory()
+    a2m.download_month()
     a2m.load_month()
-    #a2m.download_parties()
+    a2m.download_parties()
     a2m.load_parties()
-    #a2m.download_scheduled()
+    a2m.download_scheduled()
     a2m.load_scheduled()
     a2m.generate_month()
     a2m.magic_mirror_format()
