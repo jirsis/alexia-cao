@@ -3,15 +3,15 @@
     "day": 8,
     "month": "9",
     "firstDish": {
-      "label": "Crema de puerros | Alcachofas salteadas",
+      "label": "Alubias blancas con judías verdes y verduras",
       "quality": -2
     },
     "secondDish": {
-      "label": "Chuleta de pavo a la plancha + arroz salteado + ensalada de lechuga y tomate ",
+      "label": "Tortilla francesa con ensalada",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan, fruta",
+      "label": "Fruta de temporada",
       "quality": -2
     },
     "nap": {
@@ -32,15 +32,15 @@
     "day": 9,
     "month": "9",
     "firstDish": {
-      "label": "Macarrones amatricina | Macarrones  al ajillo",
+      "label": "Puré de verduras",
       "quality": -2
     },
     "secondDish": {
-      "label": "Corvina a la bilbaina + ensalada verde ",
+      "label": "Lacón al horno con patatas",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan, vasito de helado",
+      "label": "Fruta de temporada",
       "quality": -2
     },
     "nap": {
@@ -61,15 +61,15 @@
     "day": 10,
     "month": "9",
     "firstDish": {
-      "label": "Ensalada cesar | Parrillada de verduras",
+      "label": "Crema de verduras | Espinacas salteadas con patatas",
       "quality": -2
     },
     "secondDish": {
-      "label": "Ternera en salsa de verduras + pur\u00e9 de patata + ensalada con aceitunas ",
+      "label": "Chuleta de pavo + Arroz salteado + Ensalada con zanahoria",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan integral, fruta",
+      "label": "Yogur natural | Fruta de temporada",
       "quality": -2
     },
     "nap": {
@@ -90,15 +90,15 @@
     "day": 11,
     "month": "9",
     "firstDish": {
-      "label": "Menestra de verdura salteada | Gazpacho",
+      "label": "Menestra de verduras salteada | Crema de calabaza",
       "quality": -2
     },
     "secondDish": {
-      "label": "Bacalao con tomate + ensalada de hortalizas con quinoa ",
+      "label": "Bacalao en salsa de tomate + Patata asada + Ensalada de tomate y remolacha ",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan, yogur",
+      "label": "Fruta de temporada",
       "quality": -2
     },
     "nap": {
@@ -116,18 +116,18 @@
     "teacherComments": "Hoy todav\u00eda no han comentado nada"
   },
   {
-    "day": 12,
+    "day": 14,
     "month": "9",
     "firstDish": {
-      "label": "Curry de garbanzos | Garbanzos en vinagreta",
+      "label": "Brócoli ajoarriero | Puré de brócoli",
       "quality": -2
     },
     "secondDish": {
-      "label": "Tortilla de caballa + ensalada del tiempo ",
+      "label": "Albóndigas al horno a la jardinera + CousCous + Ensalada de lechuga, maíz y remolacha",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan, fruta",
+      "label": "Fruta de temporada",
       "quality": -2
     },
     "nap": {
@@ -148,15 +148,15 @@
     "day": 15,
     "month": "9",
     "firstDish": {
-      "label": " brocoli con queso | Pur\u00e9 de brocoli",
+      "label": "Garbanzos con fritata | Ensalada de garbanzos",
       "quality": -2
     },
     "secondDish": {
-      "label": "Alb\u00f3ndigas  a la jardinera + cous cous salteado + ensalada con maiz ",
+      "label": "Salmón al eneldo + Ensalada de lechuga, aceitunas y maíz",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan, fruta",
+      "label": "Fruta de temporada",
       "quality": -2
     },
     "nap": {
@@ -177,15 +177,15 @@
     "day": 16,
     "month": "9",
     "firstDish": {
-      "label": "Alubias blancas a la castellana | Judias blancas a la vinagreta",
+      "label": "Ensalada de arroz | Arroz blanco salteado",
       "quality": -2
     },
     "secondDish": {
-      "label": "Salmon al eneldo + ensalada de colores ",
+      "label": "Pollo asado + Ensalada de remolacha y zanahoria",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan, yogur",
+      "label": "Fruta de temporada",
       "quality": -2
     },
     "nap": {
@@ -206,15 +206,15 @@
     "day": 17,
     "month": "9",
     "firstDish": {
-      "label": "Ensalada de arroz | Arroz blanco salteado",
+      "label": "Crema de verduras y acelgas",
       "quality": -2
     },
     "secondDish": {
-      "label": "Pollo asado + pimientos verdes fritos + ensalada de lechuga y zanahoria ",
+      "label": "Espirales integrales con soja texturizada",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan integral, fruta",
+      "label": "Yogur natural | Fruta de temporada",
       "quality": -2
     },
     "nap": {
@@ -235,15 +235,15 @@
     "day": 18,
     "month": "9",
     "firstDish": {
-      "label": "Espirales al pomodoro | Espirales a las hierbas",
+      "label": "Lentejas eco con verduras | Ensalada de lentejas con vinagreta de mostaza",
       "quality": -2
     },
     "secondDish": {
-      "label": "Revuelto de york y queso + ensalada del tiempo ",
+      "label": "Revuelto de jamón y queso + Ensalada de lechuga, maíz y tomate",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan, yogur",
+      "label": "Fruta de temporada",
       "quality": -2
     },
     "nap": {
@@ -261,18 +261,18 @@
     "teacherComments": "Hoy todav\u00eda no han comentado nada"
   },
   {
-    "day": 19,
+    "day": 21,
     "month": "9",
     "firstDish": {
-      "label": "Lentejas guisadas con calabaza | Ensalada de lentejas con viangreta de mostaza",
+      "label": "Arroz integral con verduras y pollo | Arroz integral salteado",
       "quality": -2
     },
     "secondDish": {
-      "label": "Lubina con ajada + ensalada de lechuga y tomate ",
+      "label": "Huevos con bechamel + Ensalada de lechuga y pepino",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan, fruta",
+      "label": "Fruta de temporada",
       "quality": -2
     },
     "nap": {
@@ -293,15 +293,15 @@
     "day": 22,
     "month": "9",
     "firstDish": {
-      "label": "Crema de zanahoria | Espinacas con patatas",
+      "label": "Crema de calabacín | Coliflor salteada",
       "quality": -2
     },
     "secondDish": {
-      "label": "Lomo asado en su jugo + stick de boniato + ensalada con aceitunas ",
+      "label": "Dorada al horno + Boniato frito + Ensalada de aceitunas",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan, fruta",
+      "label": "Fruta de temporada",
       "quality": -2
     },
     "nap": {
@@ -322,15 +322,15 @@
     "day": 23,
     "month": "9",
     "firstDish": {
-      "label": "Sopa de cocido con fideos",
+      "label": "Sopa minestrone con pasta",
       "quality": -2
     },
     "secondDish": {
-      "label": "Cocido completo ",
+      "label": "Hamburguesa de col, kale y quinoa + Hummus de garbanzos + crudités de zanahoria",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan, yogur",
+      "label": "Fruta de temporada",
       "quality": -2
     },
     "nap": {
@@ -351,15 +351,15 @@
     "day": 24,
     "month": "9",
     "firstDish": {
-      "label": "Fideua de pollo | Pasta salteada",
+      "label": "Gnocchis gratinados | Gnocchis salteados",
       "quality": -2
     },
     "secondDish": {
-      "label": "Huevos cocidos en salsa cazadora + ensalada de lechuga ",
+      "label": "Pavo guisado con verduras + Ensalada de remolacha y zanahoria",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan integral, fruta",
+      "label": "Yogur natural | Fruta de temporada",
       "quality": -2
     },
     "nap": {
@@ -380,15 +380,15 @@
     "day": 25,
     "month": "9",
     "firstDish": {
-      "label": "Ensalada campera | Salmorejo",
+      "label": "Alubias pintas con verduras | Puré de alubias pintas",
       "quality": -2
     },
     "secondDish": {
-      "label": "Dorada a la espalda + ensalada de colores ",
+      "label": "Lomos de caballa en salsa de tomate + Ensalada de lechuga, aceitunas y maíz",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan, vasito de helado",
+      "label": "Fruta de temporada",
       "quality": -2
     },
     "nap": {
@@ -406,18 +406,18 @@
     "teacherComments": "Hoy todav\u00eda no han comentado nada"
   },
   {
-    "day": 26,
+    "day": 28,
     "month": "9",
     "firstDish": {
-      "label": "Judias verdes a la gallega | Pure de judias verdes",
+      "label": "Lentejas con calabaza | Ensalada de lentejas",
       "quality": -2
     },
     "secondDish": {
-      "label": "Ragout de pavo estofado +  zanahoria salteada + ensalada con remolacha ",
+      "label": "Tortilla de patata + Ensalada de lechuga, maíz y zanahoria",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan, fruta",
+      "label": "Fruta de temporada",
       "quality": -2
     },
     "nap": {
@@ -438,15 +438,15 @@
     "day": 29,
     "month": "9",
     "firstDish": {
-      "label": "Coliflor con salsa carbonara | Pure de coliflor",
+      "label": "Judías verdes salteadas | Puré de judías verdes",
       "quality": -2
     },
     "secondDish": {
-      "label": "Tortilla de patata + ensalada del tiempo ",
+      "label": "Pollo al chilindrón + CousCous + Ensalada con aceitunas",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan, fruta",
+      "label": "Fruta de temporada",
       "quality": -2
     },
     "nap": {
@@ -467,15 +467,15 @@
     "day": 30,
     "month": "9",
     "firstDish": {
-      "label": "Arroz tres delicias | Arroz blanco al ajillo",
+      "label": "Patatas a la riojana | Patatas con verduras",
       "quality": -2
     },
     "secondDish": {
-      "label": "Caballa + salsa de tomate casera + ensalada de lechuga y zanahoria ",
+      "label": "Merluza en salsa marinera + Ensalada de lechuga y tomate",
       "quality": -2
     },
     "dessertDish": {
-      "label": "Pan, yogur",
+      "label": "Fruta de temporada",
       "quality": -2
     },
     "nap": {
