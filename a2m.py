@@ -328,7 +328,13 @@ if __name__ == '__main__':
     requests_log.setLevel(logging.INFO)
     requests_log.propagate = True
 
-    a2m = A2M(datetime.today().replace(day=1))
+    today = datetime.today().replace(day=1)
+    if args.next_month:
+        month = today.replace(month=today.month + 1)
+    else:
+        month = today
+
+    a2m = A2M(month)
     a2m.login()
     a2m.create_raw_directory()
     a2m.download_month()
